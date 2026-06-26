@@ -17,14 +17,15 @@ module.exports = {
   name: 'Sensitivity Notes',
   description:
     'Crowdsourced content-sensitivity flags from DoesTheDogDie, shown before you press play. ' +
-    'Browse the Sensitivity-Safe catalogs and filter out a trigger you want to avoid. ' +
-    '(Phase 1: catalog + meta.)',
+    'Browse the Sensitivity-Safe catalogs and filter out a trigger you want to avoid, or ' +
+    'open any title to see its trigger summary in the Sources list and tap through to DTDD. ' +
+    'Note: that summary entry is a label, not a playable stream.',
   logo: 'https://www.doesthedogdie.com/favicon.ico', // placeholder until we host our own
   contactEmail: 'martin.taylor@findmylegacy.co.uk',
   behaviorHints: { configurable: false, configurationRequired: false, adult: false, p2p: false },
   types: ['movie', 'series'],
   idPrefixes: ['tt'],
-  resources: ['catalog', 'meta'],
+  resources: ['catalog', 'meta', 'stream'],
   catalogs: [
     { type: 'movie', id: 'dtdd-safe-movies', name: 'Sensitivity-Safe Movies', extra: catalogExtra },
     { type: 'series', id: 'dtdd-safe-series', name: 'Sensitivity-Safe Series', extra: catalogExtra },
