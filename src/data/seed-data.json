@@ -1,0 +1,7756 @@
+[
+  {
+    "ttId": "tt0050798",
+    "type": "movie",
+    "name": "Old Yeller",
+    "year": "1957",
+    "poster": "https://images.metahub.space/poster/small/tt0050798/img",
+    "background": "https://images.metahub.space/background/medium/tt0050798/img",
+    "dtddId": 10752,
+    "matched": true,
+    "triggers": [
+      {
+        "topicId": 153,
+        "name": "a dog dies",
+        "category": "Animal Death",
+        "yes": 202,
+        "no": 11
+      },
+      {
+        "topicId": 189,
+        "name": "an animal dies",
+        "category": "Animal Death",
+        "yes": 32,
+        "no": 7
+      },
+      {
+        "topicId": 229,
+        "name": "animals are abused",
+        "category": "Animal Distress",
+        "yes": 21,
+        "no": 9
+      },
+      {
+        "topicId": 252,
+        "name": "there's a dead animal",
+        "category": "Animal Death",
+        "yes": 20,
+        "no": 0
+      },
+      {
+        "topicId": 222,
+        "name": "the ending is sad",
+        "category": "Spoiler",
+        "yes": 18,
+        "no": 5
+      },
+      {
+        "topicId": 183,
+        "name": "a horse dies",
+        "category": "Animal Death",
+        "yes": 17,
+        "no": 7
+      },
+      {
+        "topicId": 285,
+        "name": "a pet dies",
+        "category": "Animal Death",
+        "yes": 15,
+        "no": 1
+      },
+      {
+        "topicId": 214,
+        "name": "there are snakes",
+        "category": "Animal Phobia",
+        "yes": 10,
+        "no": 1
+      },
+      {
+        "topicId": 180,
+        "name": "there's spitting",
+        "category": "Gross",
+        "yes": 9,
+        "no": 5
+      },
+      {
+        "topicId": 213,
+        "name": "there are bugs",
+        "category": "Animal Phobia",
+        "yes": 8,
+        "no": 6
+      },
+      {
+        "topicId": 232,
+        "name": "there's gun violence",
+        "category": "Violence",
+        "yes": 8,
+        "no": 2
+      },
+      {
+        "topicId": 216,
+        "name": "someone breaks a bone",
+        "category": "Appendages",
+        "yes": 7,
+        "no": 3
+      },
+      {
+        "topicId": 188,
+        "name": "there's blood/gore",
+        "category": "Violence",
+        "yes": 6,
+        "no": 4
+      },
+      {
+        "topicId": 212,
+        "name": "someone speaks hate speech",
+        "category": "Prejudice",
+        "yes": 5,
+        "no": 4
+      },
+      {
+        "topicId": 355,
+        "name": "an animal is sad",
+        "category": "Animal Distress",
+        "yes": 4,
+        "no": 2
+      },
+      {
+        "topicId": 305,
+        "name": "a non-human character dies",
+        "category": "Death",
+        "yes": 4,
+        "no": 2
+      },
+      {
+        "topicId": 328,
+        "name": "a major character dies",
+        "category": "Death",
+        "yes": 3,
+        "no": 0
+      },
+      {
+        "topicId": 339,
+        "name": "there are sudden loud noises",
+        "category": "Noxious",
+        "yes": 3,
+        "no": 1
+      },
+      {
+        "topicId": 267,
+        "name": "there's excessive gore",
+        "category": "Whole Body",
+        "yes": 3,
+        "no": 2
+      },
+      {
+        "topicId": 348,
+        "name": "someone has a meltdown",
+        "category": "Mental Health",
+        "yes": 2,
+        "no": 0
+      },
+      {
+        "topicId": 288,
+        "name": "someone has a chronic illness",
+        "category": "Sickness",
+        "yes": 2,
+        "no": 0
+      },
+      {
+        "topicId": 311,
+        "name": "someone dies",
+        "category": "Death",
+        "yes": 1,
+        "no": 0
+      },
+      {
+        "topicId": 335,
+        "name": "there's natural bodies of water",
+        "category": "Fear",
+        "yes": 1,
+        "no": 0
+      }
+    ]
+  },
+  {
+    "ttId": "tt0822832",
+    "type": "movie",
+    "name": "Marley & Me",
+    "year": "2008",
+    "poster": "https://images.metahub.space/poster/small/tt0822832/img",
+    "background": "https://images.metahub.space/background/medium/tt0822832/img",
+    "dtddId": 17899,
+    "matched": true,
+    "triggers": [
+      {
+        "topicId": 153,
+        "name": "a dog dies",
+        "category": "Animal Death",
+        "yes": 925,
+        "no": 43
+      },
+      {
+        "topicId": 189,
+        "name": "an animal dies",
+        "category": "Animal Death",
+        "yes": 184,
+        "no": 53
+      },
+      {
+        "topicId": 252,
+        "name": "there's a dead animal",
+        "category": "Animal Death",
+        "yes": 168,
+        "no": 9
+      },
+      {
+        "topicId": 222,
+        "name": "the ending is sad",
+        "category": "Spoiler",
+        "yes": 111,
+        "no": 6
+      },
+      {
+        "topicId": 285,
+        "name": "a pet dies",
+        "category": "Animal Death",
+        "yes": 103,
+        "no": 2
+      },
+      {
+        "topicId": 190,
+        "name": "needles/syringes are used",
+        "category": "Medical",
+        "yes": 77,
+        "no": 1
+      },
+      {
+        "topicId": 215,
+        "name": "someone miscarries",
+        "category": "Pregnancy",
+        "yes": 77,
+        "no": 3
+      },
+      {
+        "topicId": 192,
+        "name": "there's a hospital scene",
+        "category": "Medical",
+        "yes": 70,
+        "no": 0
+      },
+      {
+        "topicId": 201,
+        "name": "someone vomits",
+        "category": "Gross",
+        "yes": 68,
+        "no": 15
+      },
+      {
+        "topicId": 197,
+        "name": "there is sexual content",
+        "category": "Sex",
+        "yes": 53,
+        "no": 9
+      },
+      {
+        "topicId": 228,
+        "name": "there's childbirth",
+        "category": "Pregnancy",
+        "yes": 49,
+        "no": 6
+      },
+      {
+        "topicId": 355,
+        "name": "an animal is sad",
+        "category": "Animal Distress",
+        "yes": 40,
+        "no": 2
+      },
+      {
+        "topicId": 261,
+        "name": "a baby cries",
+        "category": "Children",
+        "yes": 31,
+        "no": 0
+      },
+      {
+        "topicId": 266,
+        "name": "there is a baby or unborn child",
+        "category": "Pregnancy",
+        "yes": 31,
+        "no": 0
+      },
+      {
+        "topicId": 328,
+        "name": "a major character dies",
+        "category": "Death",
+        "yes": 27,
+        "no": 0
+      },
+      {
+        "topicId": 363,
+        "name": "someone leaves without saying goodbye",
+        "category": "Abandonment",
+        "yes": 26,
+        "no": 3
+      },
+      {
+        "topicId": 305,
+        "name": "a non-human character dies",
+        "category": "Death",
+        "yes": 25,
+        "no": 1
+      },
+      {
+        "topicId": 265,
+        "name": "someone suffers from PTSD",
+        "category": "Mental Health",
+        "yes": 19,
+        "no": 2
+      },
+      {
+        "topicId": 343,
+        "name": "someone is stabbed",
+        "category": "Whole Body",
+        "yes": 19,
+        "no": 4
+      },
+      {
+        "topicId": 311,
+        "name": "someone dies",
+        "category": "Death",
+        "yes": 16,
+        "no": 1
+      },
+      {
+        "topicId": 313,
+        "name": "a family member dies",
+        "category": "Family",
+        "yes": 14,
+        "no": 0
+      },
+      {
+        "topicId": 269,
+        "name": "a car honks or tires screech",
+        "category": "Vehicular",
+        "yes": 14,
+        "no": 2
+      },
+      {
+        "topicId": 335,
+        "name": "there's natural bodies of water",
+        "category": "Fear",
+        "yes": 12,
+        "no": 1
+      },
+      {
+        "topicId": 324,
+        "name": "there's farting",
+        "category": "Gross",
+        "yes": 12,
+        "no": 0
+      },
+      {
+        "topicId": 351,
+        "name": "religion is discussed",
+        "category": "Religious",
+        "yes": 6,
+        "no": 0
+      },
+      {
+        "topicId": 366,
+        "name": "there's screaming",
+        "category": "Noxious",
+        "yes": 5,
+        "no": 3
+      }
+    ]
+  },
+  {
+    "ttId": "tt2911666",
+    "type": "movie",
+    "name": "John Wick",
+    "year": "2014",
+    "poster": "https://images.metahub.space/poster/small/tt2911666/img",
+    "background": "https://images.metahub.space/background/medium/tt2911666/img",
+    "dtddId": 15713,
+    "matched": true,
+    "triggers": [
+      {
+        "topicId": 153,
+        "name": "a dog dies",
+        "category": "Animal Death",
+        "yes": 1359,
+        "no": 125
+      },
+      {
+        "topicId": 229,
+        "name": "animals are abused",
+        "category": "Animal Distress",
+        "yes": 318,
+        "no": 16
+      },
+      {
+        "topicId": 252,
+        "name": "there's a dead animal",
+        "category": "Animal Death",
+        "yes": 207,
+        "no": 5
+      },
+      {
+        "topicId": 189,
+        "name": "an animal dies",
+        "category": "Animal Death",
+        "yes": 188,
+        "no": 118
+      },
+      {
+        "topicId": 285,
+        "name": "a pet dies",
+        "category": "Animal Death",
+        "yes": 141,
+        "no": 3
+      },
+      {
+        "topicId": 203,
+        "name": "there's torture",
+        "category": "Whole Body",
+        "yes": 122,
+        "no": 2
+      },
+      {
+        "topicId": 216,
+        "name": "someone breaks a bone",
+        "category": "Appendages",
+        "yes": 121,
+        "no": 1
+      },
+      {
+        "topicId": 201,
+        "name": "someone vomits",
+        "category": "Gross",
+        "yes": 113,
+        "no": 7
+      },
+      {
+        "topicId": 193,
+        "name": "someone uses drugs",
+        "category": "Addiction",
+        "yes": 100,
+        "no": 7
+      },
+      {
+        "topicId": 167,
+        "name": "there's flashing lights or images",
+        "category": "Noxious",
+        "yes": 95,
+        "no": 2
+      },
+      {
+        "topicId": 242,
+        "name": "someone is stalked",
+        "category": "Abuse",
+        "yes": 93,
+        "no": 9
+      },
+      {
+        "topicId": 171,
+        "name": "there's finger/toe mutilation",
+        "category": "Appendages",
+        "yes": 91,
+        "no": 6
+      },
+      {
+        "topicId": 184,
+        "name": "a car crashes",
+        "category": "Vehicular",
+        "yes": 90,
+        "no": 2
+      },
+      {
+        "topicId": 188,
+        "name": "there's blood/gore",
+        "category": "Violence",
+        "yes": 89,
+        "no": 2
+      },
+      {
+        "topicId": 232,
+        "name": "there's gun violence",
+        "category": "Violence",
+        "yes": 80,
+        "no": 1
+      },
+      {
+        "topicId": 168,
+        "name": "a parent dies",
+        "category": "Family",
+        "yes": 70,
+        "no": 16
+      },
+      {
+        "topicId": 164,
+        "name": "someone is burned alive",
+        "category": "Whole Body",
+        "yes": 69,
+        "no": 9
+      },
+      {
+        "topicId": 176,
+        "name": "there are shower scenes",
+        "category": "Fear",
+        "yes": 66,
+        "no": 13
+      },
+      {
+        "topicId": 208,
+        "name": "a person is hit by a car",
+        "category": "Vehicular",
+        "yes": 65,
+        "no": 0
+      },
+      {
+        "topicId": 219,
+        "name": "there's domestic violence",
+        "category": "Abuse",
+        "yes": 62,
+        "no": 50
+      },
+      {
+        "topicId": 192,
+        "name": "there's a hospital scene",
+        "category": "Medical",
+        "yes": 61,
+        "no": 5
+      },
+      {
+        "topicId": 274,
+        "name": "someone is restrained",
+        "category": "Assault",
+        "yes": 60,
+        "no": 1
+      },
+      {
+        "topicId": 204,
+        "name": "someone has cancer",
+        "category": "Medical",
+        "yes": 58,
+        "no": 12
+      },
+      {
+        "topicId": 245,
+        "name": "someone struggles to breathe",
+        "category": "Neck",
+        "yes": 54,
+        "no": 2
+      },
+      {
+        "topicId": 180,
+        "name": "there's spitting",
+        "category": "Gross",
+        "yes": 53,
+        "no": 10
+      },
+      {
+        "topicId": 211,
+        "name": "someone falls to their death",
+        "category": "Whole Body",
+        "yes": 53,
+        "no": 7
+      },
+      {
+        "topicId": 200,
+        "name": "there's eye mutilation",
+        "category": "Head",
+        "yes": 51,
+        "no": 23
+      },
+      {
+        "topicId": 191,
+        "name": "someone drowns",
+        "category": "Violence",
+        "yes": 49,
+        "no": 11
+      },
+      {
+        "topicId": 267,
+        "name": "there's excessive gore",
+        "category": "Whole Body",
+        "yes": 46,
+        "no": 8
+      },
+      {
+        "topicId": 304,
+        "name": "the abused becomes the abuser",
+        "category": "Abuse",
+        "yes": 45,
+        "no": 11
+      },
+      {
+        "topicId": 355,
+        "name": "an animal is sad",
+        "category": "Animal Distress",
+        "yes": 44,
+        "no": 1
+      },
+      {
+        "topicId": 308,
+        "name": "someone is held under water",
+        "category": "Assault",
+        "yes": 44,
+        "no": 0
+      },
+      {
+        "topicId": 330,
+        "name": "there's abusive parents",
+        "category": "Abuse",
+        "yes": 40,
+        "no": 5
+      },
+      {
+        "topicId": 363,
+        "name": "someone leaves without saying goodbye",
+        "category": "Abandonment",
+        "yes": 37,
+        "no": 5
+      },
+      {
+        "topicId": 282,
+        "name": "someone is crushed to death",
+        "category": "Whole Body",
+        "yes": 32,
+        "no": 3
+      },
+      {
+        "topicId": 298,
+        "name": "Someone becomes unconscious",
+        "category": "Whole Body",
+        "yes": 32,
+        "no": 0
+      },
+      {
+        "topicId": 311,
+        "name": "someone dies",
+        "category": "Death",
+        "yes": 31,
+        "no": 0
+      },
+      {
+        "topicId": 305,
+        "name": "a non-human character dies",
+        "category": "Death",
+        "yes": 30,
+        "no": 1
+      },
+      {
+        "topicId": 281,
+        "name": "someone asphyxiates",
+        "category": "Neck",
+        "yes": 29,
+        "no": 0
+      },
+      {
+        "topicId": 269,
+        "name": "a car honks or tires screech",
+        "category": "Vehicular",
+        "yes": 29,
+        "no": 0
+      },
+      {
+        "topicId": 280,
+        "name": "there's Achilles Tendon injury",
+        "category": "Appendages",
+        "yes": 24,
+        "no": 7
+      },
+      {
+        "topicId": 321,
+        "name": "someone is beaten up by a bully",
+        "category": "Assault",
+        "yes": 24,
+        "no": 3
+      },
+      {
+        "topicId": 289,
+        "name": "someone sacrifices themselves",
+        "category": "Death",
+        "yes": 23,
+        "no": 3
+      },
+      {
+        "topicId": 290,
+        "name": "there is obscene language/gestures",
+        "category": "Noxious",
+        "yes": 23,
+        "no": 0
+      },
+      {
+        "topicId": 360,
+        "name": "someone's mouth is covered",
+        "category": "Assault",
+        "yes": 21,
+        "no": 1
+      },
+      {
+        "topicId": 313,
+        "name": "a family member dies",
+        "category": "Family",
+        "yes": 21,
+        "no": 0
+      },
+      {
+        "topicId": 297,
+        "name": "there are razors",
+        "category": "Fear",
+        "yes": 21,
+        "no": 2
+      },
+      {
+        "topicId": 309,
+        "name": "somebody is choked",
+        "category": "Neck",
+        "yes": 21,
+        "no": 0
+      },
+      {
+        "topicId": 288,
+        "name": "someone has a chronic illness",
+        "category": "Sickness",
+        "yes": 21,
+        "no": 1
+      },
+      {
+        "topicId": 265,
+        "name": "someone suffers from PTSD",
+        "category": "Mental Health",
+        "yes": 20,
+        "no": 13
+      },
+      {
+        "topicId": 273,
+        "name": "a male character is ridiculed for crying",
+        "category": "Sexism",
+        "yes": 19,
+        "no": 6
+      },
+      {
+        "topicId": 343,
+        "name": "someone is stabbed",
+        "category": "Whole Body",
+        "yes": 19,
+        "no": 0
+      },
+      {
+        "topicId": 362,
+        "name": "someone dislocates something",
+        "category": "Appendages",
+        "yes": 18,
+        "no": 1
+      },
+      {
+        "topicId": 276,
+        "name": "someone is sexually objectified",
+        "category": "Sex",
+        "yes": 18,
+        "no": 5
+      },
+      {
+        "topicId": 352,
+        "name": "hands are damaged",
+        "category": "Appendages",
+        "yes": 17,
+        "no": 2
+      },
+      {
+        "topicId": 335,
+        "name": "there's natural bodies of water",
+        "category": "Fear",
+        "yes": 16,
+        "no": 0
+      },
+      {
+        "topicId": 328,
+        "name": "a major character dies",
+        "category": "Death",
+        "yes": 15,
+        "no": 5
+      },
+      {
+        "topicId": 361,
+        "name": "someone's throat is mutilated",
+        "category": "Neck",
+        "yes": 15,
+        "no": 2
+      },
+      {
+        "topicId": 339,
+        "name": "there are sudden loud noises",
+        "category": "Noxious",
+        "yes": 15,
+        "no": 0
+      },
+      {
+        "topicId": 318,
+        "name": "someone is watched without knowing",
+        "category": "Paranoia",
+        "yes": 14,
+        "no": 0
+      },
+      {
+        "topicId": 331,
+        "name": "there's decapitation",
+        "category": "Head",
+        "yes": 13,
+        "no": 2
+      },
+      {
+        "topicId": 366,
+        "name": "there's screaming",
+        "category": "Noxious",
+        "yes": 12,
+        "no": 1
+      },
+      {
+        "topicId": 327,
+        "name": "someone is terminally ill",
+        "category": "Sickness",
+        "yes": 12,
+        "no": 1
+      },
+      {
+        "topicId": 346,
+        "name": "there's end credits scenes?",
+        "category": "Spoiler",
+        "yes": 9,
+        "no": 3
+      },
+      {
+        "topicId": 329,
+        "name": "a priceless artifact is destroyed",
+        "category": "Loss",
+        "yes": 8,
+        "no": 3
+      }
+    ]
+  },
+  {
+    "ttId": "tt1028532",
+    "type": "movie",
+    "name": "Hachi: A Dog's Tale",
+    "year": "2009",
+    "poster": "https://images.metahub.space/poster/small/tt1028532/img",
+    "background": "https://images.metahub.space/background/medium/tt1028532/img",
+    "dtddId": 9836,
+    "matched": true,
+    "triggers": [
+      {
+        "topicId": 153,
+        "name": "a dog dies",
+        "category": "Animal Death",
+        "yes": 115,
+        "no": 4
+      },
+      {
+        "topicId": 189,
+        "name": "an animal dies",
+        "category": "Animal Death",
+        "yes": 37,
+        "no": 8
+      },
+      {
+        "topicId": 168,
+        "name": "a parent dies",
+        "category": "Family",
+        "yes": 27,
+        "no": 0
+      },
+      {
+        "topicId": 222,
+        "name": "the ending is sad",
+        "category": "Spoiler",
+        "yes": 25,
+        "no": 1
+      },
+      {
+        "topicId": 252,
+        "name": "there's a dead animal",
+        "category": "Animal Death",
+        "yes": 22,
+        "no": 3
+      },
+      {
+        "topicId": 285,
+        "name": "a pet dies",
+        "category": "Animal Death",
+        "yes": 16,
+        "no": 2
+      },
+      {
+        "topicId": 355,
+        "name": "an animal is sad",
+        "category": "Animal Distress",
+        "yes": 10,
+        "no": 1
+      },
+      {
+        "topicId": 363,
+        "name": "someone leaves without saying goodbye",
+        "category": "Abandonment",
+        "yes": 7,
+        "no": 1
+      },
+      {
+        "topicId": 350,
+        "name": "an animal is abandoned",
+        "category": "Animal Distress",
+        "yes": 7,
+        "no": 0
+      },
+      {
+        "topicId": 313,
+        "name": "a family member dies",
+        "category": "Family",
+        "yes": 6,
+        "no": 0
+      },
+      {
+        "topicId": 328,
+        "name": "a major character dies",
+        "category": "Death",
+        "yes": 5,
+        "no": 0
+      },
+      {
+        "topicId": 311,
+        "name": "someone dies",
+        "category": "Death",
+        "yes": 5,
+        "no": 1
+      },
+      {
+        "topicId": 270,
+        "name": "someone is homeless",
+        "category": "Social",
+        "yes": 5,
+        "no": 2
+      },
+      {
+        "topicId": 266,
+        "name": "there is a baby or unborn child",
+        "category": "Pregnancy",
+        "yes": 4,
+        "no": 3
+      },
+      {
+        "topicId": 298,
+        "name": "Someone becomes unconscious",
+        "category": "Whole Body",
+        "yes": 4,
+        "no": 1
+      },
+      {
+        "topicId": 305,
+        "name": "a non-human character dies",
+        "category": "Death",
+        "yes": 3,
+        "no": 1
+      },
+      {
+        "topicId": 348,
+        "name": "someone has a meltdown",
+        "category": "Mental Health",
+        "yes": 2,
+        "no": 1
+      }
+    ]
+  },
+  {
+    "ttId": "tt0110357",
+    "type": "movie",
+    "name": "The Lion King",
+    "year": "1994",
+    "poster": "https://images.metahub.space/poster/small/tt0110357/img",
+    "background": "https://images.metahub.space/background/medium/tt0110357/img",
+    "dtddId": 11967,
+    "matched": true,
+    "triggers": [
+      {
+        "topicId": 186,
+        "name": "a cat dies",
+        "category": "Animal Death",
+        "yes": 113,
+        "no": 10
+      },
+      {
+        "topicId": 189,
+        "name": "an animal dies",
+        "category": "Animal Death",
+        "yes": 98,
+        "no": 1
+      },
+      {
+        "topicId": 168,
+        "name": "a parent dies",
+        "category": "Family",
+        "yes": 88,
+        "no": 3
+      },
+      {
+        "topicId": 213,
+        "name": "there are bugs",
+        "category": "Animal Phobia",
+        "yes": 82,
+        "no": 1
+      },
+      {
+        "topicId": 211,
+        "name": "someone falls to their death",
+        "category": "Whole Body",
+        "yes": 78,
+        "no": 1
+      },
+      {
+        "topicId": 207,
+        "name": "there's ghosts",
+        "category": "Fear",
+        "yes": 62,
+        "no": 1
+      },
+      {
+        "topicId": 180,
+        "name": "there's spitting",
+        "category": "Gross",
+        "yes": 56,
+        "no": 3
+      },
+      {
+        "topicId": 237,
+        "name": "someone gets gaslighted",
+        "category": "Abuse",
+        "yes": 53,
+        "no": 3
+      },
+      {
+        "topicId": 219,
+        "name": "there's domestic violence",
+        "category": "Abuse",
+        "yes": 48,
+        "no": 7
+      },
+      {
+        "topicId": 252,
+        "name": "there's a dead animal",
+        "category": "Animal Death",
+        "yes": 43,
+        "no": 0
+      },
+      {
+        "topicId": 165,
+        "name": "there are spiders",
+        "category": "Animal Phobia",
+        "yes": 33,
+        "no": 31
+      },
+      {
+        "topicId": 203,
+        "name": "there's torture",
+        "category": "Whole Body",
+        "yes": 31,
+        "no": 18
+      },
+      {
+        "topicId": 245,
+        "name": "someone struggles to breathe",
+        "category": "Neck",
+        "yes": 30,
+        "no": 1
+      },
+      {
+        "topicId": 305,
+        "name": "a non-human character dies",
+        "category": "Death",
+        "yes": 15,
+        "no": 0
+      },
+      {
+        "topicId": 342,
+        "name": "a woman gets slapped",
+        "category": "Assault",
+        "yes": 14,
+        "no": 1
+      },
+      {
+        "topicId": 328,
+        "name": "a major character dies",
+        "category": "Death",
+        "yes": 14,
+        "no": 0
+      },
+      {
+        "topicId": 324,
+        "name": "there's farting",
+        "category": "Gross",
+        "yes": 14,
+        "no": 0
+      },
+      {
+        "topicId": 363,
+        "name": "someone leaves without saying goodbye",
+        "category": "Abandonment",
+        "yes": 13,
+        "no": 0
+      },
+      {
+        "topicId": 274,
+        "name": "someone is restrained",
+        "category": "Assault",
+        "yes": 13,
+        "no": 2
+      },
+      {
+        "topicId": 313,
+        "name": "a family member dies",
+        "category": "Family",
+        "yes": 13,
+        "no": 0
+      },
+      {
+        "topicId": 262,
+        "name": "there are \"Man in a dress\" jokes",
+        "category": "Prejudice",
+        "yes": 13,
+        "no": 3
+      },
+      {
+        "topicId": 332,
+        "name": "there's an alligator or crocodile",
+        "category": "Animal Phobia",
+        "yes": 12,
+        "no": 0
+      },
+      {
+        "topicId": 311,
+        "name": "someone dies",
+        "category": "Death",
+        "yes": 12,
+        "no": 0
+      },
+      {
+        "topicId": 266,
+        "name": "there is a baby or unborn child",
+        "category": "Pregnancy",
+        "yes": 12,
+        "no": 0
+      },
+      {
+        "topicId": 298,
+        "name": "Someone becomes unconscious",
+        "category": "Whole Body",
+        "yes": 12,
+        "no": 0
+      },
+      {
+        "topicId": 350,
+        "name": "an animal is abandoned",
+        "category": "Animal Distress",
+        "yes": 11,
+        "no": 3
+      },
+      {
+        "topicId": 355,
+        "name": "an animal is sad",
+        "category": "Animal Distress",
+        "yes": 11,
+        "no": 0
+      },
+      {
+        "topicId": 335,
+        "name": "there's natural bodies of water",
+        "category": "Fear",
+        "yes": 11,
+        "no": 0
+      },
+      {
+        "topicId": 322,
+        "name": "someone is eaten",
+        "category": "Gross",
+        "yes": 11,
+        "no": 0
+      },
+      {
+        "topicId": 309,
+        "name": "somebody is choked",
+        "category": "Neck",
+        "yes": 11,
+        "no": 1
+      },
+      {
+        "topicId": 367,
+        "name": "a woman is brutalized for spectacle",
+        "category": "Abuse",
+        "yes": 10,
+        "no": 1
+      },
+      {
+        "topicId": 270,
+        "name": "someone is homeless",
+        "category": "Social",
+        "yes": 10,
+        "no": 2
+      },
+      {
+        "topicId": 366,
+        "name": "there's screaming",
+        "category": "Noxious",
+        "yes": 7,
+        "no": 0
+      },
+      {
+        "topicId": 318,
+        "name": "someone is watched without knowing",
+        "category": "Paranoia",
+        "yes": 7,
+        "no": 0
+      },
+      {
+        "topicId": 345,
+        "name": "there's incarceration",
+        "category": "Law Enforcement",
+        "yes": 6,
+        "no": 1
+      },
+      {
+        "topicId": 341,
+        "name": "existentialism is debated",
+        "category": "Social",
+        "yes": 5,
+        "no": 2
+      },
+      {
+        "topicId": 339,
+        "name": "there are sudden loud noises",
+        "category": "Noxious",
+        "yes": 4,
+        "no": 3
+      }
+    ]
+  },
+  {
+    "ttId": "tt3606756",
+    "type": "movie",
+    "name": "Incredibles 2",
+    "year": "2018",
+    "poster": "https://images.metahub.space/poster/small/tt3606756/img",
+    "background": "https://images.metahub.space/background/medium/tt3606756/img",
+    "dtddId": 15214,
+    "matched": true,
+    "triggers": [
+      {
+        "topicId": 167,
+        "name": "there's flashing lights or images",
+        "category": "Noxious",
+        "yes": 90,
+        "no": 1
+      },
+      {
+        "topicId": 161,
+        "name": "there are jump scares",
+        "category": "Fear",
+        "yes": 50,
+        "no": 11
+      },
+      {
+        "topicId": 198,
+        "name": "a plane crashes",
+        "category": "Vehicular",
+        "yes": 48,
+        "no": 1
+      },
+      {
+        "topicId": 168,
+        "name": "a parent dies",
+        "category": "Family",
+        "yes": 41,
+        "no": 19
+      },
+      {
+        "topicId": 184,
+        "name": "a car crashes",
+        "category": "Vehicular",
+        "yes": 41,
+        "no": 2
+      },
+      {
+        "topicId": 224,
+        "name": "someone is possessed",
+        "category": "Fear",
+        "yes": 36,
+        "no": 5
+      },
+      {
+        "topicId": 201,
+        "name": "someone vomits",
+        "category": "Gross",
+        "yes": 29,
+        "no": 13
+      },
+      {
+        "topicId": 203,
+        "name": "there's torture",
+        "category": "Whole Body",
+        "yes": 20,
+        "no": 14
+      },
+      {
+        "topicId": 229,
+        "name": "animals are abused",
+        "category": "Animal Distress",
+        "yes": 19,
+        "no": 2
+      },
+      {
+        "topicId": 243,
+        "name": "someone is kidnapped",
+        "category": "Family",
+        "yes": 17,
+        "no": 0
+      },
+      {
+        "topicId": 232,
+        "name": "there's gun violence",
+        "category": "Violence",
+        "yes": 16,
+        "no": 0
+      },
+      {
+        "topicId": 245,
+        "name": "someone struggles to breathe",
+        "category": "Neck",
+        "yes": 15,
+        "no": 0
+      },
+      {
+        "topicId": 242,
+        "name": "someone is stalked",
+        "category": "Abuse",
+        "yes": 9,
+        "no": 6
+      },
+      {
+        "topicId": 256,
+        "name": "there is copaganda",
+        "category": "Law Enforcement",
+        "yes": 7,
+        "no": 1
+      },
+      {
+        "topicId": 257,
+        "name": "someone wets/soils themselves",
+        "category": "Gross",
+        "yes": 5,
+        "no": 0
+      },
+      {
+        "topicId": 266,
+        "name": "there is a baby or unborn child",
+        "category": "Pregnancy",
+        "yes": 5,
+        "no": 0
+      },
+      {
+        "topicId": 274,
+        "name": "someone is restrained",
+        "category": "Assault",
+        "yes": 4,
+        "no": 0
+      },
+      {
+        "topicId": 261,
+        "name": "a baby cries",
+        "category": "Children",
+        "yes": 4,
+        "no": 0
+      },
+      {
+        "topicId": 298,
+        "name": "Someone becomes unconscious",
+        "category": "Whole Body",
+        "yes": 4,
+        "no": 0
+      },
+      {
+        "topicId": 354,
+        "name": "someone defecates",
+        "category": "Gross",
+        "yes": 3,
+        "no": 0
+      },
+      {
+        "topicId": 318,
+        "name": "someone is watched without knowing",
+        "category": "Paranoia",
+        "yes": 3,
+        "no": 0
+      },
+      {
+        "topicId": 313,
+        "name": "a family member dies",
+        "category": "Family",
+        "yes": 2,
+        "no": 0
+      },
+      {
+        "topicId": 335,
+        "name": "there's natural bodies of water",
+        "category": "Fear",
+        "yes": 2,
+        "no": 0
+      },
+      {
+        "topicId": 345,
+        "name": "there's incarceration",
+        "category": "Law Enforcement",
+        "yes": 2,
+        "no": 0
+      },
+      {
+        "topicId": 339,
+        "name": "there are sudden loud noises",
+        "category": "Noxious",
+        "yes": 2,
+        "no": 0
+      },
+      {
+        "topicId": 269,
+        "name": "a car honks or tires screech",
+        "category": "Vehicular",
+        "yes": 2,
+        "no": 0
+      },
+      {
+        "topicId": 360,
+        "name": "someone's mouth is covered",
+        "category": "Assault",
+        "yes": 1,
+        "no": 0
+      },
+      {
+        "topicId": 366,
+        "name": "there's screaming",
+        "category": "Noxious",
+        "yes": 1,
+        "no": 0
+      },
+      {
+        "topicId": 356,
+        "name": "there's underwater scenes",
+        "category": "Noxious",
+        "yes": 1,
+        "no": 0
+      }
+    ]
+  },
+  {
+    "ttId": "tt4633694",
+    "type": "movie",
+    "name": "Spider-Man: Into the Spider-Verse",
+    "year": "2018",
+    "poster": "https://images.metahub.space/poster/small/tt4633694/img",
+    "background": "https://images.metahub.space/background/medium/tt4633694/img",
+    "dtddId": 16927,
+    "matched": true,
+    "triggers": [
+      {
+        "topicId": 165,
+        "name": "there are spiders",
+        "category": "Animal Phobia",
+        "yes": 214,
+        "no": 5
+      },
+      {
+        "topicId": 213,
+        "name": "there are bugs",
+        "category": "Animal Phobia",
+        "yes": 163,
+        "no": 4
+      },
+      {
+        "topicId": 189,
+        "name": "an animal dies",
+        "category": "Animal Death",
+        "yes": 138,
+        "no": 12
+      },
+      {
+        "topicId": 167,
+        "name": "there's flashing lights or images",
+        "category": "Noxious",
+        "yes": 133,
+        "no": 4
+      },
+      {
+        "topicId": 233,
+        "name": "there's fat jokes",
+        "category": "Prejudice",
+        "yes": 133,
+        "no": 7
+      },
+      {
+        "topicId": 168,
+        "name": "a parent dies",
+        "category": "Family",
+        "yes": 129,
+        "no": 3
+      },
+      {
+        "topicId": 161,
+        "name": "there are jump scares",
+        "category": "Fear",
+        "yes": 125,
+        "no": 5
+      },
+      {
+        "topicId": 210,
+        "name": "teeth are damaged",
+        "category": "Head",
+        "yes": 112,
+        "no": 1
+      },
+      {
+        "topicId": 158,
+        "name": "a kid dies",
+        "category": "Children",
+        "yes": 111,
+        "no": 3
+      },
+      {
+        "topicId": 184,
+        "name": "a car crashes",
+        "category": "Vehicular",
+        "yes": 100,
+        "no": 0
+      },
+      {
+        "topicId": 208,
+        "name": "a person is hit by a car",
+        "category": "Vehicular",
+        "yes": 86,
+        "no": 4
+      },
+      {
+        "topicId": 232,
+        "name": "there's gun violence",
+        "category": "Violence",
+        "yes": 83,
+        "no": 1
+      },
+      {
+        "topicId": 177,
+        "name": "there's shaving/cutting",
+        "category": "Whole Body",
+        "yes": 59,
+        "no": 34
+      },
+      {
+        "topicId": 252,
+        "name": "there's a dead animal",
+        "category": "Animal Death",
+        "yes": 44,
+        "no": 3
+      },
+      {
+        "topicId": 245,
+        "name": "someone struggles to breathe",
+        "category": "Neck",
+        "yes": 35,
+        "no": 0
+      },
+      {
+        "topicId": 235,
+        "name": "someone has an anxiety attack",
+        "category": "Mental Health",
+        "yes": 33,
+        "no": 24
+      },
+      {
+        "topicId": 274,
+        "name": "someone is restrained",
+        "category": "Assault",
+        "yes": 22,
+        "no": 0
+      },
+      {
+        "topicId": 311,
+        "name": "someone dies",
+        "category": "Death",
+        "yes": 17,
+        "no": 0
+      },
+      {
+        "topicId": 282,
+        "name": "someone is crushed to death",
+        "category": "Whole Body",
+        "yes": 17,
+        "no": 0
+      },
+      {
+        "topicId": 313,
+        "name": "a family member dies",
+        "category": "Family",
+        "yes": 16,
+        "no": 0
+      },
+      {
+        "topicId": 298,
+        "name": "Someone becomes unconscious",
+        "category": "Whole Body",
+        "yes": 16,
+        "no": 0
+      },
+      {
+        "topicId": 305,
+        "name": "a non-human character dies",
+        "category": "Death",
+        "yes": 14,
+        "no": 0
+      },
+      {
+        "topicId": 346,
+        "name": "there's end credits scenes?",
+        "category": "Spoiler",
+        "yes": 14,
+        "no": 0
+      },
+      {
+        "topicId": 309,
+        "name": "somebody is choked",
+        "category": "Neck",
+        "yes": 13,
+        "no": 0
+      },
+      {
+        "topicId": 318,
+        "name": "someone is watched without knowing",
+        "category": "Paranoia",
+        "yes": 12,
+        "no": 0
+      },
+      {
+        "topicId": 268,
+        "name": "the fourth wall is broken",
+        "category": "Paranoia",
+        "yes": 11,
+        "no": 0
+      },
+      {
+        "topicId": 360,
+        "name": "someone's mouth is covered",
+        "category": "Assault",
+        "yes": 10,
+        "no": 0
+      },
+      {
+        "topicId": 334,
+        "name": "reality is unstable or unhinged",
+        "category": "Mental Health",
+        "yes": 10,
+        "no": 0
+      },
+      {
+        "topicId": 269,
+        "name": "a car honks or tires screech",
+        "category": "Vehicular",
+        "yes": 10,
+        "no": 2
+      },
+      {
+        "topicId": 289,
+        "name": "someone sacrifices themselves",
+        "category": "Death",
+        "yes": 9,
+        "no": 2
+      },
+      {
+        "topicId": 260,
+        "name": "there's misophonia",
+        "category": "Mental Health",
+        "yes": 8,
+        "no": 2
+      },
+      {
+        "topicId": 339,
+        "name": "there are sudden loud noises",
+        "category": "Noxious",
+        "yes": 7,
+        "no": 0
+      },
+      {
+        "topicId": 366,
+        "name": "there's screaming",
+        "category": "Noxious",
+        "yes": 5,
+        "no": 0
+      }
+    ]
+  },
+  {
+    "ttId": "tt0038650",
+    "type": "movie",
+    "name": "It's a Wonderful Life",
+    "year": "1946",
+    "poster": "https://images.metahub.space/poster/small/tt0038650/img",
+    "background": "https://images.metahub.space/background/medium/tt0038650/img",
+    "dtddId": 10129,
+    "matched": true,
+    "triggers": [
+      {
+        "topicId": 225,
+        "name": "alcohol abuse",
+        "category": "Addiction",
+        "yes": 17,
+        "no": 2
+      },
+      {
+        "topicId": 158,
+        "name": "a kid dies",
+        "category": "Children",
+        "yes": 16,
+        "no": 3
+      },
+      {
+        "topicId": 168,
+        "name": "a parent dies",
+        "category": "Family",
+        "yes": 16,
+        "no": 1
+      },
+      {
+        "topicId": 218,
+        "name": "there's child abuse",
+        "category": "Abuse",
+        "yes": 15,
+        "no": 6
+      },
+      {
+        "topicId": 184,
+        "name": "a car crashes",
+        "category": "Vehicular",
+        "yes": 13,
+        "no": 1
+      },
+      {
+        "topicId": 286,
+        "name": "Someone attempts suicide",
+        "category": "Self Harm",
+        "yes": 12,
+        "no": 0
+      },
+      {
+        "topicId": 182,
+        "name": "someone is sexually assaulted",
+        "category": "Sexual Assault",
+        "yes": 11,
+        "no": 9
+      },
+      {
+        "topicId": 232,
+        "name": "there's gun violence",
+        "category": "Violence",
+        "yes": 10,
+        "no": 4
+      },
+      {
+        "topicId": 247,
+        "name": "there are homophobic slurs",
+        "category": "Prejudice",
+        "yes": 9,
+        "no": 3
+      },
+      {
+        "topicId": 259,
+        "name": "someone says \"I'll kill myself\"",
+        "category": "Self Harm",
+        "yes": 9,
+        "no": 0
+      },
+      {
+        "topicId": 278,
+        "name": "someone has a stroke",
+        "category": "Sickness",
+        "yes": 9,
+        "no": 0
+      },
+      {
+        "topicId": 363,
+        "name": "someone leaves without saying goodbye",
+        "category": "Abandonment",
+        "yes": 6,
+        "no": 0
+      },
+      {
+        "topicId": 253,
+        "name": "A child's dear toy is destroyed",
+        "category": "Family",
+        "yes": 6,
+        "no": 5
+      },
+      {
+        "topicId": 335,
+        "name": "there's natural bodies of water",
+        "category": "Fear",
+        "yes": 6,
+        "no": 0
+      },
+      {
+        "topicId": 294,
+        "name": "a minority is misrepresented",
+        "category": "Race",
+        "yes": 6,
+        "no": 0
+      },
+      {
+        "topicId": 313,
+        "name": "a family member dies",
+        "category": "Family",
+        "yes": 5,
+        "no": 0
+      },
+      {
+        "topicId": 180,
+        "name": "there's spitting",
+        "category": "Gross",
+        "yes": 5,
+        "no": 4
+      },
+      {
+        "topicId": 334,
+        "name": "reality is unstable or unhinged",
+        "category": "Mental Health",
+        "yes": 5,
+        "no": 0
+      },
+      {
+        "topicId": 366,
+        "name": "there's screaming",
+        "category": "Noxious",
+        "yes": 5,
+        "no": 0
+      },
+      {
+        "topicId": 318,
+        "name": "someone is watched without knowing",
+        "category": "Paranoia",
+        "yes": 5,
+        "no": 0
+      },
+      {
+        "topicId": 266,
+        "name": "there is a baby or unborn child",
+        "category": "Pregnancy",
+        "yes": 5,
+        "no": 0
+      },
+      {
+        "topicId": 351,
+        "name": "religion is discussed",
+        "category": "Religious",
+        "yes": 5,
+        "no": 0
+      },
+      {
+        "topicId": 341,
+        "name": "existentialism is debated",
+        "category": "Social",
+        "yes": 5,
+        "no": 1
+      },
+      {
+        "topicId": 261,
+        "name": "a baby cries",
+        "category": "Children",
+        "yes": 4,
+        "no": 0
+      },
+      {
+        "topicId": 311,
+        "name": "someone dies",
+        "category": "Death",
+        "yes": 4,
+        "no": 0
+      },
+      {
+        "topicId": 276,
+        "name": "someone is sexually objectified",
+        "category": "Sex",
+        "yes": 4,
+        "no": 3
+      },
+      {
+        "topicId": 269,
+        "name": "a car honks or tires screech",
+        "category": "Vehicular",
+        "yes": 4,
+        "no": 0
+      },
+      {
+        "topicId": 347,
+        "name": "the abused forgives their abuser",
+        "category": "Abuse",
+        "yes": 3,
+        "no": 2
+      },
+      {
+        "topicId": 336,
+        "name": "someone has a mental illness",
+        "category": "Mental Health",
+        "yes": 3,
+        "no": 1
+      },
+      {
+        "topicId": 339,
+        "name": "there are sudden loud noises",
+        "category": "Noxious",
+        "yes": 2,
+        "no": 1
+      }
+    ]
+  },
+  {
+    "ttId": "tt1109624",
+    "type": "movie",
+    "name": "Paddington",
+    "year": "2014",
+    "poster": "https://images.metahub.space/poster/small/tt1109624/img",
+    "background": "https://images.metahub.space/background/medium/tt1109624/img",
+    "dtddId": 10807,
+    "matched": true,
+    "triggers": [
+      {
+        "topicId": 189,
+        "name": "an animal dies",
+        "category": "Animal Death",
+        "yes": 22,
+        "no": 1
+      },
+      {
+        "topicId": 229,
+        "name": "animals are abused",
+        "category": "Animal Distress",
+        "yes": 21,
+        "no": 4
+      },
+      {
+        "topicId": 168,
+        "name": "a parent dies",
+        "category": "Family",
+        "yes": 20,
+        "no": 0
+      },
+      {
+        "topicId": 262,
+        "name": "there are \"Man in a dress\" jokes",
+        "category": "Prejudice",
+        "yes": 20,
+        "no": 0
+      },
+      {
+        "topicId": 225,
+        "name": "alcohol abuse",
+        "category": "Addiction",
+        "yes": 19,
+        "no": 0
+      },
+      {
+        "topicId": 252,
+        "name": "there's a dead animal",
+        "category": "Animal Death",
+        "yes": 18,
+        "no": 2
+      },
+      {
+        "topicId": 243,
+        "name": "someone is kidnapped",
+        "category": "Family",
+        "yes": 17,
+        "no": 1
+      },
+      {
+        "topicId": 202,
+        "name": "there's a claustrophobic scene",
+        "category": "Fear",
+        "yes": 17,
+        "no": 0
+      },
+      {
+        "topicId": 176,
+        "name": "there are shower scenes",
+        "category": "Fear",
+        "yes": 17,
+        "no": 0
+      },
+      {
+        "topicId": 242,
+        "name": "someone is stalked",
+        "category": "Abuse",
+        "yes": 16,
+        "no": 3
+      },
+      {
+        "topicId": 184,
+        "name": "a car crashes",
+        "category": "Vehicular",
+        "yes": 15,
+        "no": 1
+      },
+      {
+        "topicId": 180,
+        "name": "there's spitting",
+        "category": "Gross",
+        "yes": 14,
+        "no": 0
+      },
+      {
+        "topicId": 256,
+        "name": "there is copaganda",
+        "category": "Law Enforcement",
+        "yes": 13,
+        "no": 1
+      },
+      {
+        "topicId": 190,
+        "name": "needles/syringes are used",
+        "category": "Medical",
+        "yes": 12,
+        "no": 4
+      },
+      {
+        "topicId": 233,
+        "name": "there's fat jokes",
+        "category": "Prejudice",
+        "yes": 12,
+        "no": 3
+      },
+      {
+        "topicId": 177,
+        "name": "there's shaving/cutting",
+        "category": "Whole Body",
+        "yes": 12,
+        "no": 3
+      },
+      {
+        "topicId": 213,
+        "name": "there are bugs",
+        "category": "Animal Phobia",
+        "yes": 10,
+        "no": 4
+      },
+      {
+        "topicId": 274,
+        "name": "someone is restrained",
+        "category": "Assault",
+        "yes": 10,
+        "no": 0
+      },
+      {
+        "topicId": 355,
+        "name": "an animal is sad",
+        "category": "Animal Distress",
+        "yes": 8,
+        "no": 0
+      },
+      {
+        "topicId": 167,
+        "name": "there's flashing lights or images",
+        "category": "Noxious",
+        "yes": 8,
+        "no": 6
+      },
+      {
+        "topicId": 270,
+        "name": "someone is homeless",
+        "category": "Social",
+        "yes": 8,
+        "no": 1
+      },
+      {
+        "topicId": 350,
+        "name": "an animal is abandoned",
+        "category": "Animal Distress",
+        "yes": 7,
+        "no": 1
+      },
+      {
+        "topicId": 305,
+        "name": "a non-human character dies",
+        "category": "Death",
+        "yes": 7,
+        "no": 2
+      },
+      {
+        "topicId": 269,
+        "name": "a car honks or tires screech",
+        "category": "Vehicular",
+        "yes": 7,
+        "no": 0
+      },
+      {
+        "topicId": 271,
+        "name": "someone falls down stairs",
+        "category": "Whole Body",
+        "yes": 7,
+        "no": 0
+      },
+      {
+        "topicId": 289,
+        "name": "someone sacrifices themselves",
+        "category": "Death",
+        "yes": 6,
+        "no": 1
+      },
+      {
+        "topicId": 313,
+        "name": "a family member dies",
+        "category": "Family",
+        "yes": 6,
+        "no": 0
+      },
+      {
+        "topicId": 266,
+        "name": "there is a baby or unborn child",
+        "category": "Pregnancy",
+        "yes": 6,
+        "no": 1
+      },
+      {
+        "topicId": 276,
+        "name": "someone is sexually objectified",
+        "category": "Sex",
+        "yes": 6,
+        "no": 1
+      },
+      {
+        "topicId": 298,
+        "name": "Someone becomes unconscious",
+        "category": "Whole Body",
+        "yes": 5,
+        "no": 0
+      },
+      {
+        "topicId": 363,
+        "name": "someone leaves without saying goodbye",
+        "category": "Abandonment",
+        "yes": 4,
+        "no": 0
+      },
+      {
+        "topicId": 299,
+        "name": "someone is drugged",
+        "category": "Assault",
+        "yes": 4,
+        "no": 1
+      },
+      {
+        "topicId": 315,
+        "name": "sexual assault on men is a joke",
+        "category": "Sexual Assault",
+        "yes": 4,
+        "no": 2
+      },
+      {
+        "topicId": 335,
+        "name": "there's natural bodies of water",
+        "category": "Fear",
+        "yes": 3,
+        "no": 0
+      }
+    ]
+  },
+  {
+    "ttId": "tt4468740",
+    "type": "movie",
+    "name": "Paddington 2",
+    "year": "2017",
+    "poster": "https://images.metahub.space/poster/small/tt4468740/img",
+    "background": "https://images.metahub.space/background/medium/tt4468740/img",
+    "dtddId": 14599,
+    "matched": true,
+    "triggers": [
+      {
+        "topicId": 262,
+        "name": "there are \"Man in a dress\" jokes",
+        "category": "Prejudice",
+        "yes": 14,
+        "no": 1
+      },
+      {
+        "topicId": 177,
+        "name": "there's shaving/cutting",
+        "category": "Whole Body",
+        "yes": 13,
+        "no": 2
+      },
+      {
+        "topicId": 211,
+        "name": "someone falls to their death",
+        "category": "Whole Body",
+        "yes": 13,
+        "no": 1
+      },
+      {
+        "topicId": 245,
+        "name": "someone struggles to breathe",
+        "category": "Neck",
+        "yes": 10,
+        "no": 1
+      },
+      {
+        "topicId": 202,
+        "name": "there's a claustrophobic scene",
+        "category": "Fear",
+        "yes": 7,
+        "no": 1
+      },
+      {
+        "topicId": 180,
+        "name": "there's spitting",
+        "category": "Gross",
+        "yes": 7,
+        "no": 2
+      },
+      {
+        "topicId": 274,
+        "name": "someone is restrained",
+        "category": "Assault",
+        "yes": 6,
+        "no": 0
+      },
+      {
+        "topicId": 270,
+        "name": "someone is homeless",
+        "category": "Social",
+        "yes": 5,
+        "no": 0
+      },
+      {
+        "topicId": 308,
+        "name": "someone is held under water",
+        "category": "Assault",
+        "yes": 4,
+        "no": 1
+      },
+      {
+        "topicId": 243,
+        "name": "someone is kidnapped",
+        "category": "Family",
+        "yes": 4,
+        "no": 1
+      },
+      {
+        "topicId": 260,
+        "name": "there's misophonia",
+        "category": "Mental Health",
+        "yes": 4,
+        "no": 2
+      },
+      {
+        "topicId": 263,
+        "name": "a mentally ill person is violent",
+        "category": "Mental Health",
+        "yes": 4,
+        "no": 3
+      },
+      {
+        "topicId": 318,
+        "name": "someone is watched without knowing",
+        "category": "Paranoia",
+        "yes": 4,
+        "no": 0
+      },
+      {
+        "topicId": 268,
+        "name": "the fourth wall is broken",
+        "category": "Paranoia",
+        "yes": 4,
+        "no": 1
+      },
+      {
+        "topicId": 346,
+        "name": "there's end credits scenes?",
+        "category": "Spoiler",
+        "yes": 4,
+        "no": 0
+      },
+      {
+        "topicId": 269,
+        "name": "a car honks or tires screech",
+        "category": "Vehicular",
+        "yes": 4,
+        "no": 0
+      },
+      {
+        "topicId": 298,
+        "name": "Someone becomes unconscious",
+        "category": "Whole Body",
+        "yes": 4,
+        "no": 0
+      },
+      {
+        "topicId": 355,
+        "name": "an animal is sad",
+        "category": "Animal Distress",
+        "yes": 3,
+        "no": 1
+      },
+      {
+        "topicId": 335,
+        "name": "there's natural bodies of water",
+        "category": "Fear",
+        "yes": 3,
+        "no": 0
+      },
+      {
+        "topicId": 295,
+        "name": "there are mannequins",
+        "category": "Fear",
+        "yes": 3,
+        "no": 0
+      },
+      {
+        "topicId": 345,
+        "name": "there's incarceration",
+        "category": "Law Enforcement",
+        "yes": 3,
+        "no": 0
+      },
+      {
+        "topicId": 334,
+        "name": "reality is unstable or unhinged",
+        "category": "Mental Health",
+        "yes": 2,
+        "no": 1
+      },
+      {
+        "topicId": 356,
+        "name": "there's underwater scenes",
+        "category": "Noxious",
+        "yes": 2,
+        "no": 1
+      }
+    ]
+  },
+  {
+    "ttId": "tt0114709",
+    "type": "movie",
+    "name": "Toy Story",
+    "year": "1995",
+    "poster": "https://images.metahub.space/poster/small/tt0114709/img",
+    "background": "https://images.metahub.space/background/medium/tt0114709/img",
+    "dtddId": 12405,
+    "matched": true,
+    "triggers": [
+      {
+        "topicId": 203,
+        "name": "there's torture",
+        "category": "Whole Body",
+        "yes": 41,
+        "no": 0
+      },
+      {
+        "topicId": 253,
+        "name": "A child's dear toy is destroyed",
+        "category": "Family",
+        "yes": 40,
+        "no": 0
+      },
+      {
+        "topicId": 250,
+        "name": "there's amputation",
+        "category": "Appendages",
+        "yes": 30,
+        "no": 0
+      },
+      {
+        "topicId": 165,
+        "name": "there are spiders",
+        "category": "Animal Phobia",
+        "yes": 29,
+        "no": 7
+      },
+      {
+        "topicId": 214,
+        "name": "there are snakes",
+        "category": "Animal Phobia",
+        "yes": 29,
+        "no": 8
+      },
+      {
+        "topicId": 213,
+        "name": "there are bugs",
+        "category": "Animal Phobia",
+        "yes": 28,
+        "no": 9
+      },
+      {
+        "topicId": 184,
+        "name": "a car crashes",
+        "category": "Vehicular",
+        "yes": 25,
+        "no": 3
+      },
+      {
+        "topicId": 252,
+        "name": "there's a dead animal",
+        "category": "Animal Death",
+        "yes": 24,
+        "no": 3
+      },
+      {
+        "topicId": 237,
+        "name": "someone gets gaslighted",
+        "category": "Abuse",
+        "yes": 23,
+        "no": 7
+      },
+      {
+        "topicId": 174,
+        "name": "there are clowns",
+        "category": "Fear",
+        "yes": 22,
+        "no": 5
+      },
+      {
+        "topicId": 201,
+        "name": "someone vomits",
+        "category": "Gross",
+        "yes": 22,
+        "no": 8
+      },
+      {
+        "topicId": 164,
+        "name": "someone is burned alive",
+        "category": "Whole Body",
+        "yes": 21,
+        "no": 2
+      },
+      {
+        "topicId": 240,
+        "name": "someone is buried alive",
+        "category": "Whole Body",
+        "yes": 21,
+        "no": 3
+      },
+      {
+        "topicId": 243,
+        "name": "someone is kidnapped",
+        "category": "Family",
+        "yes": 20,
+        "no": 5
+      },
+      {
+        "topicId": 262,
+        "name": "there are \"Man in a dress\" jokes",
+        "category": "Prejudice",
+        "yes": 18,
+        "no": 0
+      },
+      {
+        "topicId": 235,
+        "name": "someone has an anxiety attack",
+        "category": "Mental Health",
+        "yes": 15,
+        "no": 7
+      },
+      {
+        "topicId": 274,
+        "name": "someone is restrained",
+        "category": "Assault",
+        "yes": 14,
+        "no": 0
+      },
+      {
+        "topicId": 181,
+        "name": "shaky cam is used",
+        "category": "Noxious",
+        "yes": 14,
+        "no": 5
+      },
+      {
+        "topicId": 355,
+        "name": "an animal is sad",
+        "category": "Animal Distress",
+        "yes": 13,
+        "no": 1
+      },
+      {
+        "topicId": 305,
+        "name": "a non-human character dies",
+        "category": "Death",
+        "yes": 13,
+        "no": 0
+      },
+      {
+        "topicId": 269,
+        "name": "a car honks or tires screech",
+        "category": "Vehicular",
+        "yes": 13,
+        "no": 0
+      },
+      {
+        "topicId": 271,
+        "name": "someone falls down stairs",
+        "category": "Whole Body",
+        "yes": 13,
+        "no": 0
+      },
+      {
+        "topicId": 337,
+        "name": "there are sharks",
+        "category": "Animal Phobia",
+        "yes": 12,
+        "no": 1
+      },
+      {
+        "topicId": 296,
+        "name": "there's body horror",
+        "category": "Whole Body",
+        "yes": 11,
+        "no": 4
+      },
+      {
+        "topicId": 352,
+        "name": "hands are damaged",
+        "category": "Appendages",
+        "yes": 10,
+        "no": 2
+      },
+      {
+        "topicId": 331,
+        "name": "there's decapitation",
+        "category": "Head",
+        "yes": 10,
+        "no": 1
+      },
+      {
+        "topicId": 266,
+        "name": "there is a baby or unborn child",
+        "category": "Pregnancy",
+        "yes": 10,
+        "no": 4
+      },
+      {
+        "topicId": 330,
+        "name": "there's abusive parents",
+        "category": "Abuse",
+        "yes": 9,
+        "no": 7
+      },
+      {
+        "topicId": 360,
+        "name": "someone's mouth is covered",
+        "category": "Assault",
+        "yes": 9,
+        "no": 1
+      },
+      {
+        "topicId": 366,
+        "name": "there's screaming",
+        "category": "Noxious",
+        "yes": 9,
+        "no": 0
+      },
+      {
+        "topicId": 318,
+        "name": "someone is watched without knowing",
+        "category": "Paranoia",
+        "yes": 8,
+        "no": 1
+      },
+      {
+        "topicId": 289,
+        "name": "someone sacrifices themselves",
+        "category": "Death",
+        "yes": 7,
+        "no": 3
+      },
+      {
+        "topicId": 348,
+        "name": "someone has a meltdown",
+        "category": "Mental Health",
+        "yes": 6,
+        "no": 1
+      }
+    ]
+  },
+  {
+    "ttId": "tt0266543",
+    "type": "movie",
+    "name": "Finding Nemo",
+    "year": "2003",
+    "poster": "https://images.metahub.space/poster/small/tt0266543/img",
+    "background": "https://images.metahub.space/background/medium/tt0266543/img",
+    "dtddId": 9602,
+    "matched": true,
+    "triggers": [
+      {
+        "topicId": 189,
+        "name": "an animal dies",
+        "category": "Animal Death",
+        "yes": 65,
+        "no": 1
+      },
+      {
+        "topicId": 168,
+        "name": "a parent dies",
+        "category": "Family",
+        "yes": 62,
+        "no": 0
+      },
+      {
+        "topicId": 229,
+        "name": "animals are abused",
+        "category": "Animal Distress",
+        "yes": 52,
+        "no": 0
+      },
+      {
+        "topicId": 210,
+        "name": "teeth are damaged",
+        "category": "Head",
+        "yes": 47,
+        "no": 0
+      },
+      {
+        "topicId": 158,
+        "name": "a kid dies",
+        "category": "Children",
+        "yes": 40,
+        "no": 9
+      },
+      {
+        "topicId": 202,
+        "name": "there's a claustrophobic scene",
+        "category": "Fear",
+        "yes": 39,
+        "no": 2
+      },
+      {
+        "topicId": 243,
+        "name": "someone is kidnapped",
+        "category": "Family",
+        "yes": 35,
+        "no": 0
+      },
+      {
+        "topicId": 252,
+        "name": "there's a dead animal",
+        "category": "Animal Death",
+        "yes": 33,
+        "no": 0
+      },
+      {
+        "topicId": 180,
+        "name": "there's spitting",
+        "category": "Gross",
+        "yes": 32,
+        "no": 2
+      },
+      {
+        "topicId": 245,
+        "name": "someone struggles to breathe",
+        "category": "Neck",
+        "yes": 30,
+        "no": 1
+      },
+      {
+        "topicId": 190,
+        "name": "needles/syringes are used",
+        "category": "Medical",
+        "yes": 29,
+        "no": 7
+      },
+      {
+        "topicId": 244,
+        "name": "there's ableist language or behavior",
+        "category": "Prejudice",
+        "yes": 28,
+        "no": 5
+      },
+      {
+        "topicId": 188,
+        "name": "there's blood/gore",
+        "category": "Violence",
+        "yes": 28,
+        "no": 5
+      },
+      {
+        "topicId": 192,
+        "name": "there's a hospital scene",
+        "category": "Medical",
+        "yes": 27,
+        "no": 8
+      },
+      {
+        "topicId": 235,
+        "name": "someone has an anxiety attack",
+        "category": "Mental Health",
+        "yes": 25,
+        "no": 2
+      },
+      {
+        "topicId": 337,
+        "name": "there are sharks",
+        "category": "Animal Phobia",
+        "yes": 22,
+        "no": 1
+      },
+      {
+        "topicId": 230,
+        "name": "there's addiction",
+        "category": "Addiction",
+        "yes": 21,
+        "no": 9
+      },
+      {
+        "topicId": 161,
+        "name": "there are jump scares",
+        "category": "Fear",
+        "yes": 21,
+        "no": 14
+      },
+      {
+        "topicId": 195,
+        "name": "there's body dysmorphia",
+        "category": "Mental Health",
+        "yes": 18,
+        "no": 12
+      },
+      {
+        "topicId": 228,
+        "name": "there's childbirth",
+        "category": "Pregnancy",
+        "yes": 18,
+        "no": 7
+      },
+      {
+        "topicId": 285,
+        "name": "a pet dies",
+        "category": "Animal Death",
+        "yes": 17,
+        "no": 1
+      },
+      {
+        "topicId": 261,
+        "name": "a baby cries",
+        "category": "Children",
+        "yes": 16,
+        "no": 0
+      },
+      {
+        "topicId": 284,
+        "name": "an infant is abducted",
+        "category": "Children",
+        "yes": 14,
+        "no": 0
+      },
+      {
+        "topicId": 335,
+        "name": "there's natural bodies of water",
+        "category": "Fear",
+        "yes": 14,
+        "no": 0
+      },
+      {
+        "topicId": 257,
+        "name": "someone wets/soils themselves",
+        "category": "Gross",
+        "yes": 14,
+        "no": 2
+      },
+      {
+        "topicId": 298,
+        "name": "Someone becomes unconscious",
+        "category": "Whole Body",
+        "yes": 14,
+        "no": 0
+      },
+      {
+        "topicId": 305,
+        "name": "a non-human character dies",
+        "category": "Death",
+        "yes": 13,
+        "no": 0
+      },
+      {
+        "topicId": 322,
+        "name": "someone is eaten",
+        "category": "Gross",
+        "yes": 13,
+        "no": 0
+      },
+      {
+        "topicId": 356,
+        "name": "there's underwater scenes",
+        "category": "Noxious",
+        "yes": 13,
+        "no": 0
+      },
+      {
+        "topicId": 266,
+        "name": "there is a baby or unborn child",
+        "category": "Pregnancy",
+        "yes": 13,
+        "no": 0
+      },
+      {
+        "topicId": 311,
+        "name": "someone dies",
+        "category": "Death",
+        "yes": 11,
+        "no": 0
+      },
+      {
+        "topicId": 265,
+        "name": "someone suffers from PTSD",
+        "category": "Mental Health",
+        "yes": 11,
+        "no": 5
+      },
+      {
+        "topicId": 355,
+        "name": "an animal is sad",
+        "category": "Animal Distress",
+        "yes": 10,
+        "no": 0
+      },
+      {
+        "topicId": 274,
+        "name": "someone is restrained",
+        "category": "Assault",
+        "yes": 10,
+        "no": 5
+      },
+      {
+        "topicId": 253,
+        "name": "A child's dear toy is destroyed",
+        "category": "Family",
+        "yes": 10,
+        "no": 4
+      },
+      {
+        "topicId": 313,
+        "name": "a family member dies",
+        "category": "Family",
+        "yes": 10,
+        "no": 0
+      },
+      {
+        "topicId": 293,
+        "name": "a child is abandoned by a parent or guardian",
+        "category": "Abandonment",
+        "yes": 9,
+        "no": 3
+      },
+      {
+        "topicId": 363,
+        "name": "someone leaves without saying goodbye",
+        "category": "Abandonment",
+        "yes": 9,
+        "no": 0
+      },
+      {
+        "topicId": 346,
+        "name": "there's end credits scenes?",
+        "category": "Spoiler",
+        "yes": 9,
+        "no": 0
+      },
+      {
+        "topicId": 336,
+        "name": "someone has a mental illness",
+        "category": "Mental Health",
+        "yes": 8,
+        "no": 1
+      },
+      {
+        "topicId": 339,
+        "name": "there are sudden loud noises",
+        "category": "Noxious",
+        "yes": 8,
+        "no": 1
+      },
+      {
+        "topicId": 350,
+        "name": "an animal is abandoned",
+        "category": "Animal Distress",
+        "yes": 7,
+        "no": 1
+      },
+      {
+        "topicId": 366,
+        "name": "there's screaming",
+        "category": "Noxious",
+        "yes": 7,
+        "no": 1
+      },
+      {
+        "topicId": 328,
+        "name": "a major character dies",
+        "category": "Death",
+        "yes": 6,
+        "no": 1
+      },
+      {
+        "topicId": 324,
+        "name": "there's farting",
+        "category": "Gross",
+        "yes": 6,
+        "no": 1
+      },
+      {
+        "topicId": 345,
+        "name": "there's incarceration",
+        "category": "Law Enforcement",
+        "yes": 6,
+        "no": 1
+      },
+      {
+        "topicId": 318,
+        "name": "someone is watched without knowing",
+        "category": "Paranoia",
+        "yes": 6,
+        "no": 1
+      },
+      {
+        "topicId": 288,
+        "name": "someone has a chronic illness",
+        "category": "Sickness",
+        "yes": 5,
+        "no": 4
+      }
+    ]
+  },
+  {
+    "ttId": "tt1049413",
+    "type": "movie",
+    "name": "Up",
+    "year": "2009",
+    "poster": "https://images.metahub.space/poster/small/tt1049413/img",
+    "background": "https://images.metahub.space/background/medium/tt1049413/img",
+    "dtddId": 12736,
+    "matched": true,
+    "triggers": [
+      {
+        "topicId": 215,
+        "name": "someone miscarries",
+        "category": "Pregnancy",
+        "yes": 70,
+        "no": 1
+      },
+      {
+        "topicId": 192,
+        "name": "there's a hospital scene",
+        "category": "Medical",
+        "yes": 51,
+        "no": 0
+      },
+      {
+        "topicId": 211,
+        "name": "someone falls to their death",
+        "category": "Whole Body",
+        "yes": 47,
+        "no": 0
+      },
+      {
+        "topicId": 216,
+        "name": "someone breaks a bone",
+        "category": "Appendages",
+        "yes": 30,
+        "no": 8
+      },
+      {
+        "topicId": 231,
+        "name": "there's dog fighting",
+        "category": "Animal Distress",
+        "yes": 29,
+        "no": 12
+      },
+      {
+        "topicId": 180,
+        "name": "there's spitting",
+        "category": "Gross",
+        "yes": 29,
+        "no": 1
+      },
+      {
+        "topicId": 188,
+        "name": "there's blood/gore",
+        "category": "Violence",
+        "yes": 24,
+        "no": 12
+      },
+      {
+        "topicId": 242,
+        "name": "someone is stalked",
+        "category": "Abuse",
+        "yes": 23,
+        "no": 3
+      },
+      {
+        "topicId": 232,
+        "name": "there's gun violence",
+        "category": "Violence",
+        "yes": 23,
+        "no": 2
+      },
+      {
+        "topicId": 168,
+        "name": "a parent dies",
+        "category": "Family",
+        "yes": 22,
+        "no": 15
+      },
+      {
+        "topicId": 311,
+        "name": "someone dies",
+        "category": "Death",
+        "yes": 16,
+        "no": 0
+      },
+      {
+        "topicId": 350,
+        "name": "an animal is abandoned",
+        "category": "Animal Distress",
+        "yes": 15,
+        "no": 1
+      },
+      {
+        "topicId": 355,
+        "name": "an animal is sad",
+        "category": "Animal Distress",
+        "yes": 15,
+        "no": 0
+      },
+      {
+        "topicId": 274,
+        "name": "someone is restrained",
+        "category": "Assault",
+        "yes": 15,
+        "no": 1
+      },
+      {
+        "topicId": 328,
+        "name": "a major character dies",
+        "category": "Death",
+        "yes": 15,
+        "no": 0
+      },
+      {
+        "topicId": 313,
+        "name": "a family member dies",
+        "category": "Family",
+        "yes": 14,
+        "no": 0
+      },
+      {
+        "topicId": 293,
+        "name": "a child is abandoned by a parent or guardian",
+        "category": "Abandonment",
+        "yes": 13,
+        "no": 1
+      },
+      {
+        "topicId": 260,
+        "name": "there's misophonia",
+        "category": "Mental Health",
+        "yes": 13,
+        "no": 0
+      },
+      {
+        "topicId": 335,
+        "name": "there's natural bodies of water",
+        "category": "Fear",
+        "yes": 11,
+        "no": 0
+      },
+      {
+        "topicId": 347,
+        "name": "the abused forgives their abuser",
+        "category": "Abuse",
+        "yes": 10,
+        "no": 3
+      },
+      {
+        "topicId": 327,
+        "name": "someone is terminally ill",
+        "category": "Sickness",
+        "yes": 8,
+        "no": 0
+      },
+      {
+        "topicId": 288,
+        "name": "someone has a chronic illness",
+        "category": "Sickness",
+        "yes": 8,
+        "no": 0
+      },
+      {
+        "topicId": 339,
+        "name": "there are sudden loud noises",
+        "category": "Noxious",
+        "yes": 6,
+        "no": 1
+      },
+      {
+        "topicId": 366,
+        "name": "there's screaming",
+        "category": "Noxious",
+        "yes": 6,
+        "no": 1
+      },
+      {
+        "topicId": 318,
+        "name": "someone is watched without knowing",
+        "category": "Paranoia",
+        "yes": 5,
+        "no": 1
+      }
+    ]
+  },
+  {
+    "ttId": "tt2096673",
+    "type": "movie",
+    "name": "Inside Out",
+    "year": "2015",
+    "poster": "https://images.metahub.space/poster/small/tt2096673/img",
+    "background": "https://images.metahub.space/background/medium/tt2096673/img",
+    "dtddId": 10092,
+    "matched": true,
+    "triggers": [
+      {
+        "topicId": 174,
+        "name": "there are clowns",
+        "category": "Fear",
+        "yes": 64,
+        "no": 1
+      },
+      {
+        "topicId": 189,
+        "name": "an animal dies",
+        "category": "Animal Death",
+        "yes": 58,
+        "no": 5
+      },
+      {
+        "topicId": 210,
+        "name": "teeth are damaged",
+        "category": "Head",
+        "yes": 48,
+        "no": 4
+      },
+      {
+        "topicId": 252,
+        "name": "there's a dead animal",
+        "category": "Animal Death",
+        "yes": 45,
+        "no": 0
+      },
+      {
+        "topicId": 253,
+        "name": "A child's dear toy is destroyed",
+        "category": "Family",
+        "yes": 44,
+        "no": 4
+      },
+      {
+        "topicId": 261,
+        "name": "a baby cries",
+        "category": "Children",
+        "yes": 31,
+        "no": 0
+      },
+      {
+        "topicId": 235,
+        "name": "someone has an anxiety attack",
+        "category": "Mental Health",
+        "yes": 31,
+        "no": 3
+      },
+      {
+        "topicId": 305,
+        "name": "a non-human character dies",
+        "category": "Death",
+        "yes": 29,
+        "no": 1
+      },
+      {
+        "topicId": 289,
+        "name": "someone sacrifices themselves",
+        "category": "Death",
+        "yes": 27,
+        "no": 2
+      },
+      {
+        "topicId": 311,
+        "name": "someone dies",
+        "category": "Death",
+        "yes": 23,
+        "no": 0
+      },
+      {
+        "topicId": 328,
+        "name": "a major character dies",
+        "category": "Death",
+        "yes": 21,
+        "no": 3
+      },
+      {
+        "topicId": 266,
+        "name": "there is a baby or unborn child",
+        "category": "Pregnancy",
+        "yes": 21,
+        "no": 0
+      },
+      {
+        "topicId": 363,
+        "name": "someone leaves without saying goodbye",
+        "category": "Abandonment",
+        "yes": 20,
+        "no": 2
+      },
+      {
+        "topicId": 268,
+        "name": "the fourth wall is broken",
+        "category": "Paranoia",
+        "yes": 15,
+        "no": 1
+      },
+      {
+        "topicId": 269,
+        "name": "a car honks or tires screech",
+        "category": "Vehicular",
+        "yes": 15,
+        "no": 2
+      },
+      {
+        "topicId": 355,
+        "name": "an animal is sad",
+        "category": "Animal Distress",
+        "yes": 14,
+        "no": 11
+      },
+      {
+        "topicId": 366,
+        "name": "there's screaming",
+        "category": "Noxious",
+        "yes": 13,
+        "no": 1
+      },
+      {
+        "topicId": 346,
+        "name": "there's end credits scenes?",
+        "category": "Spoiler",
+        "yes": 13,
+        "no": 0
+      }
+    ]
+  },
+  {
+    "ttId": "tt2380307",
+    "type": "movie",
+    "name": "Coco",
+    "year": "2017",
+    "poster": "https://images.metahub.space/poster/small/tt2380307/img",
+    "background": "https://images.metahub.space/background/medium/tt2380307/img",
+    "dtddId": 13647,
+    "matched": true,
+    "triggers": [
+      {
+        "topicId": 168,
+        "name": "a parent dies",
+        "category": "Family",
+        "yes": 117,
+        "no": 3
+      },
+      {
+        "topicId": 207,
+        "name": "there's ghosts",
+        "category": "Fear",
+        "yes": 78,
+        "no": 12
+      },
+      {
+        "topicId": 180,
+        "name": "there's spitting",
+        "category": "Gross",
+        "yes": 57,
+        "no": 4
+      },
+      {
+        "topicId": 253,
+        "name": "A child's dear toy is destroyed",
+        "category": "Family",
+        "yes": 52,
+        "no": 0
+      },
+      {
+        "topicId": 237,
+        "name": "someone gets gaslighted",
+        "category": "Abuse",
+        "yes": 48,
+        "no": 6
+      },
+      {
+        "topicId": 218,
+        "name": "there's child abuse",
+        "category": "Abuse",
+        "yes": 42,
+        "no": 32
+      },
+      {
+        "topicId": 245,
+        "name": "someone struggles to breathe",
+        "category": "Neck",
+        "yes": 31,
+        "no": 1
+      },
+      {
+        "topicId": 282,
+        "name": "someone is crushed to death",
+        "category": "Whole Body",
+        "yes": 22,
+        "no": 1
+      },
+      {
+        "topicId": 293,
+        "name": "a child is abandoned by a parent or guardian",
+        "category": "Abandonment",
+        "yes": 21,
+        "no": 0
+      },
+      {
+        "topicId": 291,
+        "name": "someone has dementia/Alzheimer's",
+        "category": "Sickness",
+        "yes": 20,
+        "no": 0
+      },
+      {
+        "topicId": 266,
+        "name": "there is a baby or unborn child",
+        "category": "Pregnancy",
+        "yes": 18,
+        "no": 1
+      },
+      {
+        "topicId": 262,
+        "name": "there are \"Man in a dress\" jokes",
+        "category": "Prejudice",
+        "yes": 17,
+        "no": 4
+      },
+      {
+        "topicId": 299,
+        "name": "someone is drugged",
+        "category": "Assault",
+        "yes": 15,
+        "no": 2
+      },
+      {
+        "topicId": 355,
+        "name": "an animal is sad",
+        "category": "Animal Distress",
+        "yes": 14,
+        "no": 0
+      },
+      {
+        "topicId": 311,
+        "name": "someone dies",
+        "category": "Death",
+        "yes": 11,
+        "no": 1
+      },
+      {
+        "topicId": 313,
+        "name": "a family member dies",
+        "category": "Family",
+        "yes": 11,
+        "no": 0
+      },
+      {
+        "topicId": 347,
+        "name": "the abused forgives their abuser",
+        "category": "Abuse",
+        "yes": 10,
+        "no": 2
+      },
+      {
+        "topicId": 328,
+        "name": "a major character dies",
+        "category": "Death",
+        "yes": 10,
+        "no": 0
+      },
+      {
+        "topicId": 363,
+        "name": "someone leaves without saying goodbye",
+        "category": "Abandonment",
+        "yes": 9,
+        "no": 0
+      },
+      {
+        "topicId": 335,
+        "name": "there's natural bodies of water",
+        "category": "Fear",
+        "yes": 6,
+        "no": 4
+      },
+      {
+        "topicId": 356,
+        "name": "there's underwater scenes",
+        "category": "Noxious",
+        "yes": 6,
+        "no": 1
+      },
+      {
+        "topicId": 327,
+        "name": "someone is terminally ill",
+        "category": "Sickness",
+        "yes": 5,
+        "no": 4
+      },
+      {
+        "topicId": 362,
+        "name": "someone dislocates something",
+        "category": "Appendages",
+        "yes": 4,
+        "no": 0
+      },
+      {
+        "topicId": 366,
+        "name": "there's screaming",
+        "category": "Noxious",
+        "yes": 4,
+        "no": 2
+      },
+      {
+        "topicId": 351,
+        "name": "religion is discussed",
+        "category": "Religious",
+        "yes": 4,
+        "no": 2
+      },
+      {
+        "topicId": 360,
+        "name": "someone's mouth is covered",
+        "category": "Assault",
+        "yes": 3,
+        "no": 1
+      }
+    ]
+  },
+  {
+    "ttId": "tt0245429",
+    "type": "movie",
+    "name": "Spirited Away",
+    "year": "2003",
+    "poster": "https://images.metahub.space/poster/small/tt0245429/img",
+    "background": "https://images.metahub.space/background/medium/tt0245429/img",
+    "dtddId": 11349,
+    "matched": true,
+    "triggers": [
+      {
+        "topicId": 201,
+        "name": "someone vomits",
+        "category": "Gross",
+        "yes": 122,
+        "no": 4
+      },
+      {
+        "topicId": 229,
+        "name": "animals are abused",
+        "category": "Animal Distress",
+        "yes": 83,
+        "no": 10
+      },
+      {
+        "topicId": 188,
+        "name": "there's blood/gore",
+        "category": "Violence",
+        "yes": 67,
+        "no": 0
+      },
+      {
+        "topicId": 207,
+        "name": "there's ghosts",
+        "category": "Fear",
+        "yes": 65,
+        "no": 2
+      },
+      {
+        "topicId": 242,
+        "name": "someone is stalked",
+        "category": "Abuse",
+        "yes": 56,
+        "no": 10
+      },
+      {
+        "topicId": 218,
+        "name": "there's child abuse",
+        "category": "Abuse",
+        "yes": 54,
+        "no": 17
+      },
+      {
+        "topicId": 180,
+        "name": "there's spitting",
+        "category": "Gross",
+        "yes": 52,
+        "no": 3
+      },
+      {
+        "topicId": 224,
+        "name": "someone is possessed",
+        "category": "Fear",
+        "yes": 50,
+        "no": 3
+      },
+      {
+        "topicId": 261,
+        "name": "a baby cries",
+        "category": "Children",
+        "yes": 47,
+        "no": 0
+      },
+      {
+        "topicId": 213,
+        "name": "there are bugs",
+        "category": "Animal Phobia",
+        "yes": 45,
+        "no": 23
+      },
+      {
+        "topicId": 245,
+        "name": "someone struggles to breathe",
+        "category": "Neck",
+        "yes": 44,
+        "no": 7
+      },
+      {
+        "topicId": 233,
+        "name": "there's fat jokes",
+        "category": "Prejudice",
+        "yes": 43,
+        "no": 17
+      },
+      {
+        "topicId": 202,
+        "name": "there's a claustrophobic scene",
+        "category": "Fear",
+        "yes": 42,
+        "no": 8
+      },
+      {
+        "topicId": 260,
+        "name": "there's misophonia",
+        "category": "Mental Health",
+        "yes": 35,
+        "no": 2
+      },
+      {
+        "topicId": 266,
+        "name": "there is a baby or unborn child",
+        "category": "Pregnancy",
+        "yes": 34,
+        "no": 0
+      },
+      {
+        "topicId": 274,
+        "name": "someone is restrained",
+        "category": "Assault",
+        "yes": 28,
+        "no": 1
+      },
+      {
+        "topicId": 293,
+        "name": "a child is abandoned by a parent or guardian",
+        "category": "Abandonment",
+        "yes": 24,
+        "no": 3
+      },
+      {
+        "topicId": 296,
+        "name": "there's body horror",
+        "category": "Whole Body",
+        "yes": 24,
+        "no": 1
+      },
+      {
+        "topicId": 322,
+        "name": "someone is eaten",
+        "category": "Gross",
+        "yes": 22,
+        "no": 0
+      },
+      {
+        "topicId": 269,
+        "name": "a car honks or tires screech",
+        "category": "Vehicular",
+        "yes": 20,
+        "no": 0
+      },
+      {
+        "topicId": 298,
+        "name": "Someone becomes unconscious",
+        "category": "Whole Body",
+        "yes": 18,
+        "no": 1
+      },
+      {
+        "topicId": 335,
+        "name": "there's natural bodies of water",
+        "category": "Fear",
+        "yes": 17,
+        "no": 0
+      },
+      {
+        "topicId": 363,
+        "name": "someone leaves without saying goodbye",
+        "category": "Abandonment",
+        "yes": 16,
+        "no": 0
+      },
+      {
+        "topicId": 355,
+        "name": "an animal is sad",
+        "category": "Animal Distress",
+        "yes": 15,
+        "no": 0
+      },
+      {
+        "topicId": 308,
+        "name": "someone is held under water",
+        "category": "Assault",
+        "yes": 14,
+        "no": 2
+      },
+      {
+        "topicId": 334,
+        "name": "reality is unstable or unhinged",
+        "category": "Mental Health",
+        "yes": 14,
+        "no": 0
+      },
+      {
+        "topicId": 347,
+        "name": "the abused forgives their abuser",
+        "category": "Abuse",
+        "yes": 12,
+        "no": 1
+      },
+      {
+        "topicId": 318,
+        "name": "someone is watched without knowing",
+        "category": "Paranoia",
+        "yes": 12,
+        "no": 2
+      },
+      {
+        "topicId": 366,
+        "name": "there's screaming",
+        "category": "Noxious",
+        "yes": 11,
+        "no": 0
+      },
+      {
+        "topicId": 356,
+        "name": "there's underwater scenes",
+        "category": "Noxious",
+        "yes": 11,
+        "no": 0
+      },
+      {
+        "topicId": 331,
+        "name": "there's decapitation",
+        "category": "Head",
+        "yes": 10,
+        "no": 2
+      },
+      {
+        "topicId": 348,
+        "name": "someone has a meltdown",
+        "category": "Mental Health",
+        "yes": 9,
+        "no": 0
+      },
+      {
+        "topicId": 339,
+        "name": "there are sudden loud noises",
+        "category": "Noxious",
+        "yes": 9,
+        "no": 0
+      },
+      {
+        "topicId": 360,
+        "name": "someone's mouth is covered",
+        "category": "Assault",
+        "yes": 8,
+        "no": 0
+      }
+    ]
+  },
+  {
+    "ttId": "tt4574334",
+    "type": "series",
+    "name": "Stranger Things",
+    "year": "2016–2025",
+    "poster": "https://images.metahub.space/poster/small/tt4574334/img",
+    "background": "https://images.metahub.space/background/medium/tt4574334/img",
+    "dtddId": 700663,
+    "matched": true,
+    "triggers": [
+      {
+        "topicId": 201,
+        "name": "someone vomits",
+        "category": "Gross",
+        "yes": 1054,
+        "no": 148
+      },
+      {
+        "topicId": 186,
+        "name": "a cat dies",
+        "category": "Animal Death",
+        "yes": 975,
+        "no": 128
+      },
+      {
+        "topicId": 189,
+        "name": "an animal dies",
+        "category": "Animal Death",
+        "yes": 839,
+        "no": 27
+      },
+      {
+        "topicId": 165,
+        "name": "there are spiders",
+        "category": "Animal Phobia",
+        "yes": 667,
+        "no": 80
+      },
+      {
+        "topicId": 161,
+        "name": "there are jump scares",
+        "category": "Fear",
+        "yes": 608,
+        "no": 27
+      },
+      {
+        "topicId": 158,
+        "name": "a kid dies",
+        "category": "Children",
+        "yes": 591,
+        "no": 45
+      },
+      {
+        "topicId": 229,
+        "name": "animals are abused",
+        "category": "Animal Distress",
+        "yes": 584,
+        "no": 98
+      },
+      {
+        "topicId": 213,
+        "name": "there are bugs",
+        "category": "Animal Phobia",
+        "yes": 563,
+        "no": 22
+      },
+      {
+        "topicId": 218,
+        "name": "there's child abuse",
+        "category": "Abuse",
+        "yes": 537,
+        "no": 18
+      },
+      {
+        "topicId": 252,
+        "name": "there's a dead animal",
+        "category": "Animal Death",
+        "yes": 536,
+        "no": 13
+      },
+      {
+        "topicId": 203,
+        "name": "there's torture",
+        "category": "Whole Body",
+        "yes": 524,
+        "no": 7
+      },
+      {
+        "topicId": 167,
+        "name": "there's flashing lights or images",
+        "category": "Noxious",
+        "yes": 507,
+        "no": 31
+      },
+      {
+        "topicId": 168,
+        "name": "a parent dies",
+        "category": "Family",
+        "yes": 483,
+        "no": 27
+      },
+      {
+        "topicId": 225,
+        "name": "alcohol abuse",
+        "category": "Addiction",
+        "yes": 477,
+        "no": 8
+      },
+      {
+        "topicId": 188,
+        "name": "there's blood/gore",
+        "category": "Violence",
+        "yes": 472,
+        "no": 1
+      },
+      {
+        "topicId": 190,
+        "name": "needles/syringes are used",
+        "category": "Medical",
+        "yes": 470,
+        "no": 16
+      },
+      {
+        "topicId": 216,
+        "name": "someone breaks a bone",
+        "category": "Appendages",
+        "yes": 462,
+        "no": 10
+      },
+      {
+        "topicId": 192,
+        "name": "there's a hospital scene",
+        "category": "Medical",
+        "yes": 434,
+        "no": 4
+      },
+      {
+        "topicId": 219,
+        "name": "there's domestic violence",
+        "category": "Abuse",
+        "yes": 431,
+        "no": 28
+      },
+      {
+        "topicId": 224,
+        "name": "someone is possessed",
+        "category": "Fear",
+        "yes": 427,
+        "no": 12
+      },
+      {
+        "topicId": 193,
+        "name": "someone uses drugs",
+        "category": "Addiction",
+        "yes": 422,
+        "no": 85
+      },
+      {
+        "topicId": 177,
+        "name": "there's shaving/cutting",
+        "category": "Whole Body",
+        "yes": 415,
+        "no": 35
+      },
+      {
+        "topicId": 242,
+        "name": "someone is stalked",
+        "category": "Abuse",
+        "yes": 411,
+        "no": 12
+      },
+      {
+        "topicId": 230,
+        "name": "there's addiction",
+        "category": "Addiction",
+        "yes": 410,
+        "no": 27
+      },
+      {
+        "topicId": 180,
+        "name": "there's spitting",
+        "category": "Gross",
+        "yes": 405,
+        "no": 19
+      },
+      {
+        "topicId": 206,
+        "name": "someone has a seizure",
+        "category": "Whole Body",
+        "yes": 386,
+        "no": 42
+      },
+      {
+        "topicId": 237,
+        "name": "someone gets gaslighted",
+        "category": "Abuse",
+        "yes": 385,
+        "no": 75
+      },
+      {
+        "topicId": 184,
+        "name": "a car crashes",
+        "category": "Vehicular",
+        "yes": 383,
+        "no": 30
+      },
+      {
+        "topicId": 205,
+        "name": "electro-therapy is used",
+        "category": "Medical",
+        "yes": 374,
+        "no": 38
+      },
+      {
+        "topicId": 171,
+        "name": "there's finger/toe mutilation",
+        "category": "Appendages",
+        "yes": 358,
+        "no": 67
+      },
+      {
+        "topicId": 220,
+        "name": "there's a mental institution scene",
+        "category": "Medical",
+        "yes": 348,
+        "no": 39
+      },
+      {
+        "topicId": 204,
+        "name": "someone has cancer",
+        "category": "Medical",
+        "yes": 341,
+        "no": 70
+      },
+      {
+        "topicId": 267,
+        "name": "there's excessive gore",
+        "category": "Whole Body",
+        "yes": 341,
+        "no": 21
+      },
+      {
+        "topicId": 176,
+        "name": "there are shower scenes",
+        "category": "Fear",
+        "yes": 339,
+        "no": 80
+      },
+      {
+        "topicId": 212,
+        "name": "someone speaks hate speech",
+        "category": "Prejudice",
+        "yes": 337,
+        "no": 20
+      },
+      {
+        "topicId": 200,
+        "name": "there's eye mutilation",
+        "category": "Head",
+        "yes": 336,
+        "no": 139
+      },
+      {
+        "topicId": 235,
+        "name": "someone has an anxiety attack",
+        "category": "Mental Health",
+        "yes": 329,
+        "no": 11
+      },
+      {
+        "topicId": 233,
+        "name": "there's fat jokes",
+        "category": "Prejudice",
+        "yes": 324,
+        "no": 38
+      },
+      {
+        "topicId": 232,
+        "name": "there's gun violence",
+        "category": "Violence",
+        "yes": 317,
+        "no": 11
+      },
+      {
+        "topicId": 243,
+        "name": "someone is kidnapped",
+        "category": "Family",
+        "yes": 311,
+        "no": 6
+      },
+      {
+        "topicId": 245,
+        "name": "someone struggles to breathe",
+        "category": "Neck",
+        "yes": 310,
+        "no": 5
+      },
+      {
+        "topicId": 202,
+        "name": "there's a claustrophobic scene",
+        "category": "Fear",
+        "yes": 308,
+        "no": 30
+      },
+      {
+        "topicId": 199,
+        "name": "someone self harms",
+        "category": "Self Harm",
+        "yes": 301,
+        "no": 259
+      },
+      {
+        "topicId": 197,
+        "name": "there is sexual content",
+        "category": "Sex",
+        "yes": 297,
+        "no": 46
+      },
+      {
+        "topicId": 255,
+        "name": "There's audio gore",
+        "category": "Gross",
+        "yes": 290,
+        "no": 6
+      },
+      {
+        "topicId": 247,
+        "name": "there are homophobic slurs",
+        "category": "Prejudice",
+        "yes": 279,
+        "no": 29
+      },
+      {
+        "topicId": 217,
+        "name": "someone has an eating disorder",
+        "category": "Mental Health",
+        "yes": 277,
+        "no": 177
+      },
+      {
+        "topicId": 265,
+        "name": "someone suffers from PTSD",
+        "category": "Mental Health",
+        "yes": 257,
+        "no": 1
+      },
+      {
+        "topicId": 164,
+        "name": "someone is burned alive",
+        "category": "Whole Body",
+        "yes": 253,
+        "no": 198
+      },
+      {
+        "topicId": 241,
+        "name": "someone cheats",
+        "category": "Family",
+        "yes": 250,
+        "no": 63
+      },
+      {
+        "topicId": 285,
+        "name": "a pet dies",
+        "category": "Animal Death",
+        "yes": 248,
+        "no": 24
+      },
+      {
+        "topicId": 257,
+        "name": "someone wets/soils themselves",
+        "category": "Gross",
+        "yes": 237,
+        "no": 39
+      },
+      {
+        "topicId": 181,
+        "name": "shaky cam is used",
+        "category": "Noxious",
+        "yes": 232,
+        "no": 85
+      },
+      {
+        "topicId": 191,
+        "name": "someone drowns",
+        "category": "Violence",
+        "yes": 226,
+        "no": 89
+      },
+      {
+        "topicId": 244,
+        "name": "there's ableist language or behavior",
+        "category": "Prejudice",
+        "yes": 212,
+        "no": 37
+      },
+      {
+        "topicId": 222,
+        "name": "the ending is sad",
+        "category": "Spoiler",
+        "yes": 211,
+        "no": 71
+      },
+      {
+        "topicId": 261,
+        "name": "a baby cries",
+        "category": "Children",
+        "yes": 205,
+        "no": 10
+      },
+      {
+        "topicId": 228,
+        "name": "there's childbirth",
+        "category": "Pregnancy",
+        "yes": 204,
+        "no": 80
+      },
+      {
+        "topicId": 274,
+        "name": "someone is restrained",
+        "category": "Assault",
+        "yes": 200,
+        "no": 1
+      },
+      {
+        "topicId": 259,
+        "name": "someone says \"I'll kill myself\"",
+        "category": "Self Harm",
+        "yes": 192,
+        "no": 23
+      },
+      {
+        "topicId": 266,
+        "name": "there is a baby or unborn child",
+        "category": "Pregnancy",
+        "yes": 175,
+        "no": 12
+      },
+      {
+        "topicId": 260,
+        "name": "there's misophonia",
+        "category": "Mental Health",
+        "yes": 164,
+        "no": 16
+      },
+      {
+        "topicId": 304,
+        "name": "the abused becomes the abuser",
+        "category": "Abuse",
+        "yes": 160,
+        "no": 8
+      },
+      {
+        "topicId": 293,
+        "name": "a child is abandoned by a parent or guardian",
+        "category": "Abandonment",
+        "yes": 150,
+        "no": 13
+      },
+      {
+        "topicId": 256,
+        "name": "there is copaganda",
+        "category": "Law Enforcement",
+        "yes": 146,
+        "no": 88
+      },
+      {
+        "topicId": 269,
+        "name": "a car honks or tires screech",
+        "category": "Vehicular",
+        "yes": 142,
+        "no": 1
+      },
+      {
+        "topicId": 330,
+        "name": "there's abusive parents",
+        "category": "Abuse",
+        "yes": 139,
+        "no": 9
+      },
+      {
+        "topicId": 299,
+        "name": "someone is drugged",
+        "category": "Assault",
+        "yes": 125,
+        "no": 4
+      },
+      {
+        "topicId": 321,
+        "name": "someone is beaten up by a bully",
+        "category": "Assault",
+        "yes": 118,
+        "no": 2
+      },
+      {
+        "topicId": 270,
+        "name": "someone is homeless",
+        "category": "Social",
+        "yes": 118,
+        "no": 25
+      },
+      {
+        "topicId": 296,
+        "name": "there's body horror",
+        "category": "Whole Body",
+        "yes": 118,
+        "no": 6
+      },
+      {
+        "topicId": 253,
+        "name": "A child's dear toy is destroyed",
+        "category": "Family",
+        "yes": 111,
+        "no": 93
+      },
+      {
+        "topicId": 273,
+        "name": "a male character is ridiculed for crying",
+        "category": "Sexism",
+        "yes": 111,
+        "no": 21
+      },
+      {
+        "topicId": 289,
+        "name": "someone sacrifices themselves",
+        "category": "Death",
+        "yes": 110,
+        "no": 7
+      },
+      {
+        "topicId": 347,
+        "name": "the abused forgives their abuser",
+        "category": "Abuse",
+        "yes": 108,
+        "no": 17
+      },
+      {
+        "topicId": 363,
+        "name": "someone leaves without saying goodbye",
+        "category": "Abandonment",
+        "yes": 103,
+        "no": 9
+      },
+      {
+        "topicId": 284,
+        "name": "an infant is abducted",
+        "category": "Children",
+        "yes": 102,
+        "no": 12
+      },
+      {
+        "topicId": 311,
+        "name": "someone dies",
+        "category": "Death",
+        "yes": 97,
+        "no": 1
+      },
+      {
+        "topicId": 338,
+        "name": "rabbits are harmed",
+        "category": "Animal Distress",
+        "yes": 96,
+        "no": 19
+      },
+      {
+        "topicId": 298,
+        "name": "Someone becomes unconscious",
+        "category": "Whole Body",
+        "yes": 93,
+        "no": 0
+      },
+      {
+        "topicId": 305,
+        "name": "a non-human character dies",
+        "category": "Death",
+        "yes": 91,
+        "no": 5
+      },
+      {
+        "topicId": 309,
+        "name": "somebody is choked",
+        "category": "Neck",
+        "yes": 83,
+        "no": 3
+      },
+      {
+        "topicId": 277,
+        "name": "there's a large age gap",
+        "category": "Relationships",
+        "yes": 82,
+        "no": 26
+      },
+      {
+        "topicId": 360,
+        "name": "someone's mouth is covered",
+        "category": "Assault",
+        "yes": 81,
+        "no": 4
+      },
+      {
+        "topicId": 328,
+        "name": "a major character dies",
+        "category": "Death",
+        "yes": 81,
+        "no": 9
+      },
+      {
+        "topicId": 308,
+        "name": "someone is held under water",
+        "category": "Assault",
+        "yes": 80,
+        "no": 16
+      },
+      {
+        "topicId": 322,
+        "name": "someone is eaten",
+        "category": "Gross",
+        "yes": 75,
+        "no": 12
+      },
+      {
+        "topicId": 313,
+        "name": "a family member dies",
+        "category": "Family",
+        "yes": 74,
+        "no": 6
+      },
+      {
+        "topicId": 366,
+        "name": "there's screaming",
+        "category": "Noxious",
+        "yes": 72,
+        "no": 0
+      },
+      {
+        "topicId": 286,
+        "name": "Someone attempts suicide",
+        "category": "Self Harm",
+        "yes": 72,
+        "no": 36
+      },
+      {
+        "topicId": 276,
+        "name": "someone is sexually objectified",
+        "category": "Sex",
+        "yes": 71,
+        "no": 15
+      },
+      {
+        "topicId": 334,
+        "name": "reality is unstable or unhinged",
+        "category": "Mental Health",
+        "yes": 69,
+        "no": 2
+      },
+      {
+        "topicId": 290,
+        "name": "there is obscene language/gestures",
+        "category": "Noxious",
+        "yes": 68,
+        "no": 2
+      },
+      {
+        "topicId": 318,
+        "name": "someone is watched without knowing",
+        "category": "Paranoia",
+        "yes": 66,
+        "no": 2
+      },
+      {
+        "topicId": 339,
+        "name": "there are sudden loud noises",
+        "category": "Noxious",
+        "yes": 65,
+        "no": 0
+      },
+      {
+        "topicId": 336,
+        "name": "someone has a mental illness",
+        "category": "Mental Health",
+        "yes": 64,
+        "no": 4
+      },
+      {
+        "topicId": 361,
+        "name": "someone's throat is mutilated",
+        "category": "Neck",
+        "yes": 64,
+        "no": 9
+      },
+      {
+        "topicId": 335,
+        "name": "there's natural bodies of water",
+        "category": "Fear",
+        "yes": 61,
+        "no": 5
+      },
+      {
+        "topicId": 295,
+        "name": "there are mannequins",
+        "category": "Fear",
+        "yes": 59,
+        "no": 7
+      },
+      {
+        "topicId": 343,
+        "name": "someone is stabbed",
+        "category": "Whole Body",
+        "yes": 58,
+        "no": 3
+      },
+      {
+        "topicId": 297,
+        "name": "there are razors",
+        "category": "Fear",
+        "yes": 57,
+        "no": 10
+      },
+      {
+        "topicId": 324,
+        "name": "there's farting",
+        "category": "Gross",
+        "yes": 57,
+        "no": 11
+      },
+      {
+        "topicId": 327,
+        "name": "someone is terminally ill",
+        "category": "Sickness",
+        "yes": 54,
+        "no": 7
+      },
+      {
+        "topicId": 342,
+        "name": "a woman gets slapped",
+        "category": "Assault",
+        "yes": 52,
+        "no": 30
+      },
+      {
+        "topicId": 331,
+        "name": "there's decapitation",
+        "category": "Head",
+        "yes": 52,
+        "no": 17
+      },
+      {
+        "topicId": 317,
+        "name": "someone loses their virginity",
+        "category": "Sex",
+        "yes": 52,
+        "no": 11
+      },
+      {
+        "topicId": 356,
+        "name": "there's underwater scenes",
+        "category": "Noxious",
+        "yes": 50,
+        "no": 2
+      },
+      {
+        "topicId": 362,
+        "name": "someone dislocates something",
+        "category": "Appendages",
+        "yes": 49,
+        "no": 11
+      },
+      {
+        "topicId": 345,
+        "name": "there's incarceration",
+        "category": "Law Enforcement",
+        "yes": 39,
+        "no": 8
+      },
+      {
+        "topicId": 352,
+        "name": "hands are damaged",
+        "category": "Appendages",
+        "yes": 38,
+        "no": 22
+      },
+      {
+        "topicId": 312,
+        "name": "trypophobic content is shown",
+        "category": "Fear",
+        "yes": 38,
+        "no": 12
+      },
+      {
+        "topicId": 300,
+        "name": "there's fat suits",
+        "category": "Social",
+        "yes": 37,
+        "no": 15
+      },
+      {
+        "topicId": 369,
+        "name": "there's demons or Hell",
+        "category": "Religious",
+        "yes": 36,
+        "no": 15
+      },
+      {
+        "topicId": 351,
+        "name": "religion is discussed",
+        "category": "Religious",
+        "yes": 26,
+        "no": 20
+      },
+      {
+        "topicId": 370,
+        "name": "there's dissociation, depersonalization, or derealization",
+        "category": "Mental Health",
+        "yes": 24,
+        "no": 15
+      }
+    ]
+  },
+  {
+    "ttId": "tt0903747",
+    "type": "series",
+    "name": "Breaking Bad",
+    "year": "2008–2013",
+    "poster": "https://images.metahub.space/poster/small/tt0903747/img",
+    "background": "https://images.metahub.space/background/medium/tt0903747/img",
+    "dtddId": 13601,
+    "matched": true,
+    "triggers": [
+      {
+        "topicId": 193,
+        "name": "someone uses drugs",
+        "category": "Addiction",
+        "yes": 314,
+        "no": 8
+      },
+      {
+        "topicId": 201,
+        "name": "someone vomits",
+        "category": "Gross",
+        "yes": 288,
+        "no": 6
+      },
+      {
+        "topicId": 230,
+        "name": "there's addiction",
+        "category": "Addiction",
+        "yes": 262,
+        "no": 1
+      },
+      {
+        "topicId": 229,
+        "name": "animals are abused",
+        "category": "Animal Distress",
+        "yes": 248,
+        "no": 22
+      },
+      {
+        "topicId": 189,
+        "name": "an animal dies",
+        "category": "Animal Death",
+        "yes": 241,
+        "no": 12
+      },
+      {
+        "topicId": 213,
+        "name": "there are bugs",
+        "category": "Animal Phobia",
+        "yes": 233,
+        "no": 5
+      },
+      {
+        "topicId": 204,
+        "name": "someone has cancer",
+        "category": "Medical",
+        "yes": 233,
+        "no": 5
+      },
+      {
+        "topicId": 237,
+        "name": "someone gets gaslighted",
+        "category": "Abuse",
+        "yes": 230,
+        "no": 9
+      },
+      {
+        "topicId": 218,
+        "name": "there's child abuse",
+        "category": "Abuse",
+        "yes": 228,
+        "no": 6
+      },
+      {
+        "topicId": 182,
+        "name": "someone is sexually assaulted",
+        "category": "Sexual Assault",
+        "yes": 215,
+        "no": 17
+      },
+      {
+        "topicId": 219,
+        "name": "there's domestic violence",
+        "category": "Abuse",
+        "yes": 213,
+        "no": 5
+      },
+      {
+        "topicId": 225,
+        "name": "alcohol abuse",
+        "category": "Addiction",
+        "yes": 206,
+        "no": 5
+      },
+      {
+        "topicId": 223,
+        "name": "heads get squashed",
+        "category": "Head",
+        "yes": 188,
+        "no": 4
+      },
+      {
+        "topicId": 165,
+        "name": "there are spiders",
+        "category": "Animal Phobia",
+        "yes": 183,
+        "no": 10
+      },
+      {
+        "topicId": 242,
+        "name": "someone is stalked",
+        "category": "Abuse",
+        "yes": 180,
+        "no": 6
+      },
+      {
+        "topicId": 190,
+        "name": "needles/syringes are used",
+        "category": "Medical",
+        "yes": 178,
+        "no": 3
+      },
+      {
+        "topicId": 158,
+        "name": "a kid dies",
+        "category": "Children",
+        "yes": 176,
+        "no": 10
+      },
+      {
+        "topicId": 252,
+        "name": "there's a dead animal",
+        "category": "Animal Death",
+        "yes": 173,
+        "no": 8
+      },
+      {
+        "topicId": 192,
+        "name": "there's a hospital scene",
+        "category": "Medical",
+        "yes": 154,
+        "no": 1
+      },
+      {
+        "topicId": 168,
+        "name": "a parent dies",
+        "category": "Family",
+        "yes": 150,
+        "no": 3
+      },
+      {
+        "topicId": 241,
+        "name": "someone cheats",
+        "category": "Family",
+        "yes": 149,
+        "no": 8
+      },
+      {
+        "topicId": 177,
+        "name": "there's shaving/cutting",
+        "category": "Whole Body",
+        "yes": 149,
+        "no": 4
+      },
+      {
+        "topicId": 203,
+        "name": "there's torture",
+        "category": "Whole Body",
+        "yes": 145,
+        "no": 10
+      },
+      {
+        "topicId": 188,
+        "name": "there's blood/gore",
+        "category": "Violence",
+        "yes": 142,
+        "no": 2
+      },
+      {
+        "topicId": 197,
+        "name": "there is sexual content",
+        "category": "Sex",
+        "yes": 137,
+        "no": 4
+      },
+      {
+        "topicId": 198,
+        "name": "a plane crashes",
+        "category": "Vehicular",
+        "yes": 128,
+        "no": 5
+      },
+      {
+        "topicId": 164,
+        "name": "someone is burned alive",
+        "category": "Whole Body",
+        "yes": 128,
+        "no": 10
+      },
+      {
+        "topicId": 244,
+        "name": "there's ableist language or behavior",
+        "category": "Prejudice",
+        "yes": 127,
+        "no": 0
+      },
+      {
+        "topicId": 274,
+        "name": "someone is restrained",
+        "category": "Assault",
+        "yes": 122,
+        "no": 1
+      },
+      {
+        "topicId": 243,
+        "name": "someone is kidnapped",
+        "category": "Family",
+        "yes": 121,
+        "no": 1
+      },
+      {
+        "topicId": 293,
+        "name": "a child is abandoned by a parent or guardian",
+        "category": "Abandonment",
+        "yes": 119,
+        "no": 3
+      },
+      {
+        "topicId": 187,
+        "name": "someone dies by suicide",
+        "category": "Self Harm",
+        "yes": 118,
+        "no": 12
+      },
+      {
+        "topicId": 200,
+        "name": "there's eye mutilation",
+        "category": "Head",
+        "yes": 114,
+        "no": 8
+      },
+      {
+        "topicId": 210,
+        "name": "teeth are damaged",
+        "category": "Head",
+        "yes": 114,
+        "no": 12
+      },
+      {
+        "topicId": 292,
+        "name": "someone is sexually assaulted onscreen",
+        "category": "Sexual Assault",
+        "yes": 113,
+        "no": 16
+      },
+      {
+        "topicId": 267,
+        "name": "there's excessive gore",
+        "category": "Whole Body",
+        "yes": 113,
+        "no": 6
+      },
+      {
+        "topicId": 176,
+        "name": "there are shower scenes",
+        "category": "Fear",
+        "yes": 111,
+        "no": 5
+      },
+      {
+        "topicId": 247,
+        "name": "there are homophobic slurs",
+        "category": "Prejudice",
+        "yes": 111,
+        "no": 4
+      },
+      {
+        "topicId": 212,
+        "name": "someone speaks hate speech",
+        "category": "Prejudice",
+        "yes": 111,
+        "no": 5
+      },
+      {
+        "topicId": 253,
+        "name": "A child's dear toy is destroyed",
+        "category": "Family",
+        "yes": 110,
+        "no": 5
+      },
+      {
+        "topicId": 245,
+        "name": "someone struggles to breathe",
+        "category": "Neck",
+        "yes": 110,
+        "no": 1
+      },
+      {
+        "topicId": 232,
+        "name": "there's gun violence",
+        "category": "Violence",
+        "yes": 110,
+        "no": 2
+      },
+      {
+        "topicId": 206,
+        "name": "someone has a seizure",
+        "category": "Whole Body",
+        "yes": 107,
+        "no": 4
+      },
+      {
+        "topicId": 272,
+        "name": "the r-slur is used",
+        "category": "Disability",
+        "yes": 103,
+        "no": 6
+      },
+      {
+        "topicId": 250,
+        "name": "there's amputation",
+        "category": "Appendages",
+        "yes": 100,
+        "no": 6
+      },
+      {
+        "topicId": 235,
+        "name": "someone has an anxiety attack",
+        "category": "Mental Health",
+        "yes": 100,
+        "no": 4
+      },
+      {
+        "topicId": 257,
+        "name": "someone wets/soils themselves",
+        "category": "Gross",
+        "yes": 99,
+        "no": 5
+      },
+      {
+        "topicId": 216,
+        "name": "someone breaks a bone",
+        "category": "Appendages",
+        "yes": 98,
+        "no": 4
+      },
+      {
+        "topicId": 246,
+        "name": "there's antisemitism",
+        "category": "Race",
+        "yes": 96,
+        "no": 10
+      },
+      {
+        "topicId": 180,
+        "name": "there's spitting",
+        "category": "Gross",
+        "yes": 95,
+        "no": 4
+      },
+      {
+        "topicId": 184,
+        "name": "a car crashes",
+        "category": "Vehicular",
+        "yes": 93,
+        "no": 5
+      },
+      {
+        "topicId": 181,
+        "name": "shaky cam is used",
+        "category": "Noxious",
+        "yes": 91,
+        "no": 1
+      },
+      {
+        "topicId": 275,
+        "name": "someone overdoses",
+        "category": "Drugs/Alcohol",
+        "yes": 90,
+        "no": 8
+      },
+      {
+        "topicId": 208,
+        "name": "a person is hit by a car",
+        "category": "Vehicular",
+        "yes": 88,
+        "no": 4
+      },
+      {
+        "topicId": 228,
+        "name": "there's childbirth",
+        "category": "Pregnancy",
+        "yes": 87,
+        "no": 10
+      },
+      {
+        "topicId": 265,
+        "name": "someone suffers from PTSD",
+        "category": "Mental Health",
+        "yes": 84,
+        "no": 2
+      },
+      {
+        "topicId": 222,
+        "name": "the ending is sad",
+        "category": "Spoiler",
+        "yes": 84,
+        "no": 34
+      },
+      {
+        "topicId": 282,
+        "name": "someone is crushed to death",
+        "category": "Whole Body",
+        "yes": 82,
+        "no": 4
+      },
+      {
+        "topicId": 266,
+        "name": "there is a baby or unborn child",
+        "category": "Pregnancy",
+        "yes": 79,
+        "no": 3
+      },
+      {
+        "topicId": 255,
+        "name": "There's audio gore",
+        "category": "Gross",
+        "yes": 78,
+        "no": 5
+      },
+      {
+        "topicId": 330,
+        "name": "there's abusive parents",
+        "category": "Abuse",
+        "yes": 76,
+        "no": 4
+      },
+      {
+        "topicId": 202,
+        "name": "there's a claustrophobic scene",
+        "category": "Fear",
+        "yes": 76,
+        "no": 6
+      },
+      {
+        "topicId": 194,
+        "name": "an LGBT person dies",
+        "category": "Prejudice",
+        "yes": 76,
+        "no": 26
+      },
+      {
+        "topicId": 281,
+        "name": "someone asphyxiates",
+        "category": "Neck",
+        "yes": 72,
+        "no": 2
+      },
+      {
+        "topicId": 263,
+        "name": "a mentally ill person is violent",
+        "category": "Mental Health",
+        "yes": 70,
+        "no": 3
+      },
+      {
+        "topicId": 308,
+        "name": "someone is held under water",
+        "category": "Assault",
+        "yes": 69,
+        "no": 6
+      },
+      {
+        "topicId": 261,
+        "name": "a baby cries",
+        "category": "Children",
+        "yes": 68,
+        "no": 4
+      },
+      {
+        "topicId": 171,
+        "name": "there's finger/toe mutilation",
+        "category": "Appendages",
+        "yes": 67,
+        "no": 13
+      },
+      {
+        "topicId": 248,
+        "name": "Autism specific abuse",
+        "category": "Mental Health",
+        "yes": 66,
+        "no": 28
+      },
+      {
+        "topicId": 304,
+        "name": "the abused becomes the abuser",
+        "category": "Abuse",
+        "yes": 65,
+        "no": 7
+      },
+      {
+        "topicId": 233,
+        "name": "there's fat jokes",
+        "category": "Prejudice",
+        "yes": 65,
+        "no": 16
+      },
+      {
+        "topicId": 284,
+        "name": "an infant is abducted",
+        "category": "Children",
+        "yes": 64,
+        "no": 5
+      },
+      {
+        "topicId": 286,
+        "name": "Someone attempts suicide",
+        "category": "Self Harm",
+        "yes": 64,
+        "no": 9
+      },
+      {
+        "topicId": 270,
+        "name": "someone is homeless",
+        "category": "Social",
+        "yes": 64,
+        "no": 2
+      },
+      {
+        "topicId": 260,
+        "name": "there's misophonia",
+        "category": "Mental Health",
+        "yes": 63,
+        "no": 6
+      },
+      {
+        "topicId": 299,
+        "name": "someone is drugged",
+        "category": "Assault",
+        "yes": 62,
+        "no": 4
+      },
+      {
+        "topicId": 167,
+        "name": "there's flashing lights or images",
+        "category": "Noxious",
+        "yes": 62,
+        "no": 7
+      },
+      {
+        "topicId": 191,
+        "name": "someone drowns",
+        "category": "Violence",
+        "yes": 58,
+        "no": 21
+      },
+      {
+        "topicId": 288,
+        "name": "someone has a chronic illness",
+        "category": "Sickness",
+        "yes": 57,
+        "no": 1
+      },
+      {
+        "topicId": 211,
+        "name": "someone falls to their death",
+        "category": "Whole Body",
+        "yes": 57,
+        "no": 13
+      },
+      {
+        "topicId": 276,
+        "name": "someone is sexually objectified",
+        "category": "Sex",
+        "yes": 55,
+        "no": 2
+      },
+      {
+        "topicId": 296,
+        "name": "there's body horror",
+        "category": "Whole Body",
+        "yes": 55,
+        "no": 11
+      },
+      {
+        "topicId": 298,
+        "name": "Someone becomes unconscious",
+        "category": "Whole Body",
+        "yes": 54,
+        "no": 1
+      },
+      {
+        "topicId": 259,
+        "name": "someone says \"I'll kill myself\"",
+        "category": "Self Harm",
+        "yes": 52,
+        "no": 7
+      },
+      {
+        "topicId": 363,
+        "name": "someone leaves without saying goodbye",
+        "category": "Abandonment",
+        "yes": 50,
+        "no": 4
+      },
+      {
+        "topicId": 311,
+        "name": "someone dies",
+        "category": "Death",
+        "yes": 50,
+        "no": 0
+      },
+      {
+        "topicId": 290,
+        "name": "there is obscene language/gestures",
+        "category": "Noxious",
+        "yes": 50,
+        "no": 1
+      },
+      {
+        "topicId": 326,
+        "name": "sexual assault is mentioned",
+        "category": "Sexual Assault",
+        "yes": 50,
+        "no": 12
+      },
+      {
+        "topicId": 331,
+        "name": "there's decapitation",
+        "category": "Head",
+        "yes": 49,
+        "no": 4
+      },
+      {
+        "topicId": 309,
+        "name": "somebody is choked",
+        "category": "Neck",
+        "yes": 48,
+        "no": 2
+      },
+      {
+        "topicId": 279,
+        "name": "there are nude scenes",
+        "category": "Sex",
+        "yes": 48,
+        "no": 6
+      },
+      {
+        "topicId": 273,
+        "name": "a male character is ridiculed for crying",
+        "category": "Sexism",
+        "yes": 46,
+        "no": 5
+      },
+      {
+        "topicId": 297,
+        "name": "there are razors",
+        "category": "Fear",
+        "yes": 45,
+        "no": 5
+      },
+      {
+        "topicId": 294,
+        "name": "a minority is misrepresented",
+        "category": "Race",
+        "yes": 43,
+        "no": 6
+      },
+      {
+        "topicId": 313,
+        "name": "a family member dies",
+        "category": "Family",
+        "yes": 42,
+        "no": 3
+      },
+      {
+        "topicId": 321,
+        "name": "someone is beaten up by a bully",
+        "category": "Assault",
+        "yes": 41,
+        "no": 4
+      },
+      {
+        "topicId": 271,
+        "name": "someone falls down stairs",
+        "category": "Whole Body",
+        "yes": 41,
+        "no": 5
+      },
+      {
+        "topicId": 289,
+        "name": "someone sacrifices themselves",
+        "category": "Death",
+        "yes": 40,
+        "no": 7
+      },
+      {
+        "topicId": 327,
+        "name": "someone is terminally ill",
+        "category": "Sickness",
+        "yes": 40,
+        "no": 1
+      },
+      {
+        "topicId": 269,
+        "name": "a car honks or tires screech",
+        "category": "Vehicular",
+        "yes": 40,
+        "no": 1
+      },
+      {
+        "topicId": 367,
+        "name": "a woman is brutalized for spectacle",
+        "category": "Abuse",
+        "yes": 37,
+        "no": 18
+      },
+      {
+        "topicId": 277,
+        "name": "there's a large age gap",
+        "category": "Relationships",
+        "yes": 37,
+        "no": 16
+      },
+      {
+        "topicId": 328,
+        "name": "a major character dies",
+        "category": "Death",
+        "yes": 36,
+        "no": 6
+      },
+      {
+        "topicId": 361,
+        "name": "someone's throat is mutilated",
+        "category": "Neck",
+        "yes": 36,
+        "no": 2
+      },
+      {
+        "topicId": 315,
+        "name": "sexual assault on men is a joke",
+        "category": "Sexual Assault",
+        "yes": 36,
+        "no": 14
+      },
+      {
+        "topicId": 342,
+        "name": "a woman gets slapped",
+        "category": "Assault",
+        "yes": 35,
+        "no": 4
+      },
+      {
+        "topicId": 336,
+        "name": "someone has a mental illness",
+        "category": "Mental Health",
+        "yes": 33,
+        "no": 2
+      },
+      {
+        "topicId": 318,
+        "name": "someone is watched without knowing",
+        "category": "Paranoia",
+        "yes": 33,
+        "no": 1
+      },
+      {
+        "topicId": 354,
+        "name": "someone defecates",
+        "category": "Gross",
+        "yes": 32,
+        "no": 2
+      },
+      {
+        "topicId": 324,
+        "name": "there's farting",
+        "category": "Gross",
+        "yes": 32,
+        "no": 7
+      },
+      {
+        "topicId": 335,
+        "name": "there's natural bodies of water",
+        "category": "Fear",
+        "yes": 30,
+        "no": 3
+      },
+      {
+        "topicId": 345,
+        "name": "there's incarceration",
+        "category": "Law Enforcement",
+        "yes": 29,
+        "no": 1
+      },
+      {
+        "topicId": 360,
+        "name": "someone's mouth is covered",
+        "category": "Assault",
+        "yes": 28,
+        "no": 2
+      },
+      {
+        "topicId": 352,
+        "name": "hands are damaged",
+        "category": "Appendages",
+        "yes": 25,
+        "no": 1
+      },
+      {
+        "topicId": 370,
+        "name": "there's dissociation, depersonalization, or derealization",
+        "category": "Mental Health",
+        "yes": 25,
+        "no": 3
+      },
+      {
+        "topicId": 343,
+        "name": "someone is stabbed",
+        "category": "Whole Body",
+        "yes": 25,
+        "no": 4
+      },
+      {
+        "topicId": 339,
+        "name": "there are sudden loud noises",
+        "category": "Noxious",
+        "yes": 22,
+        "no": 1
+      },
+      {
+        "topicId": 366,
+        "name": "there's screaming",
+        "category": "Noxious",
+        "yes": 22,
+        "no": 0
+      },
+      {
+        "topicId": 348,
+        "name": "someone has a meltdown",
+        "category": "Mental Health",
+        "yes": 21,
+        "no": 4
+      },
+      {
+        "topicId": 356,
+        "name": "there's underwater scenes",
+        "category": "Noxious",
+        "yes": 19,
+        "no": 2
+      },
+      {
+        "topicId": 295,
+        "name": "there are mannequins",
+        "category": "Fear",
+        "yes": 17,
+        "no": 14
+      },
+      {
+        "topicId": 362,
+        "name": "someone dislocates something",
+        "category": "Appendages",
+        "yes": 13,
+        "no": 7
+      },
+      {
+        "topicId": 341,
+        "name": "existentialism is debated",
+        "category": "Social",
+        "yes": 13,
+        "no": 9
+      },
+      {
+        "topicId": 351,
+        "name": "religion is discussed",
+        "category": "Religious",
+        "yes": 9,
+        "no": 8
+      }
+    ]
+  },
+  {
+    "ttId": "tt0944947",
+    "type": "series",
+    "name": "Game of Thrones",
+    "year": "2011–2019",
+    "poster": "https://images.metahub.space/poster/small/tt0944947/img",
+    "background": "https://images.metahub.space/background/medium/tt0944947/img",
+    "dtddId": 678166,
+    "matched": true,
+    "triggers": [
+      {
+        "topicId": 153,
+        "name": "a dog dies",
+        "category": "Animal Death",
+        "yes": 586,
+        "no": 38
+      },
+      {
+        "topicId": 196,
+        "name": "a dragon dies",
+        "category": "Animal Death",
+        "yes": 333,
+        "no": 20
+      },
+      {
+        "topicId": 183,
+        "name": "a horse dies",
+        "category": "Animal Death",
+        "yes": 331,
+        "no": 13
+      },
+      {
+        "topicId": 189,
+        "name": "an animal dies",
+        "category": "Animal Death",
+        "yes": 328,
+        "no": 15
+      },
+      {
+        "topicId": 158,
+        "name": "a kid dies",
+        "category": "Children",
+        "yes": 312,
+        "no": 3
+      },
+      {
+        "topicId": 194,
+        "name": "an LGBT person dies",
+        "category": "Prejudice",
+        "yes": 267,
+        "no": 13
+      },
+      {
+        "topicId": 168,
+        "name": "a parent dies",
+        "category": "Family",
+        "yes": 266,
+        "no": 5
+      },
+      {
+        "topicId": 182,
+        "name": "someone is sexually assaulted",
+        "category": "Sexual Assault",
+        "yes": 262,
+        "no": 5
+      },
+      {
+        "topicId": 229,
+        "name": "animals are abused",
+        "category": "Animal Distress",
+        "yes": 257,
+        "no": 14
+      },
+      {
+        "topicId": 164,
+        "name": "someone is burned alive",
+        "category": "Whole Body",
+        "yes": 256,
+        "no": 5
+      },
+      {
+        "topicId": 201,
+        "name": "someone vomits",
+        "category": "Gross",
+        "yes": 227,
+        "no": 11
+      },
+      {
+        "topicId": 203,
+        "name": "there's torture",
+        "category": "Whole Body",
+        "yes": 226,
+        "no": 8
+      },
+      {
+        "topicId": 197,
+        "name": "there is sexual content",
+        "category": "Sex",
+        "yes": 224,
+        "no": 4
+      },
+      {
+        "topicId": 219,
+        "name": "there's domestic violence",
+        "category": "Abuse",
+        "yes": 213,
+        "no": 9
+      },
+      {
+        "topicId": 236,
+        "name": "there are incestuous relationships",
+        "category": "Sex",
+        "yes": 213,
+        "no": 2
+      },
+      {
+        "topicId": 223,
+        "name": "heads get squashed",
+        "category": "Head",
+        "yes": 210,
+        "no": 6
+      },
+      {
+        "topicId": 225,
+        "name": "alcohol abuse",
+        "category": "Addiction",
+        "yes": 209,
+        "no": 5
+      },
+      {
+        "topicId": 188,
+        "name": "there's blood/gore",
+        "category": "Violence",
+        "yes": 209,
+        "no": 5
+      },
+      {
+        "topicId": 218,
+        "name": "there's child abuse",
+        "category": "Abuse",
+        "yes": 204,
+        "no": 6
+      },
+      {
+        "topicId": 177,
+        "name": "there's shaving/cutting",
+        "category": "Whole Body",
+        "yes": 196,
+        "no": 7
+      },
+      {
+        "topicId": 252,
+        "name": "there's a dead animal",
+        "category": "Animal Death",
+        "yes": 192,
+        "no": 1
+      },
+      {
+        "topicId": 187,
+        "name": "someone dies by suicide",
+        "category": "Self Harm",
+        "yes": 191,
+        "no": 5
+      },
+      {
+        "topicId": 211,
+        "name": "someone falls to their death",
+        "category": "Whole Body",
+        "yes": 190,
+        "no": 6
+      },
+      {
+        "topicId": 171,
+        "name": "there's finger/toe mutilation",
+        "category": "Appendages",
+        "yes": 189,
+        "no": 8
+      },
+      {
+        "topicId": 200,
+        "name": "there's eye mutilation",
+        "category": "Head",
+        "yes": 181,
+        "no": 8
+      },
+      {
+        "topicId": 214,
+        "name": "there are snakes",
+        "category": "Animal Phobia",
+        "yes": 172,
+        "no": 16
+      },
+      {
+        "topicId": 210,
+        "name": "teeth are damaged",
+        "category": "Head",
+        "yes": 163,
+        "no": 10
+      },
+      {
+        "topicId": 216,
+        "name": "someone breaks a bone",
+        "category": "Appendages",
+        "yes": 162,
+        "no": 6
+      },
+      {
+        "topicId": 180,
+        "name": "there's spitting",
+        "category": "Gross",
+        "yes": 155,
+        "no": 9
+      },
+      {
+        "topicId": 215,
+        "name": "someone miscarries",
+        "category": "Pregnancy",
+        "yes": 151,
+        "no": 9
+      },
+      {
+        "topicId": 186,
+        "name": "a cat dies",
+        "category": "Animal Death",
+        "yes": 150,
+        "no": 93
+      },
+      {
+        "topicId": 241,
+        "name": "someone cheats",
+        "category": "Family",
+        "yes": 145,
+        "no": 2
+      },
+      {
+        "topicId": 222,
+        "name": "the ending is sad",
+        "category": "Spoiler",
+        "yes": 145,
+        "no": 18
+      },
+      {
+        "topicId": 213,
+        "name": "there are bugs",
+        "category": "Animal Phobia",
+        "yes": 143,
+        "no": 22
+      },
+      {
+        "topicId": 231,
+        "name": "there's dog fighting",
+        "category": "Animal Distress",
+        "yes": 142,
+        "no": 51
+      },
+      {
+        "topicId": 227,
+        "name": "there are hangings",
+        "category": "Neck",
+        "yes": 142,
+        "no": 7
+      },
+      {
+        "topicId": 206,
+        "name": "someone has a seizure",
+        "category": "Whole Body",
+        "yes": 141,
+        "no": 14
+      },
+      {
+        "topicId": 233,
+        "name": "there's fat jokes",
+        "category": "Prejudice",
+        "yes": 140,
+        "no": 9
+      },
+      {
+        "topicId": 237,
+        "name": "someone gets gaslighted",
+        "category": "Abuse",
+        "yes": 135,
+        "no": 5
+      },
+      {
+        "topicId": 230,
+        "name": "there's addiction",
+        "category": "Addiction",
+        "yes": 134,
+        "no": 12
+      },
+      {
+        "topicId": 165,
+        "name": "there are spiders",
+        "category": "Animal Phobia",
+        "yes": 134,
+        "no": 53
+      },
+      {
+        "topicId": 239,
+        "name": "a pregnant person dies",
+        "category": "Pregnancy",
+        "yes": 130,
+        "no": 5
+      },
+      {
+        "topicId": 191,
+        "name": "someone drowns",
+        "category": "Violence",
+        "yes": 130,
+        "no": 10
+      },
+      {
+        "topicId": 193,
+        "name": "someone uses drugs",
+        "category": "Addiction",
+        "yes": 128,
+        "no": 31
+      },
+      {
+        "topicId": 292,
+        "name": "someone is sexually assaulted onscreen",
+        "category": "Sexual Assault",
+        "yes": 125,
+        "no": 7
+      },
+      {
+        "topicId": 250,
+        "name": "there's amputation",
+        "category": "Appendages",
+        "yes": 124,
+        "no": 2
+      },
+      {
+        "topicId": 202,
+        "name": "there's a claustrophobic scene",
+        "category": "Fear",
+        "yes": 121,
+        "no": 16
+      },
+      {
+        "topicId": 212,
+        "name": "someone speaks hate speech",
+        "category": "Prejudice",
+        "yes": 121,
+        "no": 11
+      },
+      {
+        "topicId": 228,
+        "name": "there's childbirth",
+        "category": "Pregnancy",
+        "yes": 120,
+        "no": 8
+      },
+      {
+        "topicId": 258,
+        "name": "there's genital trauma/mutilation",
+        "category": "Appendages",
+        "yes": 119,
+        "no": 5
+      },
+      {
+        "topicId": 226,
+        "name": "someone is misgendered",
+        "category": "Prejudice",
+        "yes": 117,
+        "no": 17
+      },
+      {
+        "topicId": 176,
+        "name": "there are shower scenes",
+        "category": "Fear",
+        "yes": 114,
+        "no": 25
+      },
+      {
+        "topicId": 243,
+        "name": "someone is kidnapped",
+        "category": "Family",
+        "yes": 112,
+        "no": 3
+      },
+      {
+        "topicId": 224,
+        "name": "someone is possessed",
+        "category": "Fear",
+        "yes": 112,
+        "no": 25
+      },
+      {
+        "topicId": 245,
+        "name": "someone struggles to breathe",
+        "category": "Neck",
+        "yes": 112,
+        "no": 2
+      },
+      {
+        "topicId": 244,
+        "name": "there's ableist language or behavior",
+        "category": "Prejudice",
+        "yes": 112,
+        "no": 2
+      },
+      {
+        "topicId": 242,
+        "name": "someone is stalked",
+        "category": "Abuse",
+        "yes": 109,
+        "no": 14
+      },
+      {
+        "topicId": 199,
+        "name": "someone self harms",
+        "category": "Self Harm",
+        "yes": 109,
+        "no": 16
+      },
+      {
+        "topicId": 161,
+        "name": "there are jump scares",
+        "category": "Fear",
+        "yes": 104,
+        "no": 78
+      },
+      {
+        "topicId": 254,
+        "name": "there's cannibalism",
+        "category": "Whole Body",
+        "yes": 104,
+        "no": 11
+      },
+      {
+        "topicId": 207,
+        "name": "there's ghosts",
+        "category": "Fear",
+        "yes": 101,
+        "no": 54
+      },
+      {
+        "topicId": 192,
+        "name": "there's a hospital scene",
+        "category": "Medical",
+        "yes": 98,
+        "no": 21
+      },
+      {
+        "topicId": 267,
+        "name": "there's excessive gore",
+        "category": "Whole Body",
+        "yes": 97,
+        "no": 2
+      },
+      {
+        "topicId": 195,
+        "name": "there's body dysmorphia",
+        "category": "Mental Health",
+        "yes": 95,
+        "no": 32
+      },
+      {
+        "topicId": 255,
+        "name": "There's audio gore",
+        "category": "Gross",
+        "yes": 92,
+        "no": 0
+      },
+      {
+        "topicId": 235,
+        "name": "someone has an anxiety attack",
+        "category": "Mental Health",
+        "yes": 91,
+        "no": 11
+      },
+      {
+        "topicId": 285,
+        "name": "a pet dies",
+        "category": "Animal Death",
+        "yes": 86,
+        "no": 4
+      },
+      {
+        "topicId": 326,
+        "name": "sexual assault is mentioned",
+        "category": "Sexual Assault",
+        "yes": 86,
+        "no": 3
+      },
+      {
+        "topicId": 247,
+        "name": "there are homophobic slurs",
+        "category": "Prejudice",
+        "yes": 81,
+        "no": 6
+      },
+      {
+        "topicId": 238,
+        "name": "someone has an abortion",
+        "category": "Pregnancy",
+        "yes": 78,
+        "no": 12
+      },
+      {
+        "topicId": 320,
+        "name": "there's pedophilia",
+        "category": "Sexual Assault",
+        "yes": 77,
+        "no": 7
+      },
+      {
+        "topicId": 240,
+        "name": "someone is buried alive",
+        "category": "Whole Body",
+        "yes": 76,
+        "no": 52
+      },
+      {
+        "topicId": 274,
+        "name": "someone is restrained",
+        "category": "Assault",
+        "yes": 75,
+        "no": 1
+      },
+      {
+        "topicId": 293,
+        "name": "a child is abandoned by a parent or guardian",
+        "category": "Abandonment",
+        "yes": 71,
+        "no": 6
+      },
+      {
+        "topicId": 279,
+        "name": "there are nude scenes",
+        "category": "Sex",
+        "yes": 71,
+        "no": 4
+      },
+      {
+        "topicId": 261,
+        "name": "a baby cries",
+        "category": "Children",
+        "yes": 68,
+        "no": 3
+      },
+      {
+        "topicId": 350,
+        "name": "an animal is abandoned",
+        "category": "Animal Distress",
+        "yes": 65,
+        "no": 2
+      },
+      {
+        "topicId": 248,
+        "name": "Autism specific abuse",
+        "category": "Mental Health",
+        "yes": 65,
+        "no": 37
+      },
+      {
+        "topicId": 263,
+        "name": "a mentally ill person is violent",
+        "category": "Mental Health",
+        "yes": 65,
+        "no": 3
+      },
+      {
+        "topicId": 287,
+        "name": "a minor is sexualized",
+        "category": "Sex",
+        "yes": 65,
+        "no": 4
+      },
+      {
+        "topicId": 367,
+        "name": "a woman is brutalized for spectacle",
+        "category": "Abuse",
+        "yes": 64,
+        "no": 5
+      },
+      {
+        "topicId": 253,
+        "name": "A child's dear toy is destroyed",
+        "category": "Family",
+        "yes": 63,
+        "no": 28
+      },
+      {
+        "topicId": 257,
+        "name": "someone wets/soils themselves",
+        "category": "Gross",
+        "yes": 61,
+        "no": 5
+      },
+      {
+        "topicId": 304,
+        "name": "the abused becomes the abuser",
+        "category": "Abuse",
+        "yes": 59,
+        "no": 4
+      },
+      {
+        "topicId": 328,
+        "name": "a major character dies",
+        "category": "Death",
+        "yes": 58,
+        "no": 4
+      },
+      {
+        "topicId": 330,
+        "name": "there's abusive parents",
+        "category": "Abuse",
+        "yes": 57,
+        "no": 3
+      },
+      {
+        "topicId": 315,
+        "name": "sexual assault on men is a joke",
+        "category": "Sexual Assault",
+        "yes": 56,
+        "no": 3
+      },
+      {
+        "topicId": 264,
+        "name": "a baby is stillborn",
+        "category": "Pregnancy",
+        "yes": 55,
+        "no": 4
+      },
+      {
+        "topicId": 276,
+        "name": "someone is sexually objectified",
+        "category": "Sex",
+        "yes": 55,
+        "no": 2
+      },
+      {
+        "topicId": 342,
+        "name": "a woman gets slapped",
+        "category": "Assault",
+        "yes": 53,
+        "no": 2
+      },
+      {
+        "topicId": 265,
+        "name": "someone suffers from PTSD",
+        "category": "Mental Health",
+        "yes": 53,
+        "no": 4
+      },
+      {
+        "topicId": 347,
+        "name": "the abused forgives their abuser",
+        "category": "Abuse",
+        "yes": 52,
+        "no": 3
+      },
+      {
+        "topicId": 282,
+        "name": "someone is crushed to death",
+        "category": "Whole Body",
+        "yes": 51,
+        "no": 4
+      },
+      {
+        "topicId": 355,
+        "name": "an animal is sad",
+        "category": "Animal Distress",
+        "yes": 49,
+        "no": 3
+      },
+      {
+        "topicId": 305,
+        "name": "a non-human character dies",
+        "category": "Death",
+        "yes": 49,
+        "no": 4
+      },
+      {
+        "topicId": 277,
+        "name": "there's a large age gap",
+        "category": "Relationships",
+        "yes": 49,
+        "no": 1
+      },
+      {
+        "topicId": 296,
+        "name": "there's body horror",
+        "category": "Whole Body",
+        "yes": 49,
+        "no": 4
+      },
+      {
+        "topicId": 311,
+        "name": "someone dies",
+        "category": "Death",
+        "yes": 48,
+        "no": 0
+      },
+      {
+        "topicId": 266,
+        "name": "there is a baby or unborn child",
+        "category": "Pregnancy",
+        "yes": 48,
+        "no": 3
+      },
+      {
+        "topicId": 363,
+        "name": "someone leaves without saying goodbye",
+        "category": "Abandonment",
+        "yes": 46,
+        "no": 2
+      },
+      {
+        "topicId": 259,
+        "name": "someone says \"I'll kill myself\"",
+        "category": "Self Harm",
+        "yes": 45,
+        "no": 7
+      },
+      {
+        "topicId": 331,
+        "name": "there's decapitation",
+        "category": "Head",
+        "yes": 44,
+        "no": 1
+      },
+      {
+        "topicId": 338,
+        "name": "rabbits are harmed",
+        "category": "Animal Distress",
+        "yes": 43,
+        "no": 5
+      },
+      {
+        "topicId": 321,
+        "name": "someone is beaten up by a bully",
+        "category": "Assault",
+        "yes": 43,
+        "no": 1
+      },
+      {
+        "topicId": 353,
+        "name": "someone disabled played by able-bodied",
+        "category": "Disability",
+        "yes": 43,
+        "no": 3
+      },
+      {
+        "topicId": 299,
+        "name": "someone is drugged",
+        "category": "Assault",
+        "yes": 42,
+        "no": 4
+      },
+      {
+        "topicId": 281,
+        "name": "someone asphyxiates",
+        "category": "Neck",
+        "yes": 42,
+        "no": 5
+      },
+      {
+        "topicId": 290,
+        "name": "there is obscene language/gestures",
+        "category": "Noxious",
+        "yes": 42,
+        "no": 0
+      },
+      {
+        "topicId": 308,
+        "name": "someone is held under water",
+        "category": "Assault",
+        "yes": 41,
+        "no": 2
+      },
+      {
+        "topicId": 289,
+        "name": "someone sacrifices themselves",
+        "category": "Death",
+        "yes": 41,
+        "no": 4
+      },
+      {
+        "topicId": 262,
+        "name": "there are \"Man in a dress\" jokes",
+        "category": "Prejudice",
+        "yes": 41,
+        "no": 7
+      },
+      {
+        "topicId": 270,
+        "name": "someone is homeless",
+        "category": "Social",
+        "yes": 41,
+        "no": 2
+      },
+      {
+        "topicId": 313,
+        "name": "a family member dies",
+        "category": "Family",
+        "yes": 40,
+        "no": 1
+      },
+      {
+        "topicId": 286,
+        "name": "Someone attempts suicide",
+        "category": "Self Harm",
+        "yes": 40,
+        "no": 5
+      },
+      {
+        "topicId": 298,
+        "name": "Someone becomes unconscious",
+        "category": "Whole Body",
+        "yes": 39,
+        "no": 3
+      },
+      {
+        "topicId": 361,
+        "name": "someone's throat is mutilated",
+        "category": "Neck",
+        "yes": 37,
+        "no": 0
+      },
+      {
+        "topicId": 273,
+        "name": "a male character is ridiculed for crying",
+        "category": "Sexism",
+        "yes": 37,
+        "no": 3
+      },
+      {
+        "topicId": 343,
+        "name": "someone is stabbed",
+        "category": "Whole Body",
+        "yes": 36,
+        "no": 1
+      },
+      {
+        "topicId": 352,
+        "name": "hands are damaged",
+        "category": "Appendages",
+        "yes": 35,
+        "no": 1
+      },
+      {
+        "topicId": 284,
+        "name": "an infant is abducted",
+        "category": "Children",
+        "yes": 35,
+        "no": 7
+      },
+      {
+        "topicId": 297,
+        "name": "there are razors",
+        "category": "Fear",
+        "yes": 34,
+        "no": 5
+      },
+      {
+        "topicId": 309,
+        "name": "somebody is choked",
+        "category": "Neck",
+        "yes": 34,
+        "no": 0
+      },
+      {
+        "topicId": 271,
+        "name": "someone falls down stairs",
+        "category": "Whole Body",
+        "yes": 34,
+        "no": 6
+      },
+      {
+        "topicId": 360,
+        "name": "someone's mouth is covered",
+        "category": "Assault",
+        "yes": 30,
+        "no": 3
+      },
+      {
+        "topicId": 335,
+        "name": "there's natural bodies of water",
+        "category": "Fear",
+        "yes": 30,
+        "no": 0
+      },
+      {
+        "topicId": 317,
+        "name": "someone loses their virginity",
+        "category": "Sex",
+        "yes": 28,
+        "no": 2
+      },
+      {
+        "topicId": 322,
+        "name": "someone is eaten",
+        "category": "Gross",
+        "yes": 27,
+        "no": 4
+      },
+      {
+        "topicId": 365,
+        "name": "someone is abused with a belt",
+        "category": "Abuse",
+        "yes": 26,
+        "no": 8
+      },
+      {
+        "topicId": 301,
+        "name": "there's bisexual cheating",
+        "category": "LGBTQ+",
+        "yes": 26,
+        "no": 13
+      },
+      {
+        "topicId": 362,
+        "name": "someone dislocates something",
+        "category": "Appendages",
+        "yes": 25,
+        "no": 3
+      },
+      {
+        "topicId": 354,
+        "name": "someone defecates",
+        "category": "Gross",
+        "yes": 25,
+        "no": 6
+      },
+      {
+        "topicId": 324,
+        "name": "there's farting",
+        "category": "Gross",
+        "yes": 24,
+        "no": 3
+      },
+      {
+        "topicId": 345,
+        "name": "there's incarceration",
+        "category": "Law Enforcement",
+        "yes": 24,
+        "no": 2
+      },
+      {
+        "topicId": 358,
+        "name": "there's menstruation",
+        "category": "Medical",
+        "yes": 24,
+        "no": 1
+      },
+      {
+        "topicId": 329,
+        "name": "a priceless artifact is destroyed",
+        "category": "Loss",
+        "yes": 23,
+        "no": 2
+      },
+      {
+        "topicId": 318,
+        "name": "someone is watched without knowing",
+        "category": "Paranoia",
+        "yes": 23,
+        "no": 2
+      },
+      {
+        "topicId": 336,
+        "name": "someone has a mental illness",
+        "category": "Mental Health",
+        "yes": 22,
+        "no": 1
+      },
+      {
+        "topicId": 368,
+        "name": "an LGBT+ person is outed",
+        "category": "LGBTQ+",
+        "yes": 21,
+        "no": 3
+      },
+      {
+        "topicId": 348,
+        "name": "someone has a meltdown",
+        "category": "Mental Health",
+        "yes": 21,
+        "no": 1
+      },
+      {
+        "topicId": 366,
+        "name": "there's screaming",
+        "category": "Noxious",
+        "yes": 21,
+        "no": 0
+      },
+      {
+        "topicId": 288,
+        "name": "someone has a chronic illness",
+        "category": "Sickness",
+        "yes": 21,
+        "no": 3
+      },
+      {
+        "topicId": 349,
+        "name": "autism is misrepresented",
+        "category": "Mental Health",
+        "yes": 19,
+        "no": 18
+      },
+      {
+        "topicId": 351,
+        "name": "religion is discussed",
+        "category": "Religious",
+        "yes": 18,
+        "no": 1
+      },
+      {
+        "topicId": 303,
+        "name": "there's Aphobia",
+        "category": "Prejudice",
+        "yes": 17,
+        "no": 7
+      },
+      {
+        "topicId": 339,
+        "name": "there are sudden loud noises",
+        "category": "Noxious",
+        "yes": 16,
+        "no": 0
+      },
+      {
+        "topicId": 364,
+        "name": "there's BDSM",
+        "category": "Sex",
+        "yes": 14,
+        "no": 5
+      },
+      {
+        "topicId": 356,
+        "name": "there's underwater scenes",
+        "category": "Noxious",
+        "yes": 12,
+        "no": 4
+      },
+      {
+        "topicId": 327,
+        "name": "someone is terminally ill",
+        "category": "Sickness",
+        "yes": 12,
+        "no": 4
+      },
+      {
+        "topicId": 341,
+        "name": "existentialism is debated",
+        "category": "Social",
+        "yes": 12,
+        "no": 3
+      },
+      {
+        "topicId": 370,
+        "name": "there's dissociation, depersonalization, or derealization",
+        "category": "Mental Health",
+        "yes": 11,
+        "no": 7
+      },
+      {
+        "topicId": 346,
+        "name": "there's end credits scenes?",
+        "category": "Spoiler",
+        "yes": 9,
+        "no": 6
+      }
+    ]
+  },
+  {
+    "ttId": "tt0417299",
+    "type": "series",
+    "name": "Avatar: The Last Airbender",
+    "year": "2005–2008",
+    "poster": "https://images.metahub.space/poster/small/tt0417299/img",
+    "background": "https://images.metahub.space/background/medium/tt0417299/img",
+    "dtddId": 27892,
+    "matched": true,
+    "triggers": [
+      {
+        "topicId": 196,
+        "name": "a dragon dies",
+        "category": "Animal Death",
+        "yes": 174,
+        "no": 6
+      },
+      {
+        "topicId": 229,
+        "name": "animals are abused",
+        "category": "Animal Distress",
+        "yes": 156,
+        "no": 1
+      },
+      {
+        "topicId": 218,
+        "name": "there's child abuse",
+        "category": "Abuse",
+        "yes": 147,
+        "no": 0
+      },
+      {
+        "topicId": 168,
+        "name": "a parent dies",
+        "category": "Family",
+        "yes": 142,
+        "no": 1
+      },
+      {
+        "topicId": 158,
+        "name": "a kid dies",
+        "category": "Children",
+        "yes": 139,
+        "no": 0
+      },
+      {
+        "topicId": 219,
+        "name": "there's domestic violence",
+        "category": "Abuse",
+        "yes": 130,
+        "no": 2
+      },
+      {
+        "topicId": 213,
+        "name": "there are bugs",
+        "category": "Animal Phobia",
+        "yes": 124,
+        "no": 0
+      },
+      {
+        "topicId": 189,
+        "name": "an animal dies",
+        "category": "Animal Death",
+        "yes": 121,
+        "no": 11
+      },
+      {
+        "topicId": 243,
+        "name": "someone is kidnapped",
+        "category": "Family",
+        "yes": 118,
+        "no": 1
+      },
+      {
+        "topicId": 207,
+        "name": "there's ghosts",
+        "category": "Fear",
+        "yes": 116,
+        "no": 2
+      },
+      {
+        "topicId": 177,
+        "name": "there's shaving/cutting",
+        "category": "Whole Body",
+        "yes": 116,
+        "no": 3
+      },
+      {
+        "topicId": 228,
+        "name": "there's childbirth",
+        "category": "Pregnancy",
+        "yes": 115,
+        "no": 1
+      },
+      {
+        "topicId": 244,
+        "name": "there's ableist language or behavior",
+        "category": "Prejudice",
+        "yes": 115,
+        "no": 0
+      },
+      {
+        "topicId": 203,
+        "name": "there's torture",
+        "category": "Whole Body",
+        "yes": 112,
+        "no": 1
+      },
+      {
+        "topicId": 242,
+        "name": "someone is stalked",
+        "category": "Abuse",
+        "yes": 110,
+        "no": 0
+      },
+      {
+        "topicId": 165,
+        "name": "there are spiders",
+        "category": "Animal Phobia",
+        "yes": 110,
+        "no": 3
+      },
+      {
+        "topicId": 200,
+        "name": "there's eye mutilation",
+        "category": "Head",
+        "yes": 110,
+        "no": 14
+      },
+      {
+        "topicId": 201,
+        "name": "someone vomits",
+        "category": "Gross",
+        "yes": 109,
+        "no": 3
+      },
+      {
+        "topicId": 226,
+        "name": "someone is misgendered",
+        "category": "Prejudice",
+        "yes": 109,
+        "no": 9
+      },
+      {
+        "topicId": 237,
+        "name": "someone gets gaslighted",
+        "category": "Abuse",
+        "yes": 107,
+        "no": 5
+      },
+      {
+        "topicId": 216,
+        "name": "someone breaks a bone",
+        "category": "Appendages",
+        "yes": 103,
+        "no": 0
+      },
+      {
+        "topicId": 193,
+        "name": "someone uses drugs",
+        "category": "Addiction",
+        "yes": 100,
+        "no": 29
+      },
+      {
+        "topicId": 180,
+        "name": "there's spitting",
+        "category": "Gross",
+        "yes": 97,
+        "no": 0
+      },
+      {
+        "topicId": 198,
+        "name": "a plane crashes",
+        "category": "Vehicular",
+        "yes": 94,
+        "no": 8
+      },
+      {
+        "topicId": 235,
+        "name": "someone has an anxiety attack",
+        "category": "Mental Health",
+        "yes": 93,
+        "no": 4
+      },
+      {
+        "topicId": 245,
+        "name": "someone struggles to breathe",
+        "category": "Neck",
+        "yes": 92,
+        "no": 0
+      },
+      {
+        "topicId": 240,
+        "name": "someone is buried alive",
+        "category": "Whole Body",
+        "yes": 92,
+        "no": 3
+      },
+      {
+        "topicId": 224,
+        "name": "someone is possessed",
+        "category": "Fear",
+        "yes": 91,
+        "no": 7
+      },
+      {
+        "topicId": 164,
+        "name": "someone is burned alive",
+        "category": "Whole Body",
+        "yes": 89,
+        "no": 29
+      },
+      {
+        "topicId": 202,
+        "name": "there's a claustrophobic scene",
+        "category": "Fear",
+        "yes": 88,
+        "no": 1
+      },
+      {
+        "topicId": 211,
+        "name": "someone falls to their death",
+        "category": "Whole Body",
+        "yes": 87,
+        "no": 0
+      },
+      {
+        "topicId": 214,
+        "name": "there are snakes",
+        "category": "Animal Phobia",
+        "yes": 84,
+        "no": 4
+      },
+      {
+        "topicId": 233,
+        "name": "there's fat jokes",
+        "category": "Prejudice",
+        "yes": 81,
+        "no": 19
+      },
+      {
+        "topicId": 212,
+        "name": "someone speaks hate speech",
+        "category": "Prejudice",
+        "yes": 78,
+        "no": 19
+      },
+      {
+        "topicId": 161,
+        "name": "there are jump scares",
+        "category": "Fear",
+        "yes": 69,
+        "no": 39
+      },
+      {
+        "topicId": 253,
+        "name": "A child's dear toy is destroyed",
+        "category": "Family",
+        "yes": 64,
+        "no": 2
+      },
+      {
+        "topicId": 262,
+        "name": "there are \"Man in a dress\" jokes",
+        "category": "Prejudice",
+        "yes": 59,
+        "no": 3
+      },
+      {
+        "topicId": 206,
+        "name": "someone has a seizure",
+        "category": "Whole Body",
+        "yes": 57,
+        "no": 35
+      },
+      {
+        "topicId": 263,
+        "name": "a mentally ill person is violent",
+        "category": "Mental Health",
+        "yes": 52,
+        "no": 2
+      },
+      {
+        "topicId": 261,
+        "name": "a baby cries",
+        "category": "Children",
+        "yes": 51,
+        "no": 0
+      },
+      {
+        "topicId": 274,
+        "name": "someone is restrained",
+        "category": "Assault",
+        "yes": 41,
+        "no": 0
+      },
+      {
+        "topicId": 265,
+        "name": "someone suffers from PTSD",
+        "category": "Mental Health",
+        "yes": 37,
+        "no": 0
+      },
+      {
+        "topicId": 266,
+        "name": "there is a baby or unborn child",
+        "category": "Pregnancy",
+        "yes": 34,
+        "no": 0
+      },
+      {
+        "topicId": 330,
+        "name": "there's abusive parents",
+        "category": "Abuse",
+        "yes": 33,
+        "no": 0
+      },
+      {
+        "topicId": 304,
+        "name": "the abused becomes the abuser",
+        "category": "Abuse",
+        "yes": 33,
+        "no": 0
+      },
+      {
+        "topicId": 285,
+        "name": "a pet dies",
+        "category": "Animal Death",
+        "yes": 32,
+        "no": 5
+      },
+      {
+        "topicId": 289,
+        "name": "someone sacrifices themselves",
+        "category": "Death",
+        "yes": 31,
+        "no": 0
+      },
+      {
+        "topicId": 293,
+        "name": "a child is abandoned by a parent or guardian",
+        "category": "Abandonment",
+        "yes": 30,
+        "no": 0
+      },
+      {
+        "topicId": 355,
+        "name": "an animal is sad",
+        "category": "Animal Distress",
+        "yes": 28,
+        "no": 0
+      },
+      {
+        "topicId": 270,
+        "name": "someone is homeless",
+        "category": "Social",
+        "yes": 24,
+        "no": 0
+      },
+      {
+        "topicId": 363,
+        "name": "someone leaves without saying goodbye",
+        "category": "Abandonment",
+        "yes": 23,
+        "no": 1
+      },
+      {
+        "topicId": 298,
+        "name": "Someone becomes unconscious",
+        "category": "Whole Body",
+        "yes": 23,
+        "no": 0
+      },
+      {
+        "topicId": 313,
+        "name": "a family member dies",
+        "category": "Family",
+        "yes": 22,
+        "no": 0
+      },
+      {
+        "topicId": 311,
+        "name": "someone dies",
+        "category": "Death",
+        "yes": 20,
+        "no": 0
+      },
+      {
+        "topicId": 308,
+        "name": "someone is held under water",
+        "category": "Assault",
+        "yes": 19,
+        "no": 3
+      },
+      {
+        "topicId": 335,
+        "name": "there's natural bodies of water",
+        "category": "Fear",
+        "yes": 19,
+        "no": 0
+      },
+      {
+        "topicId": 329,
+        "name": "a priceless artifact is destroyed",
+        "category": "Loss",
+        "yes": 18,
+        "no": 0
+      },
+      {
+        "topicId": 305,
+        "name": "a non-human character dies",
+        "category": "Death",
+        "yes": 17,
+        "no": 0
+      },
+      {
+        "topicId": 332,
+        "name": "there's an alligator or crocodile",
+        "category": "Animal Phobia",
+        "yes": 15,
+        "no": 1
+      },
+      {
+        "topicId": 345,
+        "name": "there's incarceration",
+        "category": "Law Enforcement",
+        "yes": 15,
+        "no": 0
+      },
+      {
+        "topicId": 321,
+        "name": "someone is beaten up by a bully",
+        "category": "Assault",
+        "yes": 14,
+        "no": 3
+      },
+      {
+        "topicId": 348,
+        "name": "someone has a meltdown",
+        "category": "Mental Health",
+        "yes": 14,
+        "no": 0
+      },
+      {
+        "topicId": 318,
+        "name": "someone is watched without knowing",
+        "category": "Paranoia",
+        "yes": 14,
+        "no": 0
+      },
+      {
+        "topicId": 296,
+        "name": "there's body horror",
+        "category": "Whole Body",
+        "yes": 14,
+        "no": 8
+      },
+      {
+        "topicId": 352,
+        "name": "hands are damaged",
+        "category": "Appendages",
+        "yes": 13,
+        "no": 2
+      },
+      {
+        "topicId": 295,
+        "name": "there are mannequins",
+        "category": "Fear",
+        "yes": 13,
+        "no": 5
+      },
+      {
+        "topicId": 339,
+        "name": "there are sudden loud noises",
+        "category": "Noxious",
+        "yes": 13,
+        "no": 1
+      },
+      {
+        "topicId": 356,
+        "name": "there's underwater scenes",
+        "category": "Noxious",
+        "yes": 13,
+        "no": 0
+      },
+      {
+        "topicId": 351,
+        "name": "religion is discussed",
+        "category": "Religious",
+        "yes": 13,
+        "no": 0
+      },
+      {
+        "topicId": 299,
+        "name": "someone is drugged",
+        "category": "Assault",
+        "yes": 12,
+        "no": 3
+      },
+      {
+        "topicId": 360,
+        "name": "someone's mouth is covered",
+        "category": "Assault",
+        "yes": 12,
+        "no": 0
+      },
+      {
+        "topicId": 353,
+        "name": "someone disabled played by able-bodied",
+        "category": "Disability",
+        "yes": 11,
+        "no": 4
+      },
+      {
+        "topicId": 324,
+        "name": "there's farting",
+        "category": "Gross",
+        "yes": 11,
+        "no": 2
+      },
+      {
+        "topicId": 336,
+        "name": "someone has a mental illness",
+        "category": "Mental Health",
+        "yes": 11,
+        "no": 0
+      },
+      {
+        "topicId": 350,
+        "name": "an animal is abandoned",
+        "category": "Animal Distress",
+        "yes": 10,
+        "no": 9
+      },
+      {
+        "topicId": 366,
+        "name": "there's screaming",
+        "category": "Noxious",
+        "yes": 10,
+        "no": 0
+      },
+      {
+        "topicId": 294,
+        "name": "a minority is misrepresented",
+        "category": "Race",
+        "yes": 10,
+        "no": 6
+      },
+      {
+        "topicId": 297,
+        "name": "there are razors",
+        "category": "Fear",
+        "yes": 9,
+        "no": 5
+      },
+      {
+        "topicId": 334,
+        "name": "reality is unstable or unhinged",
+        "category": "Mental Health",
+        "yes": 9,
+        "no": 1
+      },
+      {
+        "topicId": 302,
+        "name": "D.I.D. Misrepresentation",
+        "category": "Mental Health",
+        "yes": 9,
+        "no": 6
+      },
+      {
+        "topicId": 373,
+        "name": "there is a tsunami",
+        "category": "Natural Disasters",
+        "yes": 3,
+        "no": 0
+      }
+    ]
+  },
+  {
+    "ttId": "tt7842848",
+    "type": "series",
+    "name": "tt7842848",
+    "year": null,
+    "poster": null,
+    "background": null,
+    "dtddId": null,
+    "matched": false,
+    "triggers": [],
+    "error": "Cinemeta series/tt7842848 returned no meta"
+  },
+  {
+    "ttId": "tt0386676",
+    "type": "series",
+    "name": "The Office",
+    "year": "2005–2013",
+    "poster": "https://images.metahub.space/poster/small/tt0386676/img",
+    "background": "https://images.metahub.space/background/medium/tt0386676/img",
+    "dtddId": 771405,
+    "matched": true,
+    "triggers": [
+      {
+        "topicId": 201,
+        "name": "someone vomits",
+        "category": "Gross",
+        "yes": 83,
+        "no": 2
+      },
+      {
+        "topicId": 186,
+        "name": "a cat dies",
+        "category": "Animal Death",
+        "yes": 49,
+        "no": 2
+      },
+      {
+        "topicId": 189,
+        "name": "an animal dies",
+        "category": "Animal Death",
+        "yes": 37,
+        "no": 2
+      },
+      {
+        "topicId": 259,
+        "name": "someone says \"I'll kill myself\"",
+        "category": "Self Harm",
+        "yes": 36,
+        "no": 0
+      },
+      {
+        "topicId": 225,
+        "name": "alcohol abuse",
+        "category": "Addiction",
+        "yes": 35,
+        "no": 1
+      },
+      {
+        "topicId": 182,
+        "name": "someone is sexually assaulted",
+        "category": "Sexual Assault",
+        "yes": 35,
+        "no": 6
+      },
+      {
+        "topicId": 285,
+        "name": "a pet dies",
+        "category": "Animal Death",
+        "yes": 33,
+        "no": 1
+      },
+      {
+        "topicId": 229,
+        "name": "animals are abused",
+        "category": "Animal Distress",
+        "yes": 33,
+        "no": 3
+      },
+      {
+        "topicId": 241,
+        "name": "someone cheats",
+        "category": "Family",
+        "yes": 33,
+        "no": 0
+      },
+      {
+        "topicId": 219,
+        "name": "there's domestic violence",
+        "category": "Abuse",
+        "yes": 32,
+        "no": 2
+      },
+      {
+        "topicId": 252,
+        "name": "there's a dead animal",
+        "category": "Animal Death",
+        "yes": 32,
+        "no": 1
+      },
+      {
+        "topicId": 217,
+        "name": "someone has an eating disorder",
+        "category": "Mental Health",
+        "yes": 31,
+        "no": 0
+      },
+      {
+        "topicId": 247,
+        "name": "there are homophobic slurs",
+        "category": "Prejudice",
+        "yes": 31,
+        "no": 1
+      },
+      {
+        "topicId": 233,
+        "name": "there's fat jokes",
+        "category": "Prejudice",
+        "yes": 31,
+        "no": 0
+      },
+      {
+        "topicId": 230,
+        "name": "there's addiction",
+        "category": "Addiction",
+        "yes": 30,
+        "no": 5
+      },
+      {
+        "topicId": 193,
+        "name": "someone uses drugs",
+        "category": "Addiction",
+        "yes": 30,
+        "no": 1
+      },
+      {
+        "topicId": 208,
+        "name": "a person is hit by a car",
+        "category": "Vehicular",
+        "yes": 27,
+        "no": 0
+      },
+      {
+        "topicId": 243,
+        "name": "someone is kidnapped",
+        "category": "Family",
+        "yes": 26,
+        "no": 1
+      },
+      {
+        "topicId": 262,
+        "name": "there are \"Man in a dress\" jokes",
+        "category": "Prejudice",
+        "yes": 26,
+        "no": 0
+      },
+      {
+        "topicId": 237,
+        "name": "someone gets gaslighted",
+        "category": "Abuse",
+        "yes": 25,
+        "no": 3
+      },
+      {
+        "topicId": 192,
+        "name": "there's a hospital scene",
+        "category": "Medical",
+        "yes": 25,
+        "no": 0
+      },
+      {
+        "topicId": 181,
+        "name": "shaky cam is used",
+        "category": "Noxious",
+        "yes": 25,
+        "no": 0
+      },
+      {
+        "topicId": 293,
+        "name": "a child is abandoned by a parent or guardian",
+        "category": "Abandonment",
+        "yes": 23,
+        "no": 2
+      },
+      {
+        "topicId": 213,
+        "name": "there are bugs",
+        "category": "Animal Phobia",
+        "yes": 22,
+        "no": 2
+      },
+      {
+        "topicId": 258,
+        "name": "there's genital trauma/mutilation",
+        "category": "Appendages",
+        "yes": 22,
+        "no": 5
+      },
+      {
+        "topicId": 272,
+        "name": "the r-slur is used",
+        "category": "Disability",
+        "yes": 22,
+        "no": 2
+      },
+      {
+        "topicId": 268,
+        "name": "the fourth wall is broken",
+        "category": "Paranoia",
+        "yes": 22,
+        "no": 0
+      },
+      {
+        "topicId": 228,
+        "name": "there's childbirth",
+        "category": "Pregnancy",
+        "yes": 22,
+        "no": 0
+      },
+      {
+        "topicId": 244,
+        "name": "there's ableist language or behavior",
+        "category": "Prejudice",
+        "yes": 22,
+        "no": 1
+      },
+      {
+        "topicId": 212,
+        "name": "someone speaks hate speech",
+        "category": "Prejudice",
+        "yes": 22,
+        "no": 2
+      },
+      {
+        "topicId": 261,
+        "name": "a baby cries",
+        "category": "Children",
+        "yes": 21,
+        "no": 0
+      },
+      {
+        "topicId": 287,
+        "name": "a minor is sexualized",
+        "category": "Sex",
+        "yes": 21,
+        "no": 0
+      },
+      {
+        "topicId": 216,
+        "name": "someone breaks a bone",
+        "category": "Appendages",
+        "yes": 20,
+        "no": 0
+      },
+      {
+        "topicId": 274,
+        "name": "someone is restrained",
+        "category": "Assault",
+        "yes": 20,
+        "no": 1
+      },
+      {
+        "topicId": 195,
+        "name": "there's body dysmorphia",
+        "category": "Mental Health",
+        "yes": 20,
+        "no": 2
+      },
+      {
+        "topicId": 245,
+        "name": "someone struggles to breathe",
+        "category": "Neck",
+        "yes": 20,
+        "no": 1
+      },
+      {
+        "topicId": 187,
+        "name": "someone dies by suicide",
+        "category": "Self Harm",
+        "yes": 20,
+        "no": 4
+      },
+      {
+        "topicId": 320,
+        "name": "there's pedophilia",
+        "category": "Sexual Assault",
+        "yes": 20,
+        "no": 5
+      },
+      {
+        "topicId": 315,
+        "name": "sexual assault on men is a joke",
+        "category": "Sexual Assault",
+        "yes": 20,
+        "no": 0
+      },
+      {
+        "topicId": 184,
+        "name": "a car crashes",
+        "category": "Vehicular",
+        "yes": 20,
+        "no": 1
+      },
+      {
+        "topicId": 271,
+        "name": "someone falls down stairs",
+        "category": "Whole Body",
+        "yes": 20,
+        "no": 0
+      },
+      {
+        "topicId": 314,
+        "name": "there are transphobic slurs",
+        "category": "LGBTQ+",
+        "yes": 19,
+        "no": 1
+      },
+      {
+        "topicId": 180,
+        "name": "there's spitting",
+        "category": "Gross",
+        "yes": 18,
+        "no": 0
+      },
+      {
+        "topicId": 251,
+        "name": "someone says the n-word",
+        "category": "Race",
+        "yes": 18,
+        "no": 4
+      },
+      {
+        "topicId": 197,
+        "name": "there is sexual content",
+        "category": "Sex",
+        "yes": 18,
+        "no": 0
+      },
+      {
+        "topicId": 276,
+        "name": "someone is sexually objectified",
+        "category": "Sex",
+        "yes": 18,
+        "no": 0
+      },
+      {
+        "topicId": 326,
+        "name": "sexual assault is mentioned",
+        "category": "Sexual Assault",
+        "yes": 18,
+        "no": 2
+      },
+      {
+        "topicId": 209,
+        "name": "Santa (et al) is spoiled",
+        "category": "Spoiler",
+        "yes": 18,
+        "no": 2
+      },
+      {
+        "topicId": 242,
+        "name": "someone is stalked",
+        "category": "Abuse",
+        "yes": 17,
+        "no": 9
+      },
+      {
+        "topicId": 299,
+        "name": "someone is drugged",
+        "category": "Assault",
+        "yes": 17,
+        "no": 3
+      },
+      {
+        "topicId": 342,
+        "name": "a woman gets slapped",
+        "category": "Assault",
+        "yes": 17,
+        "no": 4
+      },
+      {
+        "topicId": 284,
+        "name": "an infant is abducted",
+        "category": "Children",
+        "yes": 17,
+        "no": 1
+      },
+      {
+        "topicId": 266,
+        "name": "there is a baby or unborn child",
+        "category": "Pregnancy",
+        "yes": 17,
+        "no": 0
+      },
+      {
+        "topicId": 286,
+        "name": "Someone attempts suicide",
+        "category": "Self Harm",
+        "yes": 17,
+        "no": 6
+      },
+      {
+        "topicId": 232,
+        "name": "there's gun violence",
+        "category": "Violence",
+        "yes": 17,
+        "no": 4
+      },
+      {
+        "topicId": 368,
+        "name": "an LGBT+ person is outed",
+        "category": "LGBTQ+",
+        "yes": 16,
+        "no": 0
+      },
+      {
+        "topicId": 226,
+        "name": "someone is misgendered",
+        "category": "Prejudice",
+        "yes": 16,
+        "no": 3
+      },
+      {
+        "topicId": 269,
+        "name": "a car honks or tires screech",
+        "category": "Vehicular",
+        "yes": 16,
+        "no": 0
+      },
+      {
+        "topicId": 321,
+        "name": "someone is beaten up by a bully",
+        "category": "Assault",
+        "yes": 15,
+        "no": 0
+      },
+      {
+        "topicId": 331,
+        "name": "there's decapitation",
+        "category": "Head",
+        "yes": 15,
+        "no": 3
+      },
+      {
+        "topicId": 290,
+        "name": "there is obscene language/gestures",
+        "category": "Noxious",
+        "yes": 15,
+        "no": 0
+      },
+      {
+        "topicId": 270,
+        "name": "someone is homeless",
+        "category": "Social",
+        "yes": 15,
+        "no": 1
+      },
+      {
+        "topicId": 177,
+        "name": "there's shaving/cutting",
+        "category": "Whole Body",
+        "yes": 15,
+        "no": 8
+      },
+      {
+        "topicId": 363,
+        "name": "someone leaves without saying goodbye",
+        "category": "Abandonment",
+        "yes": 14,
+        "no": 0
+      },
+      {
+        "topicId": 171,
+        "name": "there's finger/toe mutilation",
+        "category": "Appendages",
+        "yes": 14,
+        "no": 9
+      },
+      {
+        "topicId": 311,
+        "name": "someone dies",
+        "category": "Death",
+        "yes": 14,
+        "no": 1
+      },
+      {
+        "topicId": 257,
+        "name": "someone wets/soils themselves",
+        "category": "Gross",
+        "yes": 14,
+        "no": 2
+      },
+      {
+        "topicId": 324,
+        "name": "there's farting",
+        "category": "Gross",
+        "yes": 14,
+        "no": 0
+      },
+      {
+        "topicId": 298,
+        "name": "Someone becomes unconscious",
+        "category": "Whole Body",
+        "yes": 14,
+        "no": 1
+      },
+      {
+        "topicId": 202,
+        "name": "there's a claustrophobic scene",
+        "category": "Fear",
+        "yes": 13,
+        "no": 1
+      },
+      {
+        "topicId": 309,
+        "name": "somebody is choked",
+        "category": "Neck",
+        "yes": 13,
+        "no": 1
+      },
+      {
+        "topicId": 277,
+        "name": "there's a large age gap",
+        "category": "Relationships",
+        "yes": 13,
+        "no": 1
+      },
+      {
+        "topicId": 273,
+        "name": "a male character is ridiculed for crying",
+        "category": "Sexism",
+        "yes": 13,
+        "no": 1
+      },
+      {
+        "topicId": 297,
+        "name": "there are razors",
+        "category": "Fear",
+        "yes": 12,
+        "no": 1
+      },
+      {
+        "topicId": 335,
+        "name": "there's natural bodies of water",
+        "category": "Fear",
+        "yes": 12,
+        "no": 0
+      },
+      {
+        "topicId": 220,
+        "name": "there's a mental institution scene",
+        "category": "Medical",
+        "yes": 12,
+        "no": 4
+      },
+      {
+        "topicId": 318,
+        "name": "someone is watched without knowing",
+        "category": "Paranoia",
+        "yes": 12,
+        "no": 0
+      },
+      {
+        "topicId": 294,
+        "name": "a minority is misrepresented",
+        "category": "Race",
+        "yes": 12,
+        "no": 0
+      },
+      {
+        "topicId": 360,
+        "name": "someone's mouth is covered",
+        "category": "Assault",
+        "yes": 11,
+        "no": 2
+      },
+      {
+        "topicId": 313,
+        "name": "a family member dies",
+        "category": "Family",
+        "yes": 11,
+        "no": 2
+      },
+      {
+        "topicId": 300,
+        "name": "there's fat suits",
+        "category": "Social",
+        "yes": 11,
+        "no": 2
+      },
+      {
+        "topicId": 176,
+        "name": "there are shower scenes",
+        "category": "Fear",
+        "yes": 10,
+        "no": 2
+      },
+      {
+        "topicId": 295,
+        "name": "there are mannequins",
+        "category": "Fear",
+        "yes": 10,
+        "no": 2
+      },
+      {
+        "topicId": 354,
+        "name": "someone defecates",
+        "category": "Gross",
+        "yes": 10,
+        "no": 2
+      },
+      {
+        "topicId": 348,
+        "name": "someone has a meltdown",
+        "category": "Mental Health",
+        "yes": 10,
+        "no": 0
+      },
+      {
+        "topicId": 167,
+        "name": "there's flashing lights or images",
+        "category": "Noxious",
+        "yes": 10,
+        "no": 0
+      },
+      {
+        "topicId": 366,
+        "name": "there's screaming",
+        "category": "Noxious",
+        "yes": 10,
+        "no": 0
+      },
+      {
+        "topicId": 325,
+        "name": "there's blackface",
+        "category": "Race",
+        "yes": 9,
+        "no": 2
+      },
+      {
+        "topicId": 351,
+        "name": "religion is discussed",
+        "category": "Religious",
+        "yes": 9,
+        "no": 0
+      },
+      {
+        "topicId": 352,
+        "name": "hands are damaged",
+        "category": "Appendages",
+        "yes": 8,
+        "no": 0
+      },
+      {
+        "topicId": 345,
+        "name": "there's incarceration",
+        "category": "Law Enforcement",
+        "yes": 8,
+        "no": 2
+      },
+      {
+        "topicId": 235,
+        "name": "someone has an anxiety attack",
+        "category": "Mental Health",
+        "yes": 8,
+        "no": 3
+      },
+      {
+        "topicId": 353,
+        "name": "someone disabled played by able-bodied",
+        "category": "Disability",
+        "yes": 7,
+        "no": 3
+      },
+      {
+        "topicId": 260,
+        "name": "there's misophonia",
+        "category": "Mental Health",
+        "yes": 7,
+        "no": 3
+      },
+      {
+        "topicId": 336,
+        "name": "someone has a mental illness",
+        "category": "Mental Health",
+        "yes": 7,
+        "no": 4
+      },
+      {
+        "topicId": 361,
+        "name": "someone's throat is mutilated",
+        "category": "Neck",
+        "yes": 7,
+        "no": 2
+      },
+      {
+        "topicId": 339,
+        "name": "there are sudden loud noises",
+        "category": "Noxious",
+        "yes": 6,
+        "no": 2
+      },
+      {
+        "topicId": 375,
+        "name": "someone has a heart attack",
+        "category": "Medical",
+        "yes": 4,
+        "no": 0
+      }
+    ]
+  }
+]
