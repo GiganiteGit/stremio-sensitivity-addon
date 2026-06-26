@@ -1,0 +1,1395 @@
+[
+  {
+    "topicId": 153,
+    "name": "a dog dies",
+    "doesName": "Does the dog die",
+    "category": "Animal Death",
+    "slug": "does-the-dog-die"
+  },
+  {
+    "topicId": 158,
+    "name": "a kid dies",
+    "doesName": "Does a kid die",
+    "category": "Children",
+    "slug": "does-a-kid-die"
+  },
+  {
+    "topicId": 161,
+    "name": "there are jump scares",
+    "doesName": "Are there jump scares",
+    "category": "Fear",
+    "slug": "are-there-jump-scares"
+  },
+  {
+    "topicId": 164,
+    "name": "someone is burned alive",
+    "doesName": "Is someone burned alive",
+    "category": "Whole Body",
+    "slug": "is-someone-burned-alive"
+  },
+  {
+    "topicId": 165,
+    "name": "there are spiders",
+    "doesName": "Are there spiders",
+    "category": "Animal Phobia",
+    "slug": "are-there-spiders"
+  },
+  {
+    "topicId": 167,
+    "name": "there's flashing lights or images",
+    "doesName": "Are there flashing lights or images",
+    "category": "Noxious",
+    "slug": "are-there-flashing-lights-or-images"
+  },
+  {
+    "topicId": 168,
+    "name": "a parent dies",
+    "doesName": "Does a parent die",
+    "category": "Family",
+    "slug": "does-a-parent-die"
+  },
+  {
+    "topicId": 171,
+    "name": "there's finger/toe mutilation",
+    "doesName": "Is there finger/toe mutilation",
+    "category": "Appendages",
+    "slug": "is-there-finger-toe-mutilation"
+  },
+  {
+    "topicId": 174,
+    "name": "there are clowns",
+    "doesName": "Are there clowns",
+    "category": "Fear",
+    "slug": "are-there-clowns"
+  },
+  {
+    "topicId": 176,
+    "name": "there are shower scenes",
+    "doesName": "Is there a shower scene",
+    "category": "Fear",
+    "slug": "is-there-a-shower-scene"
+  },
+  {
+    "topicId": 177,
+    "name": "there's shaving/cutting",
+    "doesName": "Is there shaving/cutting",
+    "category": "Whole Body",
+    "slug": "is-there-shaving-cutting"
+  },
+  {
+    "topicId": 180,
+    "name": "there's spitting",
+    "doesName": "Does someone spit",
+    "category": "Gross",
+    "slug": "does-someone-spit"
+  },
+  {
+    "topicId": 181,
+    "name": "shaky cam is used",
+    "doesName": "Is there shakey cam",
+    "category": "Noxious",
+    "slug": "is-there-shakey-cam"
+  },
+  {
+    "topicId": 182,
+    "name": "someone is sexually assaulted",
+    "doesName": "Is someone sexually assaulted",
+    "category": "Sexual Assault",
+    "slug": "is-someone-sexually-assaulted"
+  },
+  {
+    "topicId": 183,
+    "name": "a horse dies",
+    "doesName": "Does a horse die",
+    "category": "Animal Death",
+    "slug": "does-a-horse-die"
+  },
+  {
+    "topicId": 184,
+    "name": "a car crashes",
+    "doesName": "Does a car crash",
+    "category": "Vehicular",
+    "slug": "does-a-car-crash"
+  },
+  {
+    "topicId": 186,
+    "name": "a cat dies",
+    "doesName": "Does a cat die",
+    "category": "Animal Death",
+    "slug": "does-a-cat-die"
+  },
+  {
+    "topicId": 187,
+    "name": "someone dies by suicide",
+    "doesName": "Does someone die by suicide",
+    "category": "Self Harm",
+    "slug": "does-someone-die-by-suicide"
+  },
+  {
+    "topicId": 188,
+    "name": "there's blood/gore",
+    "doesName": "Is there blood/gore",
+    "category": "Violence",
+    "slug": "is-there-blood-gore"
+  },
+  {
+    "topicId": 189,
+    "name": "an animal dies",
+    "doesName": "Does an animal die",
+    "category": "Animal Death",
+    "slug": "does-an-animal-die"
+  },
+  {
+    "topicId": 190,
+    "name": "needles/syringes are used",
+    "doesName": "Are needles/syringes used",
+    "category": "Medical",
+    "slug": "are-needles-syringes-used"
+  },
+  {
+    "topicId": 191,
+    "name": "someone drowns",
+    "doesName": "Does someone drown",
+    "category": "Violence",
+    "slug": "does-someone-drown"
+  },
+  {
+    "topicId": 192,
+    "name": "there's a hospital scene",
+    "doesName": "Is there a hospital scene",
+    "category": "Medical",
+    "slug": "is-there-a-hospital-scene"
+  },
+  {
+    "topicId": 193,
+    "name": "someone uses drugs",
+    "doesName": "Does someone use drugs",
+    "category": "Addiction",
+    "slug": "does-someone-use-drugs"
+  },
+  {
+    "topicId": 194,
+    "name": "an LGBT person dies",
+    "doesName": "Does an LGBT person die",
+    "category": "Prejudice",
+    "slug": "does-an-lgbt-person-die"
+  },
+  {
+    "topicId": 195,
+    "name": "there's body dysmorphia",
+    "doesName": "Is there body dysmorphia",
+    "category": "Mental Health",
+    "slug": "is-there-body-dysmorphia"
+  },
+  {
+    "topicId": 196,
+    "name": "a dragon dies",
+    "doesName": "Does a dragon die",
+    "category": "Animal Death",
+    "slug": "does-a-dragon-die"
+  },
+  {
+    "topicId": 197,
+    "name": "there is sexual content",
+    "doesName": "Is there sexual content",
+    "category": "Sex",
+    "slug": "is-there-sexual-content"
+  },
+  {
+    "topicId": 198,
+    "name": "a plane crashes",
+    "doesName": "Does a plane crash",
+    "category": "Vehicular",
+    "slug": "does-a-plane-crash"
+  },
+  {
+    "topicId": 199,
+    "name": "someone self harms",
+    "doesName": "Does someone self harm",
+    "category": "Self Harm",
+    "slug": "does-someone-self-harm"
+  },
+  {
+    "topicId": 200,
+    "name": "there's eye mutilation",
+    "doesName": "Is there eye mutilation",
+    "category": "Head",
+    "slug": "is-there-eye-mutilation"
+  },
+  {
+    "topicId": 201,
+    "name": "someone vomits",
+    "doesName": "Does someone vomit",
+    "category": "Gross",
+    "slug": "does-someone-vomit"
+  },
+  {
+    "topicId": 202,
+    "name": "there's a claustrophobic scene",
+    "doesName": "Is there a claustrophobic scene",
+    "category": "Fear",
+    "slug": "is-there-a-claustrophobic-scene"
+  },
+  {
+    "topicId": 203,
+    "name": "there's torture",
+    "doesName": "Is someone tortured",
+    "category": "Whole Body",
+    "slug": "is-someone-tortured"
+  },
+  {
+    "topicId": 204,
+    "name": "someone has cancer",
+    "doesName": "Does someone have cancer",
+    "category": "Medical",
+    "slug": "does-someone-have-cancer"
+  },
+  {
+    "topicId": 205,
+    "name": "electro-therapy is used",
+    "doesName": "Is electro-therapy used",
+    "category": "Medical",
+    "slug": "is-electro-therapy-used"
+  },
+  {
+    "topicId": 206,
+    "name": "someone has a seizure",
+    "doesName": "Does someone have a seizure",
+    "category": "Whole Body",
+    "slug": "does-someone-have-a-seizure"
+  },
+  {
+    "topicId": 207,
+    "name": "there's ghosts",
+    "doesName": "Are there ghosts",
+    "category": "Fear",
+    "slug": "are-there-ghosts"
+  },
+  {
+    "topicId": 208,
+    "name": "a person is hit by a car",
+    "doesName": "Is someone hit by a car",
+    "category": "Vehicular",
+    "slug": "is-someone-hit-by-a-car"
+  },
+  {
+    "topicId": 209,
+    "name": "Santa (et al) is spoiled",
+    "doesName": "Is Santa (et al) spoiled",
+    "category": "Spoiler",
+    "slug": "is-santa-et-al-spoiled"
+  },
+  {
+    "topicId": 210,
+    "name": "teeth are damaged",
+    "doesName": "Are any teeth damaged",
+    "category": "Head",
+    "slug": "are-any-teeth-damaged"
+  },
+  {
+    "topicId": 211,
+    "name": "someone falls to their death",
+    "doesName": "Does someone fall to their death",
+    "category": "Whole Body",
+    "slug": "does-someone-fall-to-their-death"
+  },
+  {
+    "topicId": 212,
+    "name": "someone speaks hate speech",
+    "doesName": "Is there hate speech",
+    "category": "Prejudice",
+    "slug": "is-there-hate-speech"
+  },
+  {
+    "topicId": 213,
+    "name": "there are bugs",
+    "doesName": "Are there bugs",
+    "category": "Animal Phobia",
+    "slug": "are-there-bugs"
+  },
+  {
+    "topicId": 214,
+    "name": "there are snakes",
+    "doesName": "Are there snakes",
+    "category": "Animal Phobia",
+    "slug": "are-there-snakes"
+  },
+  {
+    "topicId": 215,
+    "name": "someone miscarries",
+    "doesName": "Does someone miscarry",
+    "category": "Pregnancy",
+    "slug": "does-someone-miscarry"
+  },
+  {
+    "topicId": 216,
+    "name": "someone breaks a bone",
+    "doesName": "Does someone break a bone",
+    "category": "Appendages",
+    "slug": "does-someone-break-a-bone"
+  },
+  {
+    "topicId": 217,
+    "name": "someone has an eating disorder",
+    "doesName": "Does someone have an eating disorder",
+    "category": "Mental Health",
+    "slug": "does-someone-have-an-eating-disorder"
+  },
+  {
+    "topicId": 218,
+    "name": "there's child abuse",
+    "doesName": "Is a child abused",
+    "category": "Abuse",
+    "slug": "is-a-child-abused"
+  },
+  {
+    "topicId": 219,
+    "name": "there's domestic violence",
+    "doesName": "Is there domestic violence",
+    "category": "Abuse",
+    "slug": "is-there-domestic-violence"
+  },
+  {
+    "topicId": 220,
+    "name": "there's a mental institution scene",
+    "doesName": "Is there a mental institution scene",
+    "category": "Medical",
+    "slug": "is-there-a-mental-institution-scene"
+  },
+  {
+    "topicId": 221,
+    "name": "there's a nuclear explosion",
+    "doesName": "Is there a nuclear explosion",
+    "category": "Violence",
+    "slug": "is-there-a-nuclear-explosion"
+  },
+  {
+    "topicId": 222,
+    "name": "the ending is sad",
+    "doesName": "Does it have a sad ending",
+    "category": "Spoiler",
+    "slug": "does-it-have-a-sad-ending"
+  },
+  {
+    "topicId": 223,
+    "name": "heads get squashed",
+    "doesName": "Does a head get squashed",
+    "category": "Head",
+    "slug": "does-a-head-get-squashed"
+  },
+  {
+    "topicId": 224,
+    "name": "someone is possessed",
+    "doesName": "Is someone possessed",
+    "category": "Fear",
+    "slug": "is-someone-possessed"
+  },
+  {
+    "topicId": 225,
+    "name": "alcohol abuse",
+    "doesName": "Does someone abuse alcohol",
+    "category": "Addiction",
+    "slug": "does-someone-abuse-alcohol"
+  },
+  {
+    "topicId": 226,
+    "name": "someone is misgendered",
+    "doesName": "Is someone misgendered",
+    "category": "Prejudice",
+    "slug": "is-someone-misgendered"
+  },
+  {
+    "topicId": 227,
+    "name": "there are hangings",
+    "doesName": "Is there a hanging",
+    "category": "Neck",
+    "slug": "is-there-a-hanging"
+  },
+  {
+    "topicId": 228,
+    "name": "there's childbirth",
+    "doesName": "Is there childbirth",
+    "category": "Pregnancy",
+    "slug": "is-there-childbirth"
+  },
+  {
+    "topicId": 229,
+    "name": "animals are abused",
+    "doesName": "Are animals abused",
+    "category": "Animal Distress",
+    "slug": "are-animals-abused"
+  },
+  {
+    "topicId": 230,
+    "name": "there's addiction",
+    "doesName": "Is there addiction",
+    "category": "Addiction",
+    "slug": "is-there-addiction"
+  },
+  {
+    "topicId": 231,
+    "name": "there's dog fighting",
+    "doesName": "Is there dog fighting",
+    "category": "Animal Distress",
+    "slug": "is-there-dog-fighting"
+  },
+  {
+    "topicId": 232,
+    "name": "there's gun violence",
+    "doesName": "Is there gun violence",
+    "category": "Violence",
+    "slug": "is-there-gun-violence"
+  },
+  {
+    "topicId": 233,
+    "name": "there's fat jokes",
+    "doesName": "Are there fat jokes",
+    "category": "Prejudice",
+    "slug": "are-there-fat-jokes"
+  },
+  {
+    "topicId": 234,
+    "name": "the black guy dies first",
+    "doesName": "Does the black guy die first",
+    "category": "Race",
+    "slug": "does-the-black-guy-die-first"
+  },
+  {
+    "topicId": 235,
+    "name": "someone has an anxiety attack",
+    "doesName": "Are there anxiety attacks",
+    "category": "Mental Health",
+    "slug": "are-there-anxiety-attacks"
+  },
+  {
+    "topicId": 236,
+    "name": "there are incestuous relationships",
+    "doesName": "Are there incestuous relationships",
+    "category": "Sex",
+    "slug": "are-there-incestuous-relationships"
+  },
+  {
+    "topicId": 237,
+    "name": "someone gets gaslighted",
+    "doesName": "Is someone gaslighted",
+    "category": "Abuse",
+    "slug": "is-someone-gaslighted"
+  },
+  {
+    "topicId": 238,
+    "name": "someone has an abortion",
+    "doesName": "Are there abortions",
+    "category": "Pregnancy",
+    "slug": "are-there-abortions"
+  },
+  {
+    "topicId": 239,
+    "name": "a pregnant person dies",
+    "doesName": "Does a pregnant person die",
+    "category": "Pregnancy",
+    "slug": "does-a-pregnant-person-die"
+  },
+  {
+    "topicId": 240,
+    "name": "someone is buried alive",
+    "doesName": "Is someone buried alive",
+    "category": "Whole Body",
+    "slug": "is-someone-buried-alive"
+  },
+  {
+    "topicId": 241,
+    "name": "someone cheats",
+    "doesName": "Does someone cheat",
+    "category": "Family",
+    "slug": "does-someone-cheat"
+  },
+  {
+    "topicId": 242,
+    "name": "someone is stalked",
+    "doesName": "Is someone stalked",
+    "category": "Abuse",
+    "slug": "is-someone-stalked"
+  },
+  {
+    "topicId": 243,
+    "name": "someone is kidnapped",
+    "doesName": "Is someone kidnapped",
+    "category": "Family",
+    "slug": "is-someone-kidnapped"
+  },
+  {
+    "topicId": 244,
+    "name": "there's ableist language or behavior",
+    "doesName": "Is there ableist language or behavior",
+    "category": "Prejudice",
+    "slug": "is-there-ableist-language-or-behavior"
+  },
+  {
+    "topicId": 245,
+    "name": "someone struggles to breathe",
+    "doesName": "Does someone struggle to breathe",
+    "category": "Neck",
+    "slug": "does-someone-struggle-to-breathe"
+  },
+  {
+    "topicId": 246,
+    "name": "there's antisemitism",
+    "doesName": "Is there antisemitism",
+    "category": "Race",
+    "slug": "is-there-antisemitism"
+  },
+  {
+    "topicId": 247,
+    "name": "there are homophobic slurs",
+    "doesName": "Are there homophobic slurs",
+    "category": "Prejudice",
+    "slug": "are-there-homophobic-slurs"
+  },
+  {
+    "topicId": 248,
+    "name": "Autism specific abuse",
+    "doesName": "Is there autism specific abuse",
+    "category": "Mental Health",
+    "slug": "is-there-autism-specific-abuse"
+  },
+  {
+    "topicId": 250,
+    "name": "there's amputation",
+    "doesName": "Is there amputation",
+    "category": "Appendages",
+    "slug": "is-there-amputation"
+  },
+  {
+    "topicId": 251,
+    "name": "someone says the n-word",
+    "doesName": "Are there usages of the n-word",
+    "category": "Race",
+    "slug": "are-there-usages-of-the-n-word"
+  },
+  {
+    "topicId": 252,
+    "name": "there's a dead animal",
+    "doesName": "Is there a dead animal",
+    "category": "Animal Death",
+    "slug": "is-there-a-dead-animal"
+  },
+  {
+    "topicId": 253,
+    "name": "A child's dear toy is destroyed",
+    "doesName": "Is a child's toy destroyed",
+    "category": "Family",
+    "slug": "is-a-childs-toy-destroyed"
+  },
+  {
+    "topicId": 254,
+    "name": "there's cannibalism",
+    "doesName": "Is there cannibalism",
+    "category": "Whole Body",
+    "slug": "is-there-cannibalism"
+  },
+  {
+    "topicId": 255,
+    "name": "There's audio gore",
+    "doesName": "Is there audio gore",
+    "category": "Gross",
+    "slug": "is-there-audio-gore"
+  },
+  {
+    "topicId": 256,
+    "name": "there is copaganda",
+    "doesName": "Is there copaganda",
+    "category": "Law Enforcement",
+    "slug": "is-there-copaganda"
+  },
+  {
+    "topicId": 257,
+    "name": "someone wets/soils themselves",
+    "doesName": "Does someone wet/soil themselves",
+    "category": "Gross",
+    "slug": "does-someone-wet-soil-themselves"
+  },
+  {
+    "topicId": 258,
+    "name": "there's genital trauma/mutilation",
+    "doesName": "Is there genital trauma/mutilation",
+    "category": "Appendages",
+    "slug": "is-there-genital-trauma-mutilation"
+  },
+  {
+    "topicId": 259,
+    "name": "someone says \"I'll kill myself\"",
+    "doesName": "Does someone say \"I'll kill myself\"",
+    "category": "Self Harm",
+    "slug": "does-someone-say-ill-kill-myself"
+  },
+  {
+    "topicId": 260,
+    "name": "there's misophonia",
+    "doesName": "Is there misophonia",
+    "category": "Mental Health",
+    "slug": "is-there-misophonia"
+  },
+  {
+    "topicId": 261,
+    "name": "a baby cries",
+    "doesName": "Does a baby cry",
+    "category": "Children",
+    "slug": "does-a-baby-cry"
+  },
+  {
+    "topicId": 262,
+    "name": "there are \"Man in a dress\" jokes",
+    "doesName": "Are there \"Man in a dress\" jokes",
+    "category": "Prejudice",
+    "slug": "are-there-man-in-a-dress-jokes"
+  },
+  {
+    "topicId": 263,
+    "name": "a mentally ill person is violent",
+    "doesName": "Is a mentally ill person violent",
+    "category": "Mental Health",
+    "slug": "is-a-mentally-ill-person-violent"
+  },
+  {
+    "topicId": 264,
+    "name": "a baby is stillborn",
+    "doesName": "Is a baby stillborn",
+    "category": "Pregnancy",
+    "slug": "is-a-baby-stillborn"
+  },
+  {
+    "topicId": 265,
+    "name": "someone suffers from PTSD",
+    "doesName": "Does someone suffer from PTSD",
+    "category": "Mental Health",
+    "slug": "does-someone-suffer-from-ptsd"
+  },
+  {
+    "topicId": 266,
+    "name": "there is a baby or unborn child",
+    "doesName": "Are there babies or unborn children",
+    "category": "Pregnancy",
+    "slug": "are-there-babies-or-unborn-children"
+  },
+  {
+    "topicId": 267,
+    "name": "there's excessive gore",
+    "doesName": "Is there excessive gore",
+    "category": "Whole Body",
+    "slug": "is-there-excessive-gore"
+  },
+  {
+    "topicId": 268,
+    "name": "the fourth wall is broken",
+    "doesName": "Is the fourth wall broken",
+    "category": "Paranoia",
+    "slug": "is-the-fourth-wall-broken"
+  },
+  {
+    "topicId": 269,
+    "name": "a car honks or tires screech",
+    "doesName": "Does a car honk or tires screech",
+    "category": "Vehicular",
+    "slug": "does-a-car-honk-or-tires-screech"
+  },
+  {
+    "topicId": 270,
+    "name": "someone is homeless",
+    "doesName": "Is someone homeless",
+    "category": "Social",
+    "slug": "is-someone-homeless"
+  },
+  {
+    "topicId": 271,
+    "name": "someone falls down stairs",
+    "doesName": "Does someone fall down stairs",
+    "category": "Whole Body",
+    "slug": "does-someone-fall-down-stairs"
+  },
+  {
+    "topicId": 272,
+    "name": "the r-slur is used",
+    "doesName": "Is the r-slur used",
+    "category": "Disability",
+    "slug": "is-the-r-slur-used"
+  },
+  {
+    "topicId": 273,
+    "name": "a male character is ridiculed for crying",
+    "doesName": "Is a male character ridiculed for crying",
+    "category": "Sexism",
+    "slug": "is-a-male-character-ridiculed-for-crying"
+  },
+  {
+    "topicId": 274,
+    "name": "someone is restrained",
+    "doesName": "Is someone restrained",
+    "category": "Assault",
+    "slug": "is-someone-restrained"
+  },
+  {
+    "topicId": 275,
+    "name": "someone overdoses",
+    "doesName": "Does someone overdose",
+    "category": "Drugs/Alcohol",
+    "slug": "does-someone-overdose"
+  },
+  {
+    "topicId": 276,
+    "name": "someone is sexually objectified",
+    "doesName": "Is someone sexually objectified",
+    "category": "Sex",
+    "slug": "is-someone-sexually-objectified"
+  },
+  {
+    "topicId": 277,
+    "name": "there's a large age gap",
+    "doesName": "Is there a large age gap",
+    "category": "Relationships",
+    "slug": "is-there-a-large-age-gap"
+  },
+  {
+    "topicId": 278,
+    "name": "someone has a stroke",
+    "doesName": "Does someone have a stroke",
+    "category": "Sickness",
+    "slug": "does-someone-have-a-stroke"
+  },
+  {
+    "topicId": 279,
+    "name": "there are nude scenes",
+    "doesName": "Are there nude scenes",
+    "category": "Sex",
+    "slug": "are-there-nude-scenes"
+  },
+  {
+    "topicId": 280,
+    "name": "there's Achilles Tendon injury",
+    "doesName": "Is there Achilles Tendon injury",
+    "category": "Appendages",
+    "slug": "is-there-achilles-tendon-injury"
+  },
+  {
+    "topicId": 281,
+    "name": "someone asphyxiates",
+    "doesName": "Does someone asphyxiate",
+    "category": "Neck",
+    "slug": "does-someone-asphyxiate"
+  },
+  {
+    "topicId": 282,
+    "name": "someone is crushed to death",
+    "doesName": "Is someone crushed to death",
+    "category": "Whole Body",
+    "slug": "is-someone-crushed-to-death"
+  },
+  {
+    "topicId": 283,
+    "name": "there are 9/11 depictions",
+    "doesName": "Are there 9/11 depictions",
+    "category": "Large-scale Violence",
+    "slug": "are-there-9-11-depictions"
+  },
+  {
+    "topicId": 284,
+    "name": "an infant is abducted",
+    "doesName": "Is an infant abducted",
+    "category": "Children",
+    "slug": "is-an-infant-abducted"
+  },
+  {
+    "topicId": 285,
+    "name": "a pet dies",
+    "doesName": "Does a pet die",
+    "category": "Animal Death",
+    "slug": "does-a-pet-die"
+  },
+  {
+    "topicId": 286,
+    "name": "Someone attempts suicide",
+    "doesName": "Does someone attempt suicide",
+    "category": "Self Harm",
+    "slug": "does-someone-attempt-suicide"
+  },
+  {
+    "topicId": 287,
+    "name": "a minor is sexualized",
+    "doesName": "Is a minor sexualized",
+    "category": "Sex",
+    "slug": "is-a-minor-sexualized"
+  },
+  {
+    "topicId": 288,
+    "name": "someone has a chronic illness",
+    "doesName": "Does someone have a chronic illness",
+    "category": "Sickness",
+    "slug": "does-someone-have-a-chronic-illness"
+  },
+  {
+    "topicId": 289,
+    "name": "someone sacrifices themselves",
+    "doesName": "Does someone sacrifice themselves",
+    "category": "Death",
+    "slug": "does-someone-sacrifice-themselves"
+  },
+  {
+    "topicId": 290,
+    "name": "there is obscene language/gestures",
+    "doesName": "Is there obscene language/gestures",
+    "category": "Noxious",
+    "slug": "is-there-obscene-language-gestures"
+  },
+  {
+    "topicId": 291,
+    "name": "someone has dementia/Alzheimer's",
+    "doesName": "Is there dementia/Alzheimer's",
+    "category": "Sickness",
+    "slug": "is-there-dementia-alzheimers"
+  },
+  {
+    "topicId": 292,
+    "name": "someone is sexually assaulted onscreen",
+    "doesName": "Is someone sexually assaulted onscreen",
+    "category": "Sexual Assault",
+    "slug": "is-someone-sexually-assaulted-onscreen"
+  },
+  {
+    "topicId": 293,
+    "name": "a child is abandoned by a parent or guardian",
+    "doesName": "Is a child abandoned by a parent",
+    "category": "Abandonment",
+    "slug": "is-a-child-abandoned-by-a-parent"
+  },
+  {
+    "topicId": 294,
+    "name": "a minority is misrepresented",
+    "doesName": "Is a minority misrepresented",
+    "category": "Race",
+    "slug": "is-a-minority-misrepresented"
+  },
+  {
+    "topicId": 295,
+    "name": "there are mannequins",
+    "doesName": "Are there mannequins",
+    "category": "Fear",
+    "slug": "are-there-mannequins"
+  },
+  {
+    "topicId": 296,
+    "name": "there's body horror",
+    "doesName": "Is there body horror",
+    "category": "Whole Body",
+    "slug": "is-there-body-horror"
+  },
+  {
+    "topicId": 297,
+    "name": "there are razors",
+    "doesName": "Are there razors",
+    "category": "Fear",
+    "slug": "are-there-razors"
+  },
+  {
+    "topicId": 298,
+    "name": "Someone becomes unconscious",
+    "doesName": "Does someone become unconscious",
+    "category": "Whole Body",
+    "slug": "does-someone-become-unconscious"
+  },
+  {
+    "topicId": 299,
+    "name": "someone is drugged",
+    "doesName": "Is someone drugged",
+    "category": "Assault",
+    "slug": "is-someone-drugged"
+  },
+  {
+    "topicId": 300,
+    "name": "there's fat suits",
+    "doesName": "Are there fat suits",
+    "category": "Social",
+    "slug": "are-there-fat-suits"
+  },
+  {
+    "topicId": 301,
+    "name": "there's bisexual cheating",
+    "doesName": "Is there bisexual cheating",
+    "category": "LGBTQ+",
+    "slug": "is-there-bisexual-cheating"
+  },
+  {
+    "topicId": 302,
+    "name": "D.I.D. Misrepresentation",
+    "doesName": "Is there D.I.D. misrepresentation",
+    "category": "Mental Health",
+    "slug": "is-there-d-i-d-misrepresentation"
+  },
+  {
+    "topicId": 303,
+    "name": "there's Aphobia",
+    "doesName": "Is there Aphobia",
+    "category": "Prejudice",
+    "slug": "is-there-aphobia"
+  },
+  {
+    "topicId": 304,
+    "name": "the abused becomes the abuser",
+    "doesName": "Does the abused become the abuser",
+    "category": "Abuse",
+    "slug": "does-the-abused-become-the-abuser"
+  },
+  {
+    "topicId": 305,
+    "name": "a non-human character dies",
+    "doesName": "Does a non-human character die",
+    "category": "Death",
+    "slug": "does-a-non-human-character-die"
+  },
+  {
+    "topicId": 306,
+    "name": "there's body dysphoria",
+    "doesName": "Is there body dysphoria",
+    "category": "Mental Health",
+    "slug": "is-there-body-dysphoria"
+  },
+  {
+    "topicId": 307,
+    "name": "there's bestiality",
+    "doesName": "Is there bestiality",
+    "category": "Sex",
+    "slug": "is-there-bestiality"
+  },
+  {
+    "topicId": 308,
+    "name": "someone is held under water",
+    "doesName": "Is someone held under water",
+    "category": "Assault",
+    "slug": "is-someone-held-under-water"
+  },
+  {
+    "topicId": 309,
+    "name": "somebody is choked",
+    "doesName": "Is someone choked",
+    "category": "Neck",
+    "slug": "is-someone-choked"
+  },
+  {
+    "topicId": 310,
+    "name": "there's deadnaming or birthnaming",
+    "doesName": "Is there deadnaming or birthnaming",
+    "category": "LGBTQ+",
+    "slug": "is-there-deadnaming-or-birthnaming"
+  },
+  {
+    "topicId": 311,
+    "name": "someone dies",
+    "doesName": "Does someone die",
+    "category": "Death",
+    "slug": "does-someone-die"
+  },
+  {
+    "topicId": 312,
+    "name": "trypophobic content is shown",
+    "doesName": "Is trypophobic content shown",
+    "category": "Fear",
+    "slug": "is-trypophobic-content-shown"
+  },
+  {
+    "topicId": 313,
+    "name": "a family member dies",
+    "doesName": "Does a family member die",
+    "category": "Family",
+    "slug": "does-a-family-member-die"
+  },
+  {
+    "topicId": 314,
+    "name": "there are transphobic slurs",
+    "doesName": "Are there transphobic slurs",
+    "category": "LGBTQ+",
+    "slug": "are-there-transphobic-slurs"
+  },
+  {
+    "topicId": 315,
+    "name": "sexual assault on men is a joke",
+    "doesName": "Are there jokes about sexual assault on men",
+    "category": "Sexual Assault",
+    "slug": "are-there-jokes-about-sexual-assault-on-men"
+  },
+  {
+    "topicId": 316,
+    "name": "there's anti-abortion themes",
+    "doesName": "Are there anti-abortion themes",
+    "category": "Social",
+    "slug": "are-there-anti-abortion-themes"
+  },
+  {
+    "topicId": 317,
+    "name": "someone loses their virginity",
+    "doesName": "Does someone lose their virginity",
+    "category": "Sex",
+    "slug": "does-someone-lose-their-virginity"
+  },
+  {
+    "topicId": 318,
+    "name": "someone is watched without knowing",
+    "doesName": "Is someone watched without knowing",
+    "category": "Paranoia",
+    "slug": "is-someone-watched-without-knowing"
+  },
+  {
+    "topicId": 319,
+    "name": "animals were harmed in the making",
+    "doesName": "Were animals harmed in the making",
+    "category": "Animal Distress",
+    "slug": "were-animals-harmed-in-the-making"
+  },
+  {
+    "topicId": 320,
+    "name": "there's pedophilia",
+    "doesName": "Is there pedophilia",
+    "category": "Sexual Assault",
+    "slug": "is-there-pedophilia"
+  },
+  {
+    "topicId": 321,
+    "name": "someone is beaten up by a bully",
+    "doesName": "Is someone beaten up by a bully",
+    "category": "Assault",
+    "slug": "is-someone-beaten-up-by-a-bully"
+  },
+  {
+    "topicId": 322,
+    "name": "someone is eaten",
+    "doesName": "Is someone eaten",
+    "category": "Gross",
+    "slug": "is-someone-eaten"
+  },
+  {
+    "topicId": 323,
+    "name": "there's ABA therapy",
+    "doesName": "Is there ABA therapy",
+    "category": "Mental Health",
+    "slug": "is-there-aba-therapy"
+  },
+  {
+    "topicId": 324,
+    "name": "there's farting",
+    "doesName": "Is there farting",
+    "category": "Gross",
+    "slug": "is-there-farting"
+  },
+  {
+    "topicId": 325,
+    "name": "there's blackface",
+    "doesName": "Is there blackface",
+    "category": "Race",
+    "slug": "is-there-blackface"
+  },
+  {
+    "topicId": 326,
+    "name": "sexual assault is mentioned",
+    "doesName": "Is sexual assault mentioned",
+    "category": "Sexual Assault",
+    "slug": "is-sexual-assault-mentioned"
+  },
+  {
+    "topicId": 327,
+    "name": "someone is terminally ill",
+    "doesName": "Is someone terminally ill",
+    "category": "Sickness",
+    "slug": "is-someone-terminally-ill"
+  },
+  {
+    "topicId": 328,
+    "name": "a major character dies",
+    "doesName": "Does a major character die",
+    "category": "Death",
+    "slug": "does-a-major-character-die"
+  },
+  {
+    "topicId": 329,
+    "name": "a priceless artifact is destroyed",
+    "doesName": "Is a priceless artifact destroyed",
+    "category": "Loss",
+    "slug": "is-a-priceless-artifact-destroyed"
+  },
+  {
+    "topicId": 330,
+    "name": "there's abusive parents",
+    "doesName": "Are there abusive parents",
+    "category": "Abuse",
+    "slug": "are-there-abusive-parents"
+  },
+  {
+    "topicId": 331,
+    "name": "there's decapitation",
+    "doesName": "Is there decapitation",
+    "category": "Head",
+    "slug": "is-there-decapitation"
+  },
+  {
+    "topicId": 332,
+    "name": "there's an alligator or crocodile",
+    "doesName": "Are there alligators or crocodiles",
+    "category": "Animal Phobia",
+    "slug": "are-there-alligators-or-crocodiles"
+  },
+  {
+    "topicId": 334,
+    "name": "reality is unstable or unhinged",
+    "doesName": "Is reality unstable or unhinged",
+    "category": "Mental Health",
+    "slug": "is-reality-unstable-or-unhinged"
+  },
+  {
+    "topicId": 335,
+    "name": "there's natural bodies of water",
+    "doesName": "Are there natural bodies of water",
+    "category": "Fear",
+    "slug": "are-there-natural-bodies-of-water"
+  },
+  {
+    "topicId": 336,
+    "name": "someone has a mental illness",
+    "doesName": "Does someone have a mental illness",
+    "category": "Mental Health",
+    "slug": "does-someone-have-a-mental-illness"
+  },
+  {
+    "topicId": 337,
+    "name": "there are sharks",
+    "doesName": "Are there sharks",
+    "category": "Animal Phobia",
+    "slug": "are-there-sharks"
+  },
+  {
+    "topicId": 338,
+    "name": "rabbits are harmed",
+    "doesName": "Are rabbits harmed",
+    "category": "Animal Distress",
+    "slug": "are-rabbits-harmed"
+  },
+  {
+    "topicId": 339,
+    "name": "there are sudden loud noises",
+    "doesName": "Are there sudden loud noises",
+    "category": "Noxious",
+    "slug": "are-there-sudden-loud-noises"
+  },
+  {
+    "topicId": 341,
+    "name": "existentialism is debated",
+    "doesName": "Is existentialism debated",
+    "category": "Social",
+    "slug": "is-existentialism-debated"
+  },
+  {
+    "topicId": 342,
+    "name": "a woman gets slapped",
+    "doesName": "Does a woman get slapped",
+    "category": "Assault",
+    "slug": "does-a-woman-get-slapped"
+  },
+  {
+    "topicId": 343,
+    "name": "someone is stabbed",
+    "doesName": "Is someone stabbed",
+    "category": "Whole Body",
+    "slug": "is-someone-stabbed"
+  },
+  {
+    "topicId": 345,
+    "name": "there's incarceration",
+    "doesName": "Is there incarceration",
+    "category": "Law Enforcement",
+    "slug": "is-there-incarceration"
+  },
+  {
+    "topicId": 346,
+    "name": "there's end credits scenes?",
+    "doesName": "Are there end credit scenes",
+    "category": "Spoiler",
+    "slug": "are-there-end-credit-scenes"
+  },
+  {
+    "topicId": 347,
+    "name": "the abused forgives their abuser",
+    "doesName": "Does an abused person forgive their abuser",
+    "category": "Abuse",
+    "slug": "does-an-abused-person-forgive-their-abuser"
+  },
+  {
+    "topicId": 348,
+    "name": "someone has a meltdown",
+    "doesName": "Does someone have a meltdown",
+    "category": "Mental Health",
+    "slug": "does-someone-have-a-meltdown"
+  },
+  {
+    "topicId": 349,
+    "name": "autism is misrepresented",
+    "doesName": "Is autism misrepresented",
+    "category": "Mental Health",
+    "slug": "is-autism-misrepresented"
+  },
+  {
+    "topicId": 350,
+    "name": "an animal is abandoned",
+    "doesName": "Is an animal abandoned",
+    "category": "Animal Distress",
+    "slug": "is-an-animal-abandoned"
+  },
+  {
+    "topicId": 351,
+    "name": "religion is discussed",
+    "doesName": "Is religion discussed",
+    "category": "Religious",
+    "slug": "is-religion-discussed"
+  },
+  {
+    "topicId": 352,
+    "name": "hands are damaged",
+    "doesName": "Are any hands damaged",
+    "category": "Appendages",
+    "slug": "are-any-hands-damaged"
+  },
+  {
+    "topicId": 353,
+    "name": "someone disabled played by able-bodied",
+    "doesName": "Is someone disabled played by able-bodied",
+    "category": "Disability",
+    "slug": "is-someone-disabled-played-by-able-bodied"
+  },
+  {
+    "topicId": 354,
+    "name": "someone defecates",
+    "doesName": "Is there defecation",
+    "category": "Gross",
+    "slug": "is-there-defecation"
+  },
+  {
+    "topicId": 355,
+    "name": "an animal is sad",
+    "doesName": "Is an animal sad",
+    "category": "Animal Distress",
+    "slug": "is-an-animal-sad"
+  },
+  {
+    "topicId": 356,
+    "name": "there's underwater scenes",
+    "doesName": "Are there underwater scenes",
+    "category": "Noxious",
+    "slug": "are-there-underwater-scenes"
+  },
+  {
+    "topicId": 357,
+    "name": "there's bedbugs",
+    "doesName": "Are there bedbugs",
+    "category": "Creepy Crawly",
+    "slug": "are-there-bedbugs"
+  },
+  {
+    "topicId": 358,
+    "name": "there's menstruation",
+    "doesName": "Is there menstruation",
+    "category": "Medical",
+    "slug": "is-there-menstruation"
+  },
+  {
+    "topicId": 359,
+    "name": "a trans person is depicted predatorily",
+    "doesName": "Is a trans person depicted predatorily",
+    "category": "LGBTQ+",
+    "slug": "is-a-trans-person-depicted-predatorily"
+  },
+  {
+    "topicId": 360,
+    "name": "someone's mouth is covered",
+    "doesName": "Is someone's mouth covered",
+    "category": "Assault",
+    "slug": "is-someones-mouth-covered"
+  },
+  {
+    "topicId": 361,
+    "name": "someone's throat is mutilated",
+    "doesName": "Is there throat mutilation",
+    "category": "Neck",
+    "slug": "is-there-throat-mutilation"
+  },
+  {
+    "topicId": 362,
+    "name": "someone dislocates something",
+    "doesName": "Are there dislocations",
+    "category": "Appendages",
+    "slug": "are-there-dislocations"
+  },
+  {
+    "topicId": 363,
+    "name": "someone leaves without saying goodbye",
+    "doesName": "Does someone leave without saying goodbye",
+    "category": "Abandonment",
+    "slug": "does-someone-leave-without-saying-goodbye"
+  },
+  {
+    "topicId": 364,
+    "name": "there's BDSM",
+    "doesName": "Is there BDSM",
+    "category": "Sex",
+    "slug": "is-there-bdsm"
+  },
+  {
+    "topicId": 365,
+    "name": "someone is abused with a belt",
+    "doesName": "Is someone abused with a belt",
+    "category": "Abuse",
+    "slug": "is-someone-abused-with-a-belt"
+  },
+  {
+    "topicId": 366,
+    "name": "there's screaming",
+    "doesName": "Is there screaming",
+    "category": "Noxious",
+    "slug": "is-there-screaming"
+  },
+  {
+    "topicId": 367,
+    "name": "a woman is brutalized for spectacle",
+    "doesName": "Is a woman brutalized for spectacle",
+    "category": "Abuse",
+    "slug": "is-a-woman-brutalized-for-spectacle"
+  },
+  {
+    "topicId": 368,
+    "name": "an LGBT+ person is outed",
+    "doesName": "Is an LGBT+ person outed",
+    "category": "LGBTQ+",
+    "slug": "is-an-lgbt-person-outed"
+  },
+  {
+    "topicId": 369,
+    "name": "there's demons or Hell",
+    "doesName": "Are there demons or Hell",
+    "category": "Religious",
+    "slug": "are-there-demons-or-hell"
+  },
+  {
+    "topicId": 370,
+    "name": "there's dissociation, depersonalization, or derealization",
+    "doesName": "Is there dissociation, depersonalization, or derealization",
+    "category": "Mental Health",
+    "slug": "is-there-dissociation-depersonalization-or-derealization"
+  },
+  {
+    "topicId": 373,
+    "name": "there is a tsunami",
+    "doesName": "Are there tsunamis",
+    "category": "Natural Disasters",
+    "slug": "are-there-tsunamis"
+  },
+  {
+    "topicId": 375,
+    "name": "someone has a heart attack",
+    "doesName": "Are there heart attacks",
+    "category": "Medical",
+    "slug": "are-there-heart-attacks"
+  }
+]
