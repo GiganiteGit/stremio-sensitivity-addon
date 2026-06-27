@@ -1,5 +1,6 @@
-// Addon manifest (plan §6). Phase 1 = catalog + meta; stream label lands in Phase 2.
-// Central DTDD key, so the addon works on install with no config.
+// Addon manifest (plan §6). Catalog + meta + stream are live; Phase 3 adds the
+// pin-your-triggers config flow. Central DTDD key, so the addon still installs
+// and works with no config — config only personalises which triggers are pinned.
 'use strict';
 
 const { GENRE_OPTIONS } = require('./lib/topics');
@@ -22,10 +23,14 @@ module.exports = {
     'Note: that summary entry is a label, not a playable stream.',
   logo: 'https://www.doesthedogdie.com/favicon.ico', // placeholder until we host our own
   contactEmail: 'martin.taylor@findmylegacy.co.uk',
-  behaviorHints: { configurable: false, configurationRequired: false, adult: false, p2p: false },
+  behaviorHints: { configurable: true, configurationRequired: false, adult: false, p2p: false },
   types: ['movie', 'series'],
   idPrefixes: ['tt'],
   resources: ['catalog', 'meta', 'stream'],
+  // A single declared field is enough for the SDK to activate the `/:config?`
+  // install-URL segment. The real picker is our own configure page; the pinned
+  // TopicIds travel as base64url JSON, decoded server-side (see src/lib/config).
+  config: [{ key: 'pins', type: 'text', title: 'Pinned triggers (set via the configure page)' }],
   catalogs: [
     { type: 'movie', id: 'dtdd-safe-movies', name: 'Sensitivity-Safe Movies', extra: catalogExtra },
     { type: 'series', id: 'dtdd-safe-series', name: 'Sensitivity-Safe Series', extra: catalogExtra },

@@ -6,14 +6,16 @@
 const seedData = require('../data/seed-data.json');
 const { groupedDescription } = require('../lib/triggers');
 const { pageUrl, DTDD_BASE } = require('../lib/dtdd');
+const { pinsOf } = require('../lib/config');
 
 const byId = new Map(seedData.map((it) => [it.ttId, it]));
 
 function metaHandler(args) {
-  const { type, id } = args;
+  const { type, id, config } = args;
   const item = byId.get(id);
   if (!item || item.type !== type) return Promise.resolve({ meta: {} });
 
+  const pins = pinsOf(config);
   const dtddUrl = item.dtddId ? pageUrl(item.dtddId) : DTDD_BASE;
   const meta = {
     id: item.ttId,
@@ -23,7 +25,7 @@ function metaHandler(args) {
     posterShape: 'poster',
     background: item.background || undefined,
     releaseInfo: item.year ? String(item.year) : undefined,
-    description: groupedDescription(item.triggers, dtddUrl),
+    description: groupedDescription(item.triggers, dtddUrl, pins),
     links: [{ name: 'Open on DoesTheDogDie', category: 'Sensitivity', url: dtddUrl }],
   };
   return Promise.resolve({ meta, cacheMaxAge: 6 * 3600 });

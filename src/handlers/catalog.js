@@ -5,6 +5,7 @@
 const seedData = require('../data/seed-data.json');
 const { summaryLine } = require('../lib/triggers');
 const { excludedTopicIds } = require('../lib/topics');
+const { pinsOf } = require('../lib/config');
 
 function toPreview(item) {
   return {
@@ -19,7 +20,7 @@ function toPreview(item) {
 }
 
 function catalogHandler(args) {
-  const { type, extra = {} } = args;
+  const { type, extra = {}, config } = args;
   let items = seedData.filter((it) => it.type === type && it.matched);
 
   if (extra.search) {
@@ -32,6 +33,12 @@ function catalogHandler(args) {
     if (excluded) {
       items = items.filter((it) => !(it.triggers || []).some((t) => excluded.has(t.topicId)));
     }
+  }
+
+  // "Sensitivity-Safe": drop any title carrying a trigger the user pinned.
+  const pins = pinsOf(config);
+  if (pins.size) {
+    items = items.filter((it) => !(it.triggers || []).some((t) => pins.has(t.topicId)));
   }
 
   const skip = Number(extra.skip) || 0;

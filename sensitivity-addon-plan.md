@@ -188,9 +188,13 @@ description. Get the addon installing locally and a row rendering in Stremio. Wi
 with `externalUrl` to the DTDD page. This is the feature that works on *any* title — prioritise it
 once Phase 1 proves the plumbing.
 
-**Phase 3 — Config flow.** `configure.html` to pin triggers → base64url into install URL → Express
-middleware decodes it → handlers respect the pinned set (summary highlights pinned triggers first;
-catalog filtering excludes them).
+**Phase 3 — Config flow. ✅ DONE.** `configure.html` (dark themed, searchable, category-grouped,
+4 quick-pick chips) builds a base64url install URL → `server.js` (Express wrapping the SDK's
+`getRouter()`) middleware decodes the leading segment → handlers respect the pinned set:
+stream floats pinned triggers first with ★ and a "N pinned" header, catalog excludes any title
+carrying a pinned trigger, meta marks pinned triggers with ★ and floats their category up.
+Encoding/validation lives in `src/lib/config.js`; manifest is now `configurable: true`
+(`configurationRequired: false`, central key — installs without configuring).
 
 **Phase 4 — Caching + politeness.** Supabase cache layer, negative caching, low concurrency,
 User-Agent, retry/backoff. Email DTDD.

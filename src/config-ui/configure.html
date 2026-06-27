@@ -1,0 +1,331 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Sensitivity Notes — pin your triggers</title>
+<style>
+  :root {
+    --bg: #0f172a;        /* slate-900 */
+    --panel: #1e293b;     /* slate-800 */
+    --panel-2: #273449;
+    --border: #334155;    /* slate-700 */
+    --text: #e2e8f0;      /* slate-200 */
+    --muted: #94a3b8;     /* slate-400 */
+    --amber: #f59e0b;     /* amber-500 */
+    --amber-soft: rgba(245, 158, 11, 0.15);
+    --green: #22c55e;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font: 15px/1.5 system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+    padding-bottom: 96px; /* room for the sticky footer */
+  }
+  header {
+    padding: 28px 20px 16px;
+    max-width: 920px;
+    margin: 0 auto;
+  }
+  h1 { margin: 0 0 6px; font-size: 24px; }
+  h1 .warn { color: var(--amber); }
+  .lead { color: var(--muted); margin: 0 0 18px; max-width: 70ch; }
+  main { max-width: 920px; margin: 0 auto; padding: 0 20px; }
+
+  .toolbar { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; margin-bottom: 14px; }
+  .chips { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 16px; }
+  .chip {
+    border: 1px solid var(--border); background: var(--panel);
+    color: var(--text); border-radius: 999px; padding: 7px 14px;
+    cursor: pointer; font-size: 13px; transition: all .12s;
+  }
+  .chip:hover { border-color: var(--amber); }
+  .chip.on { background: var(--amber-soft); border-color: var(--amber); color: #fde68a; }
+
+  #search {
+    flex: 1 1 240px; min-width: 200px;
+    background: var(--panel); border: 1px solid var(--border);
+    color: var(--text); border-radius: 8px; padding: 10px 12px; font-size: 14px;
+  }
+  #search::placeholder { color: var(--muted); }
+  .ghost {
+    background: transparent; border: 1px solid var(--border); color: var(--muted);
+    border-radius: 8px; padding: 9px 12px; cursor: pointer; font-size: 13px;
+  }
+  .ghost:hover { color: var(--text); border-color: var(--muted); }
+
+  section.cat {
+    border: 1px solid var(--border); border-radius: 10px;
+    background: var(--panel); margin-bottom: 12px; overflow: hidden;
+  }
+  .cat-head {
+    display: flex; align-items: center; justify-content: space-between;
+    padding: 10px 14px; cursor: pointer; user-select: none;
+    background: var(--panel-2);
+  }
+  .cat-head h2 { margin: 0; font-size: 14px; font-weight: 600; }
+  .cat-head .count { color: var(--muted); font-size: 12px; margin-left: 8px; }
+  .cat-head .sel-all { color: var(--amber); font-size: 12px; }
+  .grid {
+    display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+    gap: 2px 14px; padding: 12px 14px;
+  }
+  label.opt {
+    display: flex; align-items: flex-start; gap: 8px; padding: 5px 0;
+    font-size: 13.5px; cursor: pointer;
+  }
+  label.opt input { margin-top: 3px; accent-color: var(--amber); }
+  label.opt.hidden { display: none; }
+  section.cat.empty { display: none; }
+
+  footer {
+    position: fixed; left: 0; right: 0; bottom: 0;
+    background: rgba(15, 23, 42, 0.96); border-top: 1px solid var(--border);
+    backdrop-filter: blur(6px);
+  }
+  .footer-inner {
+    max-width: 920px; margin: 0 auto; padding: 12px 20px;
+    display: flex; flex-wrap: wrap; gap: 12px; align-items: center;
+  }
+  .pin-count { font-size: 14px; }
+  .pin-count b { color: var(--amber); }
+  #url {
+    flex: 1 1 280px; min-width: 200px; font-size: 12px;
+    background: var(--bg); border: 1px solid var(--border); color: var(--muted);
+    border-radius: 8px; padding: 9px 11px;
+  }
+  .btn {
+    border: none; border-radius: 8px; padding: 10px 16px; cursor: pointer;
+    font-size: 14px; font-weight: 600;
+  }
+  .btn.copy { background: var(--panel-2); color: var(--text); border: 1px solid var(--border); }
+  .btn.copy:hover { border-color: var(--muted); }
+  .btn.install { background: var(--amber); color: #1a1206; }
+  .btn.install:hover { filter: brightness(1.07); }
+  .toast {
+    position: fixed; bottom: 84px; left: 50%; transform: translateX(-50%);
+    background: var(--green); color: #04210f; padding: 8px 16px; border-radius: 8px;
+    font-size: 13px; font-weight: 600; opacity: 0; transition: opacity .2s; pointer-events: none;
+  }
+  .toast.show { opacity: 1; }
+  .empty-state { color: var(--muted); padding: 30px 0; text-align: center; }
+</style>
+</head>
+<body>
+  <header>
+    <h1><span class="warn">⚠</span> Sensitivity Notes</h1>
+    <p class="lead">
+      Tick the triggers you want flagged. Titles containing them get pushed to the top of
+      the warning summary before you press play, and filtered out of the Sensitivity-Safe
+      catalogs. You can install without picking anything — the addon still shows every
+      community-flagged trigger; pinning just personalises what it highlights.
+    </p>
+  </header>
+
+  <main>
+    <div class="chips" id="chips"></div>
+    <div class="toolbar">
+      <input id="search" type="search" placeholder="Search triggers (e.g. drowning, needles, vomit)…" />
+      <button class="ghost" id="clear">Clear all</button>
+    </div>
+    <div id="cats"><p class="empty-state">Loading triggers…</p></div>
+  </main>
+
+  <footer>
+    <div class="footer-inner">
+      <span class="pin-count"><b id="count">0</b> triggers pinned</span>
+      <input id="url" readonly />
+      <button class="btn copy" id="copy">Copy install URL</button>
+      <button class="btn install" id="install">Install in Stremio</button>
+    </div>
+  </footer>
+  <div class="toast" id="toast"></div>
+
+<script>
+(function () {
+  'use strict';
+
+  // ---- base64url helpers (mirror src/lib/config.js) ----
+  function b64urlEncode(str) {
+    return btoa(unescape(encodeURIComponent(str)))
+      .replace(/\+/g, '-').replace(/\//g, '_').replace(/=+$/, '');
+  }
+  function b64urlDecode(s) {
+    s = s.replace(/-/g, '+').replace(/_/g, '/');
+    while (s.length % 4) s += '=';
+    return decodeURIComponent(escape(atob(s)));
+  }
+
+  // Quick-pick groups — same predicates as the catalog genre filter.
+  var QUICK = [
+    { label: 'Animal death', test: function (t) { return t.category === 'Animal Death'; } },
+    { label: 'Sexual violence', test: function (t) { return t.category === 'Sexual Assault'; } },
+    { label: 'Suicide', test: function (t) { return /suicide/i.test(t.name); } },
+    { label: 'Flashing lights', test: function (t) { return /flash/i.test(t.name); } },
+  ];
+
+  var TOPICS = [];
+  var selected = new Set();
+
+  // Pre-fill from an existing config in the URL (/:config/configure).
+  function readExistingPins() {
+    var m = location.pathname.match(/^\/([^/]+)\/configure\/?$/);
+    if (!m) return;
+    try {
+      var obj = JSON.parse(b64urlDecode(m[1]));
+      if (obj && Array.isArray(obj.pins)) obj.pins.forEach(function (id) { selected.add(Number(id)); });
+    } catch (e) { /* ignore bad/edited config */ }
+  }
+
+  function buildUrl() {
+    var pins = Array.from(selected).sort(function (a, b) { return a - b; });
+    var seg = pins.length ? b64urlEncode(JSON.stringify({ v: 1, pins: pins })) : '';
+    var httpUrl = location.origin + (seg ? '/' + seg : '') + '/manifest.json';
+    var stremio = 'stremio://' + location.host + (seg ? '/' + seg : '') + '/manifest.json';
+    return { httpUrl: httpUrl, stremio: stremio };
+  }
+
+  function refresh() {
+    document.getElementById('count').textContent = String(selected.size);
+    document.getElementById('url').value = buildUrl().httpUrl;
+    // category counts
+    document.querySelectorAll('section.cat').forEach(function (sec) {
+      var ids = JSON.parse(sec.dataset.ids);
+      var on = ids.filter(function (id) { return selected.has(id); }).length;
+      sec.querySelector('.count').textContent = on ? '(' + on + '/' + ids.length + ')' : '';
+      sec.querySelector('.sel-all').textContent = (on === ids.length) ? 'Clear' : 'Select all';
+    });
+    // chips
+    document.querySelectorAll('.chip').forEach(function (chip) {
+      var ids = JSON.parse(chip.dataset.ids);
+      var all = ids.length && ids.every(function (id) { return selected.has(id); });
+      chip.classList.toggle('on', !!all);
+    });
+  }
+
+  function toggle(id, on) {
+    if (on) selected.add(id); else selected.delete(id);
+    var box = document.querySelector('input[data-id="' + id + '"]');
+    if (box) box.checked = on;
+  }
+
+  function render() {
+    // group by category
+    var groups = {};
+    TOPICS.forEach(function (t) { (groups[t.category] = groups[t.category] || []).push(t); });
+    var cats = Object.keys(groups).sort();
+
+    var host = document.getElementById('cats');
+    host.innerHTML = '';
+    cats.forEach(function (cat) {
+      var items = groups[cat].sort(function (a, b) { return a.name.localeCompare(b.name); });
+      var ids = items.map(function (t) { return t.topicId; });
+      var sec = document.createElement('section');
+      sec.className = 'cat';
+      sec.dataset.ids = JSON.stringify(ids);
+
+      var head = document.createElement('div');
+      head.className = 'cat-head';
+      head.innerHTML = '<h2>' + cat + ' <span class="count"></span></h2><span class="sel-all">Select all</span>';
+      head.addEventListener('click', function () {
+        var allOn = ids.every(function (id) { return selected.has(id); });
+        ids.forEach(function (id) { toggle(id, !allOn); });
+        refresh();
+      });
+
+      var grid = document.createElement('div');
+      grid.className = 'grid';
+      items.forEach(function (t) {
+        var lab = document.createElement('label');
+        lab.className = 'opt';
+        lab.dataset.name = t.name.toLowerCase();
+        var cb = document.createElement('input');
+        cb.type = 'checkbox';
+        cb.dataset.id = String(t.topicId);
+        cb.checked = selected.has(t.topicId);
+        cb.addEventListener('change', function () { toggle(t.topicId, cb.checked); refresh(); });
+        var span = document.createElement('span');
+        span.textContent = t.name;
+        lab.appendChild(cb);
+        lab.appendChild(span);
+        grid.appendChild(lab);
+      });
+
+      sec.appendChild(head);
+      sec.appendChild(grid);
+      host.appendChild(sec);
+    });
+
+    renderChips();
+    refresh();
+  }
+
+  function renderChips() {
+    var host = document.getElementById('chips');
+    host.innerHTML = '';
+    QUICK.forEach(function (q) {
+      var ids = TOPICS.filter(q.test).map(function (t) { return t.topicId; });
+      if (!ids.length) return;
+      var chip = document.createElement('button');
+      chip.className = 'chip';
+      chip.textContent = q.label;
+      chip.dataset.ids = JSON.stringify(ids);
+      chip.addEventListener('click', function () {
+        var allOn = ids.every(function (id) { return selected.has(id); });
+        ids.forEach(function (id) { toggle(id, !allOn); });
+        refresh();
+      });
+      host.appendChild(chip);
+    });
+  }
+
+  function applySearch(q) {
+    q = q.trim().toLowerCase();
+    document.querySelectorAll('section.cat').forEach(function (sec) {
+      var visible = 0;
+      sec.querySelectorAll('label.opt').forEach(function (lab) {
+        var hit = !q || lab.dataset.name.indexOf(q) !== -1;
+        lab.classList.toggle('hidden', !hit);
+        if (hit) visible++;
+      });
+      sec.classList.toggle('empty', visible === 0);
+    });
+  }
+
+  function toast(msg) {
+    var el = document.getElementById('toast');
+    el.textContent = msg;
+    el.classList.add('show');
+    setTimeout(function () { el.classList.remove('show'); }, 1600);
+  }
+
+  // ---- wire up ----
+  document.getElementById('search').addEventListener('input', function (e) { applySearch(e.target.value); });
+  document.getElementById('clear').addEventListener('click', function () {
+    selected.clear();
+    document.querySelectorAll('input[data-id]').forEach(function (b) { b.checked = false; });
+    refresh();
+  });
+  document.getElementById('copy').addEventListener('click', function () {
+    var url = buildUrl().httpUrl;
+    navigator.clipboard.writeText(url).then(function () { toast('Install URL copied'); },
+      function () { document.getElementById('url').select(); toast('Press Ctrl+C to copy'); });
+  });
+  document.getElementById('install').addEventListener('click', function () {
+    window.location.href = buildUrl().stremio;
+  });
+
+  readExistingPins();
+  fetch('/api/topics')
+    .then(function (r) { return r.json(); })
+    .then(function (data) { TOPICS = data; render(); })
+    .catch(function () {
+      document.getElementById('cats').innerHTML =
+        '<p class="empty-state">Could not load the trigger list. Refresh to try again.</p>';
+    });
+})();
+</script>
+</body>
+</html>

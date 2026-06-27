@@ -1,11 +1,76 @@
-// Local dev server for the Sensitivity Notes addon.
+// Local dev / self-host server for the Sensitivity Notes addon (Phase 3).
 // Run:  node --env-file=.env.local server.js
+//
+// We wrap the SDK's getRouter() in Express instead of using serveHTTP, so we can:
+//   1. serve our own pin-your-triggers configure page, and
+//   2. accept the pinned-trigger config as a clean base64url segment in the
+//      install URL (the Torrentio pattern). The SDK router only understands
+//      JSON-in-URL, so middleware decodes base64url -> JSON before it runs, and
+//      the SDK then hands the pinned set to every handler as `args.config`.
 'use strict';
 
-const { serveHTTP } = require('stremio-addon-sdk');
+const fs = require('fs');
+const path = require('path');
+const express = require('express');
+const { getRouter } = require('stremio-addon-sdk');
 const addonInterface = require('./src/addon');
+const { decodeConfig } = require('./src/lib/config');
+const topics = require('./topics.json');
 
 const port = Number(process.env.PORT) || 7000;
+const app = express();
+app.disable('x-powered-by');
 
-serveHTTP(addonInterface, { port });
-console.log(`Install URL: http://127.0.0.1:${port}/manifest.json`);
+const CONFIGURE_HTML = fs.readFileSync(
+  path.join(__dirname, 'src/config-ui/configure.html'),
+  'utf8',
+);
+
+// First path segment values that are real addon routes, never a config blob.
+const RESERVED = new Set([
+  '', 'manifest.json', 'catalog', 'meta', 'stream', 'configure', 'api', 'favicon.ico',
+]);
+
+// Configure page — served both bare and with an existing config to edit.
+// The page reads its own config out of the URL client-side to pre-tick boxes.
+function serveConfigure(_req, res) {
+  res.setHeader('Content-Type', 'text/html; charset=utf-8');
+  res.end(CONFIGURE_HTML);
+}
+app.get('/configure', serveConfigure);
+app.get('/:config/configure', serveConfigure);
+
+// Topic table for the configure page (it groups by category client-side).
+app.get('/api/topics', (_req, res) => {
+  res.setHeader('Cache-Control', 'public, max-age=86400');
+  res.json(topics);
+});
+
+// Translate a leading base64url config segment into the JSON-in-URL form the
+// SDK router expects, so handlers receive the decoded pins as `args.config`.
+app.use((req, _res, next) => {
+  const [pathname, query] = req.url.split('?');
+  const parts = pathname.split('/'); // ['', seg1, ...]
+  const seg = parts[1];
+  if (seg && !RESERVED.has(seg)) {
+    const cfg = decodeConfig(seg);
+    if (cfg) {
+      parts[1] = encodeURIComponent(JSON.stringify(cfg));
+      req.url = parts.join('/') + (query ? `?${query}` : '');
+    }
+  }
+  next();
+});
+
+// The SDK router: serves /manifest.json and the catalog/meta/stream resources.
+app.use(getRouter(addonInterface));
+
+app.get('/', (_req, res) => res.redirect('/configure'));
+app.use((_req, res) => res.status(404).json({ err: 'not found' }));
+
+app.listen(port, () => {
+  const base = `http://127.0.0.1:${port}`;
+  console.log(`Sensitivity Notes addon listening on ${base}`);
+  console.log(`  Configure:  ${base}/configure`);
+  console.log(`  Manifest:   ${base}/manifest.json`);
+});

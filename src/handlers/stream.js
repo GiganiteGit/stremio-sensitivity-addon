@@ -5,8 +5,9 @@
 'use strict';
 
 const { resolveTriggers, baseId } = require('../lib/resolve');
-const { presentTriggers } = require('../lib/triggers');
+const { presentTriggers, orderByPins } = require('../lib/triggers');
 const { pageUrl, DTDD_BASE } = require('../lib/dtdd');
+const { pinsOf } = require('../lib/config');
 const cache = require('../lib/cache');
 
 const DAY = 24 * 3600 * 1000;
@@ -35,7 +36,8 @@ function lookup(type, id) {
 }
 
 function streamHandler(args) {
-  const { type, id } = args;
+  const { type, id, config } = args;
+  const pins = pinsOf(config);
   return lookup(type, id).then((data) => {
     if (data.state === 'error') {
       return {
@@ -59,15 +61,20 @@ function streamHandler(args) {
     }
 
     const triggers = data.triggers || [];
+    const { pinned, ordered } = orderByPins(triggers, pins);
     const seriesNote = type === 'series' ? ' [show-level: all seasons combined]' : '';
-    const top = triggers.slice(0, 6).map((t) => `${t.name} (${t.yes}/${t.no})`).join(', ');
+    const fmt = (t) => `${pins.has(t.topicId) ? '★ ' : ''}${t.name} (${t.yes}/${t.no})`;
+    const top = ordered.slice(0, 6).map(fmt).join(', ');
     const description = triggers.length
       ? `${top}${triggers.length > 6 ? `, +${triggers.length - 6} more` : ''} — tap to open DoesTheDogDie.${seriesNote}`
       : `No community-flagged triggers — tap to open DoesTheDogDie.${seriesNote}`;
 
+    const flagsPart = triggers.length
+      ? ` · ${pinned.length ? `${pinned.length} pinned, ` : ''}${triggers.length} flags`
+      : '';
     return {
       streams: [{
-        name: `⚠ Sensitivity Notes${triggers.length ? ` · ${triggers.length} flags` : ''}`,
+        name: `⚠ Sensitivity Notes${flagsPart}`,
         description,
         externalUrl: pageUrl(data.dtddId),
       }],
