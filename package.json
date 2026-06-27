@@ -8,7 +8,11 @@
     "start": "next start",
     "lint": "eslint",
     "addon": "node --env-file=.env.local server.js",
-    "addon:build-seed": "node --env-file=.env.local scripts/build-seed.js"
+    "addon:build-seed": "node --env-file=.env.local scripts/build-seed.js",
+    "heroku-postbuild": "echo no build step needed for the addon"
+  },
+  "engines": {
+    "node": ">=20.0.0"
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.108.2",
