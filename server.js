@@ -66,6 +66,16 @@ app.use((req, _res, next) => {
   next();
 });
 
+// Keep the manifest fresh at the edge. It changes rarely, but when it does
+// (version bump, new assets, ADDON_BASE_URL) we don't want it stuck behind a
+// long CDN cache — BeamUp/Cloudflare otherwise pins it for hours.
+app.use((req, res, next) => {
+  if (req.url.split('?')[0].endsWith('/manifest.json')) {
+    res.setHeader('Cache-Control', 'public, max-age=300');
+  }
+  next();
+});
+
 // The SDK router: serves /manifest.json and the catalog/meta/stream resources.
 app.use(getRouter(addonInterface));
 

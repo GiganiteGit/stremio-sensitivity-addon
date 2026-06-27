@@ -38,6 +38,9 @@ yarn-error.log*
 # local outreach drafts (personal correspondence, keep out of the public repo)
 dtdd-outreach-email.md
 
+# BeamUp CLI deploy state (local only; its lastCommit field churns every deploy)
+beamup.json
+
 # vercel
 .vercel
 
