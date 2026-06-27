@@ -46,6 +46,10 @@ app.get('/api/topics', (_req, res) => {
   res.json(topics);
 });
 
+// Static assets (logo.png, background.png, …). Only serves files that exist,
+// so it never shadows /manifest.json or the resource routes below.
+app.use(express.static(path.join(__dirname, 'public'), { maxAge: '7d' }));
+
 // Translate a leading base64url config segment into the JSON-in-URL form the
 // SDK router expects, so handlers receive the decoded pins as `args.config`.
 app.use((req, _res, next) => {

@@ -206,9 +206,13 @@ Cache table lives in **FindMyLegacy's** Supabase project, isolated via anon-key 
 (`supabase/dtdd_cache.sql`); the addon uses the anon/public key, never prod service_role.
 **TODO (Martin):** email the DTDD owner about the integration.
 
-**Phase 5 — Polish + deploy.** Logo/background, honest description (state the stream-clutter and
-title-level-series caveats), error states for no-match titles, deploy. Decide Vercel-vs-long-running
-host (§4). Optionally submit to stremio-addons.net.
+**Phase 5 — Polish + deploy. 🔧 Polish DONE; deploy PENDING (host decision).**
+Done: branded logo + background (`public/logo.png` + `.svg`, amber play=warning triangle on
+dark slate; `public/background.png`), served from `/public` via Express; manifest `logo`/`background`
+built from `ADDON_BASE_URL` (defaults to localhost; set at deploy). Honest description states both
+the non-playable-label and show-level-series caveats. No-match/error states already return labels.
+**Still to do:** decide host (long-running vs Vercel/Next port, §4 / §10.2), deploy, then optionally
+submit to stremio-addons.net (§10.3). Also still pending: email DTDD owner.
 
 ---
 

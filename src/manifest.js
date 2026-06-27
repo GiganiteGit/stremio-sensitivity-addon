@@ -5,6 +5,11 @@
 
 const { GENRE_OPTIONS } = require('./lib/topics');
 
+// Where our logo/background assets are served from. Set ADDON_BASE_URL at deploy
+// (e.g. https://sensitivity.example.com); defaults to the local dev server.
+const BASE = (process.env.ADDON_BASE_URL || `http://127.0.0.1:${process.env.PORT || 7000}`)
+  .replace(/\/+$/, '');
+
 const genreExtra = { name: 'genre', isRequired: false, options: GENRE_OPTIONS };
 const catalogExtra = [
   { name: 'search', isRequired: false },
@@ -18,10 +23,12 @@ module.exports = {
   name: 'Sensitivity Notes',
   description:
     'Crowdsourced content-sensitivity flags from DoesTheDogDie, shown before you press play. ' +
-    'Browse the Sensitivity-Safe catalogs and filter out a trigger you want to avoid, or ' +
-    'open any title to see its trigger summary in the Sources list and tap through to DTDD. ' +
-    'Note: that summary entry is a label, not a playable stream.',
-  logo: 'https://www.doesthedogdie.com/favicon.ico', // placeholder until we host our own
+    'Open any title to see its trigger summary in the Sources list and tap through to DTDD, ' +
+    'or browse the Sensitivity-Safe catalogs and filter out a trigger you want to avoid. ' +
+    'Two honest notes: that summary entry is a label, not a playable stream (it sits among ' +
+    'your real sources), and series flags are show-level, not per-episode.',
+  logo: `${BASE}/logo.png`,
+  background: `${BASE}/background.png`,
   contactEmail: 'martin.taylor@findmylegacy.co.uk',
   behaviorHints: { configurable: true, configurationRequired: false, adult: false, p2p: false },
   types: ['movie', 'series'],
