@@ -196,8 +196,15 @@ carrying a pinned trigger, meta marks pinned triggers with ★ and floats their 
 Encoding/validation lives in `src/lib/config.js`; manifest is now `configurable: true`
 (`configurationRequired: false`, central key — installs without configuring).
 
-**Phase 4 — Caching + politeness.** Supabase cache layer, negative caching, low concurrency,
-User-Agent, retry/backoff. Email DTDD.
+**Phase 4 — Caching + politeness. ✅ DONE (except: email DTDD — for Martin).**
+Two-tier cache in `src/lib/lookup.js`: L1 in-memory (`cache.js`) → L2 durable Supabase
+(`store.js`, table `dtdd_cache`) → live resolve. 30-day positive TTL, 3-day no-match,
+10-min error; errors never durably cached. `store.js` degrades to a no-op when
+SUPABASE_URL/KEY are unset. DTDD client (`dtdd.js`) now caps concurrency (default 2,
+`DTDD_CONCURRENCY`) and retries 429/5xx/network with exponential backoff + `Retry-After`.
+Cache table lives in **FindMyLegacy's** Supabase project, isolated via anon-key RLS
+(`supabase/dtdd_cache.sql`); the addon uses the anon/public key, never prod service_role.
+**TODO (Martin):** email the DTDD owner about the integration.
 
 **Phase 5 — Polish + deploy.** Logo/background, honest description (state the stream-clutter and
 title-level-series caveats), error states for no-match titles, deploy. Decide Vercel-vs-long-running

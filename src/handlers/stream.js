@@ -1,39 +1,15 @@
 // Stream handler — the workhorse (plan §2). Fires on ANY tt title regardless of
 // which addon surfaced it. Returns a single NON-playable entry whose text carries
 // the trigger summary and whose externalUrl opens the DTDD page. Live DTDD lookups
-// are cached (src/lib/cache) to stay polite.
+// are layered-cached (src/lib/lookup: memory + durable Supabase) to stay polite.
 'use strict';
 
-const { resolveTriggers, baseId } = require('../lib/resolve');
-const { presentTriggers, orderByPins } = require('../lib/triggers');
+const { orderByPins } = require('../lib/triggers');
 const { pageUrl, DTDD_BASE } = require('../lib/dtdd');
 const { pinsOf } = require('../lib/config');
-const cache = require('../lib/cache');
-
-const DAY = 24 * 3600 * 1000;
-const POSITIVE_TTL = 7 * DAY; // warnings rarely change
-const NEGATIVE_TTL = 1 * DAY; // retry no-match / dead titles occasionally
-const ERROR_TTL = 10 * 60 * 1000;
+const { lookup, TTL } = require('../lib/lookup');
 
 const searchUrl = (name) => `${DTDD_BASE}/dddsearch?q=${encodeURIComponent(name || '')}`;
-
-// Resolve to a minimal cacheable payload.
-function lookup(type, id) {
-  const ttId = baseId(id);
-  return cache.through(
-    `${type}:${ttId}`,
-    async () => {
-      try {
-        const r = await resolveTriggers(type, ttId);
-        if (!r.match) return { state: 'nomatch', name: r.meta?.name ?? ttId };
-        return { state: 'ok', name: r.meta.name, dtddId: r.dtddId, triggers: presentTriggers(r.stats) };
-      } catch (e) {
-        return { state: 'error', message: e.message };
-      }
-    },
-    (v) => (v.state === 'ok' ? POSITIVE_TTL : v.state === 'nomatch' ? NEGATIVE_TTL : ERROR_TTL),
-  );
-}
 
 function streamHandler(args) {
   const { type, id, config } = args;
@@ -46,7 +22,7 @@ function streamHandler(args) {
           description: 'Could not reach DoesTheDogDie right now — tap to open the site.',
           externalUrl: DTDD_BASE,
         }],
-        cacheMaxAge: ERROR_TTL / 1000,
+        cacheMaxAge: TTL.error / 1000,
       };
     }
     if (data.state === 'nomatch') {
@@ -56,7 +32,7 @@ function streamHandler(args) {
           description: `No DoesTheDogDie match for "${data.name}" — tap to search DTDD.`,
           externalUrl: searchUrl(data.name),
         }],
-        cacheMaxAge: NEGATIVE_TTL / 1000,
+        cacheMaxAge: TTL.nomatch / 1000,
       };
     }
 
@@ -78,7 +54,7 @@ function streamHandler(args) {
         description,
         externalUrl: pageUrl(data.dtddId),
       }],
-      cacheMaxAge: POSITIVE_TTL / 1000,
+      cacheMaxAge: TTL.ok / 1000,
     };
   });
 }
