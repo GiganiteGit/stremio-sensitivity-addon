@@ -20,6 +20,13 @@ const catalogExtra = [
 module.exports = {
   id: 'community.sensitivity.dtdd',
   version: '0.1.0',
+  // Developer ownership proof issued by stremio-addons.net — lets the listing
+  // verify this manifest is served by the registered author.
+  stremioAddonsConfig: {
+    issuer: 'https://stremio-addons.net',
+    signature:
+      'eyJhbGciOiJkaXIiLCJlbmMiOiJBMTI4Q0JDLUhTMjU2In0..iLAFZBcFN6yq57VaA5BFUg.8hNh_dn-IUGdklwMyCHw2_C_RuVsSW7LRARygcuMumaO7L3QUBpf-bErtA8E4zokLECR03laF-r2ByBk1_VhpBlmh6C9poOMyZwq5dAo0SPNaak_A3kqGKIrY6X91f04.WCYht9Bt77mYby2NnH3VlA',
+  },
   name: 'Sensitivity Notes',
   description:
     'Crowdsourced content-sensitivity flags from DoesTheDogDie, shown before you press play. ' +
