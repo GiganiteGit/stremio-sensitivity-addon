@@ -15,6 +15,7 @@ const express = require('express');
 const { getRouter } = require('stremio-addon-sdk');
 const addonInterface = require('./src/addon');
 const { decodeConfig } = require('./src/lib/config');
+const { record } = require('./src/lib/analytics');
 const topics = require('./topics.json');
 
 const port = Number(process.env.PORT) || 7000;
@@ -31,6 +32,27 @@ const RESERVED = new Set([
   '', 'manifest.json', 'catalog', 'meta', 'stream', 'configure', 'api', 'favicon.ico',
 ]);
 
+// Usage analytics (privacy-preserving). Runs first so it sees the raw config
+// segment and catches /configure before serveConfigure ends the response. Only
+// the meaningful kinds are logged; static assets, /api/topics and / are ignored.
+app.use((req, _res, next) => {
+  try {
+    const pathname = req.url.split('?')[0];
+    const seg = pathname.split('/')[1];
+    const hasConfig = !!(seg && !RESERVED.has(seg) && decodeConfig(seg));
+    let kind;
+    if (pathname.endsWith('/manifest.json')) kind = 'manifest';
+    else if (pathname.includes('/stream/')) kind = 'stream';
+    else if (pathname.includes('/catalog/')) kind = 'catalog';
+    else if (pathname.includes('/meta/')) kind = 'meta';
+    else if (pathname === '/configure' || /^\/[^/]+\/configure$/.test(pathname)) kind = 'configure';
+    if (kind) record(kind, req, hasConfig);
+  } catch {
+    /* analytics must never break a request */
+  }
+  next();
+});
+
 // Configure page — served both bare and with an existing config to edit.
 // The page reads its own config out of the URL client-side to pre-tick boxes.
 function serveConfigure(_req, res) {
@@ -44,6 +66,14 @@ app.get('/:config/configure', serveConfigure);
 app.get('/api/topics', (_req, res) => {
   res.setHeader('Cache-Control', 'public, max-age=86400');
   res.json(topics);
+});
+
+// Install-button beacon (navigator.sendBeacon) — the funnel-completion signal,
+// since the stremio:// hand-off itself isn't observable server-side. ?c=1 means
+// the user had pinned at least one trigger.
+app.post('/api/installed', (req, res) => {
+  record('install', req, req.query.c === '1');
+  res.status(204).end();
 });
 
 // Static assets (logo.png, background.png, …). Only serves files that exist,

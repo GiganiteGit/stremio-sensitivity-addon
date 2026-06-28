@@ -314,6 +314,8 @@
       function () { document.getElementById('url').select(); toast('Press Ctrl+C to copy'); });
   });
   document.getElementById('install').addEventListener('click', function () {
+    // Funnel beacon — fires reliably even as we navigate away to stremio://.
+    try { navigator.sendBeacon('/api/installed' + (selected.size ? '?c=1' : '')); } catch (e) { /* ignore */ }
     window.location.href = buildUrl().stremio;
   });
 

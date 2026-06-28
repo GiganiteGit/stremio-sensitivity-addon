@@ -31,8 +31,10 @@ both stay effective). This deploys to the **public** service; ignore the self-ho
      `https://<slug>.baby-beamup.club/manifest.json`.
    - Confirm the slug with `git remote -v` (it's in the beamup remote URL).
 4. **Set the env vars** (secrets — never commit these). The addon needs:
-   `DTDD_API_KEY`, `SUPABASE_URL`, `SUPABASE_KEY`, and
-   `ADDON_BASE_URL=https://<slug>.baby-beamup.club`.
+   `DTDD_API_KEY`, `SUPABASE_URL`, `SUPABASE_KEY`,
+   `ADDON_BASE_URL=https://<slug>.baby-beamup.club`, and
+   `ANALYTICS_SALT=<long random string>` (keeps unique-user counts stable; usage
+   analytics still works without it but uses a non-secret dev default).
    Two documented ways — **confirm the exact one with `beamup --help` before running**:
    - CLI: `beamup secrets <NAME> <VALUE>` (one per var)
    - Dokku over SSH:
